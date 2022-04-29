@@ -1,0 +1,590 @@
+{
+    "request": {
+        "returnRequest": false,
+        "requestId": "03069599-da66-4ec2-94b2-6cd449ee8452",
+        "maxRecords": 2000,
+        "taskId": "03069599-da66-4ec2-94b2-6cd449ee8452"
+    },
+    "response": {
+        "configObjects": [
+            {
+                "id": "descriptionnormalization_matchConfig",
+                "name": "descriptionnormalization",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2020-11-20T05:46:54.076-0600",
+                    "modifiedDate": "2020-11-20T05:46:54.076-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "descriptioncode": {
+                                                        "exact": "{{descriptioncode}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "descriptionnormalization"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "refemailnotificationgroup_matchConfig",
+                "name": "refemailnotificationgroup",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T11:18:36.085-0600",
+                    "modifiedDate": "2021-11-19T11:18:36.085-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "refGroup": {
+                                                        "exact": "{{refGroup}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "refemailnotificationgroup"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "baxptyrefautopopulate4thaddress_matchConfig",
+                "name": "baxptyrefautopopulate4thaddress",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T11:18:36.065-0600",
+                    "modifiedDate": "2021-11-19T11:18:36.065-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "refsearchtype": {
+                                                        "exact": "{{refsearchtype}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "refstate": {
+                                                        "exact": "{{refstate}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "refbilltype": {
+                                                        "exact": "{{refbilltype}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "baxptyrefautopopulate4thaddress"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "customer_matchConfig",
+                "name": "customer",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T12:06:22.793-0600",
+                    "modifiedDate": "2021-11-19T12:06:22.793-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "baxmdmid": {
+                                                        "exact": "{{baxmdmid}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "customer"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            },
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "city": {
+                                                        "exact": "{{city}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "country": {
+                                                        "exact": "{{country}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "stateprovince": {
+                                                        "exact": "{{stateprovince}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "postalcode": {
+                                                        "exact": "{{postalcode}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "legalcompanyname": {
+                                                        "exact": "{{legalcompanyname}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "baxptystreetname": {
+                                                        "exact": "{{baxptystreetname}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "baxptystreetnumber": {
+                                                        "exact": "{{baxptystreetnumber}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "baxptysuitenumber": {
+                                                        "exact": "{{baxptysuitenumber}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "customer"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 2
+                            },
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "legalcompanyname": {
+                                                        "exact": "{{legalcompanyname}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "city": {
+                                                        "exact": "{{city}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "pobox": {
+                                                        "exact": "{{pobox}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "customer"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 3
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "dnborganization_matchConfig",
+                "name": "dnborganization",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T12:06:22.798-0600",
+                    "modifiedDate": "2021-11-19T12:06:22.798-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "dunsnumber": {
+                                                        "exact": "{{dunsnumber}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "dnborganization"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "contact_matchConfig",
+                "name": "contact",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2022-04-11T02:41:06.238-0500",
+                    "modifiedDate": "2022-04-11T02:41:06.238-0500"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "phonenumber": {
+                                                        "exact": "{{phonenumber}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "contact"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 4
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "refworkflowstatus_matchConfig",
+                "name": "refworkflowstatus",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T11:18:36.152-0600",
+                    "modifiedDate": "2021-11-19T11:18:36.152-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "refworkflowname": {
+                                                        "exact": "{{refworkflowname}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                },
+                                                {
+                                                    "refworkflowactivity": {
+                                                        "exact": "{{refworkflowactivity}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "refworkflowstatus"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "udc419_matchConfig",
+                "name": "udc419",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-12-16T02:53:17.637-0600",
+                    "modifiedDate": "2021-12-16T02:53:17.637-0600"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "refcode": {
+                                                        "exact": "{{refcode}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "udc419"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            },
+            {
+                "id": "account_matchConfig",
+                "name": "account",
+                "type": "matchConfig",
+                "properties": {
+                    "createdService": "configurationManageService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "configurationManageService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2022-04-26T08:15:59.867-0500",
+                    "modifiedDate": "2022-04-26T08:15:59.867-0500"
+                },
+                "data": {
+                    "jsonData": {
+                        "matchRules": [
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "baxmdmid": {
+                                                        "exact": "{{baxmdmid}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "account"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 2
+                            },
+                            {
+                                "matchType": "deterministic",
+                                "searchQuery": {
+                                    "query": {
+                                        "filters": {
+                                            "attributesCriterion": [
+                                                {
+                                                    "addressnumber": {
+                                                        "exact": "{{addressnumber}}",
+                                                        "type": "_STRING"
+                                                    }
+                                                }
+                                            ],
+                                            "typesCriterion": [
+                                                "account"
+                                            ]
+                                        },
+                                        "valueContexts": [
+                                            {
+                                                "source": "internal",
+                                                "locale": "en-US"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "matchSequence": 1
+                            }
+                        ],
+                        "type": "config"
+                    }
+                }
+            }
+        ],
+        "status": "success",
+        "totalRecords": 9
+    }
+}

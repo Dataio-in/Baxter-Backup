@@ -1,0 +1,3465 @@
+{
+    "request": {
+        "returnRequest": false,
+        "requestId": "49f5c5a2-975d-486b-8c83-a53781e65196",
+        "taskId": "49f5c5a2-975d-486b-8c83-a53781e65196"
+    },
+    "response": {
+        "entityModels": [
+            {
+                "id": "account_associatedaccount_account_addrel_graphProcessModel",
+                "name": "account_associatedaccount_account_addrel",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "account_associatedaccount_account",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "relationshipName": "associatedaccount",
+                            "attributeMaps": [
+                                {
+                                    "jdeparentnumber": "addressnumber"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship",
+                                            "setRelAttrValues": [
+                                                {
+                                                    "accounttyperelationattr": "Parent-Child"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship",
+                                            "setRelAttrValues": [
+                                                {
+                                                    "accounttyperelationattr": "Parent-Child"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T12:06:22.750-0600",
+                    "modifiedDate": "2021-11-19T12:06:22.750-0600"
+                }
+            },
+            {
+                "id": "sparepart_reachofsparepart_each_rolldown_graphProcessModel",
+                "name": "sparepart_reachofsparepart_each_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sparepart_reachofsparepart_each",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "itemreferencesequence": "itemreferencesequence"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "Create"
+                                        },
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "smartIdAttributes": [
+                                {
+                                    "attributeNames": "itemreferencesequence",
+                                    "concatDelimiter": "_"
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2020-12-10T07:14:40.786-0600",
+                    "modifiedDate": "2020-12-10T07:14:40.786-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "compoundingcode_rcaseofcompoundingcode_case_rolldown_graphProcessModel",
+                "name": "compoundingcode_rcaseofcompoundingcode_case_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "compoundingcode_rcaseofcompoundingcode_case",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rcaseofcompoundingcode",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.235-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.235-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sku_rpackofsku_pack_rolldown_graphProcessModel",
+                "name": "sku_rpackofsku_pack_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sku_rpackofsku_pack",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpackofsku",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.414-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.414-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sparepart_rpackofsparepart_pack_rolldown_graphProcessModel",
+                "name": "sparepart_rpackofsparepart_pack_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sparepart_rpackofsparepart_pack",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpackofsparepart",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.453-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.453-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "request_hasimages_image_linkdata_graphProcessModel",
+                "name": "request_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "request_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "requestobject": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:49:47.384-0500",
+                    "modifiedDate": "2021-04-23T01:49:47.384-0500"
+                }
+            },
+            {
+                "id": "phproduct_phskuischildof_phsku_graphProcessModel",
+                "name": "phproduct_phskuischildof_phsku",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "phproduct_phskuischildof_phsku",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "whereUsedRelationshipBased",
+                            "relationshipName": "phskuischildof",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.333-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.333-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "shortdescription": {
+                            "properties": {
+                                "strategy": "copyWhenEmpty"
+                            }
+                        },
+                        "maxtoppings": {
+                            "properties": {
+                                "strategy": "copyWhenEmpty"
+                            }
+                        },
+                        "maxfreetoppings": {
+                            "properties": {
+                                "strategy": "copyWhenEmpty"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "rawmaterial_rpackofrawmaterial_pack_rolldown_graphProcessModel",
+                "name": "rawmaterial_rpackofrawmaterial_pack_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "rawmaterial_rpackofrawmaterial_pack",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpackofrawmaterial",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.376-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.376-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sku_rcaseofsku_case_rolldown_graphProcessModel",
+                "name": "sku_rcaseofsku_case_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sku_rcaseofsku_case",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rcaseofsku",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.395-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.395-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "image_hasimages_compoundingcode_linkdata_graphProcessModel",
+                "name": "image_hasimages_compoundingcode_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_compoundingcode",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "shrtitmnr"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:51:47.467-0500",
+                    "modifiedDate": "2021-04-23T01:51:47.467-0500"
+                }
+            },
+            {
+                "id": "productgroup_rchildof_sku_graphProcessModel",
+                "name": "productgroup_rchildof_sku",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "productgroup_rchildof_sku",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rchildof",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-06-23T00:16:32.473-0500",
+                    "modifiedDate": "2021-06-23T00:16:32.473-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itmtyp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "uomprimimp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "salpriclvl": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "purpriclvl": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "invcostlvl": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "makbuy": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "dmdplanflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "nonstkitm": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "prodgrpid": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "uomprimmet": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "lintyp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "pimhierarchy": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "prodgrpname": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "comcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "hwtrkflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "gtshwsieb": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "bu": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "technology": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "kitconfpricmeth": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "productgroup_rchildof_sku_copyProductCategorization_graphProcessModel",
+                "name": "productgroup_rchildof_sku_copyProductCategorization",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "_DEFAULT",
+                    "defaultValueLocale": "_DEFAULT",
+                    "graphProcessPath": "productgroup_rchildof_sku_copyProductCategorization",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rchildof",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "targetFilters": [
+                                {
+                                    "attributeFilters": [
+                                        {
+                                            "varDummyMarketingWFStatus": [
+                                                {
+                                                    "value": "Marketing In Progress",
+                                                    "operator": "exact"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-06-23T00:27:12.846-0500",
+                    "modifiedDate": "2021-06-23T00:27:12.846-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "drugmdothflg": {
+                            "properties": {
+                                "strategy": "copyWhenEmpty"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "productgroup_rchildof_sku_copyPDOAttributes_graphProcessModel",
+                "name": "productgroup_rchildof_sku_copyPDOAttributes",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "graphProcessPath": "productgroup_rchildof_sku",
+                    "matchRulesOperator": "and",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rchildof",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "targetFilters": [
+                                {
+                                    "attributeFilters": [
+                                        {
+                                            "workflowstatus": [
+                                                {
+                                                    "value": "In Progress",
+                                                    "operator": "exact"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "seq": 2,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rchildof",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "targetFilters": [
+                                {
+                                    "attributeFilters": [
+                                        {
+                                            "workflowstatus": [
+                                                {
+                                                    "value": "Final Review",
+                                                    "operator": "eq"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-06-23T00:21:06.121-0500",
+                    "modifiedDate": "2021-06-23T00:21:06.121-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "cytosflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "dehpfreeflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "formgeneric": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "formstrengh": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "hzdflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "lotproctyp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "ltxfreeflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "maxtemp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "mercfreeflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "mintemp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "mnthexp": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "nominfillvol": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "primcontainmat": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "pvcfreeflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shlflifdy": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "tempsensflg": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "uomprimmaster": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "pdodocref": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "customer_customersbelongstoaccount_account_graphProcessModel",
+                "name": "customer_customersbelongstoaccount_account",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "customer_customersbelongstoaccount_account",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "whereUsedRelationshipBased",
+                            "relationshipName": "customersbelongstoaccount",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T12:06:22.780-0600",
+                    "modifiedDate": "2021-11-19T12:06:22.780-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "pobox": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyco": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptysuitenumber": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptystreetnumber": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "legalcompanyname": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "city": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyattn": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyroom": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptylandmark": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptystreetname": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyfloor": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptydistrict": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptystreettype": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "dunsnumber": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "stateprovince": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "dba": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "country": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "postalcode": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyintegrationblob": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "skutp_rpackofsku_pack_rolldown_graphProcessModel",
+                "name": "skutp_rpackofsku_pack_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "skutp_rpackofsku_pack",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpackofsku",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-11-23T05:10:17.887-0600",
+                    "modifiedDate": "2021-11-23T05:10:17.887-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "skutp_rpalletofsku_pallet_rolldown_graphProcessModel",
+                "name": "skutp_rpalletofsku_pallet_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "skutp_rpalletofsku_pallet",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpalletofsku",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-11-23T05:10:58.678-0600",
+                    "modifiedDate": "2021-11-23T05:10:58.678-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "skutp_hasimages_image_linkdata_graphProcessModel",
+                "name": "skutp_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "skutp_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "shrtitmnr": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-11-23T05:08:59.658-0600",
+                    "modifiedDate": "2021-11-23T05:08:59.658-0600"
+                }
+            },
+            {
+                "id": "image_hasimages_skutp_linkdata_graphProcessModel",
+                "name": "image_hasimages_skutp_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_skutp",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "shrtitmnr"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-11-23T05:08:27.989-0600",
+                    "modifiedDate": "2021-11-23T05:08:27.989-0600"
+                }
+            },
+            {
+                "id": "compoundingcode_rpalletofcompoundingcode_pallet_rolldown_graphProcessModel",
+                "name": "compoundingcode_rpalletofcompoundingcode_pallet_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "compoundingcode_rpalletofcompoundingcode_pallet",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpalletofcompoundingcode",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.323-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.323-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "rawmaterial_rcaseofrawmaterial_case_rolldown_graphProcessModel",
+                "name": "rawmaterial_rcaseofrawmaterial_case_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "rawmaterial_rcaseofrawmaterial_case",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rcaseofrawmaterial",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.357-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.357-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sku_rpalletofsku_pallet_rolldown_graphProcessModel",
+                "name": "sku_rpalletofsku_pallet_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sku_rpalletofsku_pallet",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpalletofsku",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.424-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.424-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sparepart_rcaseofsparepart_case_rolldown_graphProcessModel",
+                "name": "sparepart_rcaseofsparepart_case_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sparepart_rcaseofsparepart_case",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rcaseofsparepart",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.432-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.432-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "compoundingcode_rpackofcompoundingcode_pack_rolldown_graphProcessModel",
+                "name": "compoundingcode_rpackofcompoundingcode_pack_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "compoundingcode_rpackofcompoundingcode_pack",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpackofcompoundingcode",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.264-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.264-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sparepart_rpalletofsparepart_pallet_rolldown_graphProcessModel",
+                "name": "sparepart_rpalletofsparepart_pallet_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sparepart_rpalletofsparepart_pallet",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpalletofsparepart",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.462-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.462-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "rawmaterial_reachofrawmaterial_each_rolldown_graphProcessModel",
+                "name": "rawmaterial_reachofrawmaterial_each_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "rawmaterial_reachofrawmaterial_each",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "itemreferencesequence": "itemreferencesequence"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "Create"
+                                        },
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "smartIdAttributes": [
+                                {
+                                    "attributeNames": "itemreferencesequence",
+                                    "concatDelimiter": "_"
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2020-12-10T07:14:40.767-0600",
+                    "modifiedDate": "2020-12-10T07:14:40.767-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "sku_reachofsku_each_rolldown_graphProcessModel",
+                "name": "sku_reachofsku_each_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sku_reachofsku_each",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "itemreferencesequence": "itemreferencesequence"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "Create"
+                                        },
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "smartIdAttributes": [
+                                {
+                                    "attributeNames": "itemreferencesequence",
+                                    "concatDelimiter": "_"
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2020-12-10T07:14:40.777-0600",
+                    "modifiedDate": "2020-12-10T07:14:40.777-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "compoundingcode_hasimages_image_linkdata_graphProcessModel",
+                "name": "compoundingcode_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "compoundingcode_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "shrtitmnr": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:48:21.112-0500",
+                    "modifiedDate": "2021-04-23T01:48:21.112-0500"
+                }
+            },
+            {
+                "id": "sku_hasimages_image_linkdata_graphProcessModel",
+                "name": "sku_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sku_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "shrtitmnr": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:50:15.459-0500",
+                    "modifiedDate": "2021-04-23T01:50:15.459-0500"
+                }
+            },
+            {
+                "id": "image_hasimages_rawmaterial_linkdata_graphProcessModel",
+                "name": "image_hasimages_rawmaterial_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_rawmaterial",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "shrtitmnr"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:52:39.280-0500",
+                    "modifiedDate": "2021-04-23T01:52:39.280-0500"
+                }
+            },
+            {
+                "id": "sparepart_hasimages_image_linkdata_graphProcessModel",
+                "name": "sparepart_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "sparepart_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "shrtitmnr": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:50:39.793-0500",
+                    "modifiedDate": "2021-04-23T01:50:39.793-0500"
+                }
+            },
+            {
+                "id": "image_hasimages_mro_linkdata_graphProcessModel",
+                "name": "image_hasimages_mro_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_mro",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "shrtitmnr"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:52:16.386-0500",
+                    "modifiedDate": "2021-04-23T01:52:16.386-0500"
+                }
+            },
+            {
+                "id": "image_hasimages_sku_linkdata_graphProcessModel",
+                "name": "image_hasimages_sku_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_sku",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "shrtitmnr"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:53:36.819-0500",
+                    "modifiedDate": "2021-04-23T01:53:36.819-0500"
+                }
+            },
+            {
+                "id": "account_customersbelongstoaccount_customer_graphProcessModel",
+                "name": "account_customersbelongstoaccount_customer",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "account_customersbelongstoaccount_customer",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "customersbelongstoaccount",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "seq": 2,
+                            "matchType": "attributeBased",
+                            "relationshipName": "customersbelongstoaccount",
+                            "attributeMaps": [
+                                {
+                                    "legalcompanyname": "legalcompanyname",
+                                    "country": "country",
+                                    "postalcode": "postalcode",
+                                    "city": "city",
+                                    "stateprovince": "stateprovince",
+                                    "baxptystreetname": "baxptystreetname",
+                                    "baxptystreetnumber": "baxptystreetnumber",
+                                    "baxptysuitenumber": "baxptysuitenumber"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "Create"
+                                        },
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "smartIdAttributes": [
+                                {
+                                    "attributeNames": [
+                                        "legalcompanyname",
+                                        "country",
+                                        "postalcode",
+                                        "city",
+                                        "stateprovince",
+                                        "baxptystreetname",
+                                        "baxptystreetnumber",
+                                        "baxptysuitenumber"
+                                    ],
+                                    "concatDelimiter": "_"
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "ganesh_kumar@baxter.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "ganesh_kumar@baxter.com_user",
+                    "createdDate": "2021-11-19T12:06:22.786-0600",
+                    "modifiedDate": "2021-11-19T12:06:22.786-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "pobox": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptystreetnumber": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "legalcompanyname": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "city": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptystreetname": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptydistrict": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptystreettype": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "dunsnumber": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "stateprovince": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "country": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "postalcode": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "dba": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyfloor": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptylandmark": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyattn": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptysuitenumber": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyco": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        },
+                        "baxptyroom": {
+                            "properties": {
+                                "strategy": "copy",
+                                "strategyMode": "replace"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "skutp_rcaseofsku_case_rolldown_graphProcessModel",
+                "name": "skutp_rcaseofsku_case_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "skutp_rcaseofsku_case",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rcaseofsku",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-11-23T05:09:24.572-0600",
+                    "modifiedDate": "2021-11-23T05:09:24.572-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "eachgtin": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "skutp_reachofsku_each_rolldown_graphProcessModel",
+                "name": "skutp_reachofsku_each_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "skutp_reachofsku_each",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "itemreferencesequence": "itemreferencesequence"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "Create"
+                                        },
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "smartIdAttributes": [
+                                {
+                                    "attributeNames": "itemreferencesequence",
+                                    "concatDelimiter": "_"
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-11-23T05:09:47.068-0600",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "modifiedDate": "2022-01-13T06:53:18.602-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "gtinhelper1": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "rawmaterial_rpalletofrawmaterial_pallet_rolldown_graphProcessModel",
+                "name": "rawmaterial_rpalletofrawmaterial_pallet_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "rawmaterial_rpalletofrawmaterial_pallet",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "relationshipBased",
+                            "relationshipName": "rpalletofrawmaterial",
+                            "matchRulesOperator": "or",
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "baxterpim.admin@riversand.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "baxterpim.admin@riversand.com_user",
+                    "createdDate": "2020-10-09T06:54:37.385-0500",
+                    "modifiedDate": "2020-10-09T06:54:37.385-0500"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "compoundingcode_reachofcompoundingcode_each_rolldown_graphProcessModel",
+                "name": "compoundingcode_reachofcompoundingcode_each_rolldown",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "compoundingcode_reachofcompoundingcode_each",
+                    "matchRulesOperator": "or",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "itemreferencesequence": "itemreferencesequence"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "Create"
+                                        },
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        },
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "CopyData"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "smartIdAttributes": [
+                                {
+                                    "attributeNames": "itemreferencesequence",
+                                    "concatDelimiter": "_"
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2020-12-10T07:14:40.729-0600",
+                    "modifiedDate": "2020-12-10T07:14:40.729-0600"
+                },
+                "data": {
+                    "attributes": {
+                        "itemreferencesequence": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "companyprefix": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "natdrugcd": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "longitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        },
+                        "shrtitmnr": {
+                            "properties": {
+                                "strategy": "copy"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": "rawmaterial_hasimages_image_linkdata_graphProcessModel",
+                "name": "rawmaterial_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "rawmaterial_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "shrtitmnr": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:49:12.594-0500",
+                    "modifiedDate": "2021-04-23T01:49:12.594-0500"
+                }
+            },
+            {
+                "id": "mro_hasimages_image_linkdata_graphProcessModel",
+                "name": "mro_hasimages_image_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "mro_hasimages_image",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "shrtitmnr": "imgproductid"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddSourceRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:48:48.090-0500",
+                    "modifiedDate": "2021-04-23T01:48:48.090-0500"
+                }
+            },
+            {
+                "id": "image_hasimages_request_linkdata_graphProcessModel",
+                "name": "image_hasimages_request_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_request",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "requestobject"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:53:06.804-0500",
+                    "modifiedDate": "2021-04-23T01:53:06.804-0500"
+                }
+            },
+            {
+                "id": "image_hasimages_sparepart_linkdata_graphProcessModel",
+                "name": "image_hasimages_sparepart_linkdata",
+                "type": "graphProcessModel",
+                "domain": "generic",
+                "properties": {
+                    "defaultValueSource": "internal",
+                    "defaultValueLocale": "en-US",
+                    "graphProcessPath": "image_hasimages_sparepart",
+                    "matchRules": [
+                        {
+                            "seq": 1,
+                            "matchType": "attributeBased",
+                            "attributeMaps": [
+                                {
+                                    "imgproductid": "shrtitmnr"
+                                }
+                            ],
+                            "noMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "DoNothing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "singleMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "multiMatchResult": [
+                                {
+                                    "actions": [
+                                        {
+                                            "actionName": "AddTargetRelationship"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "createdService": "entityManageModelService",
+                    "createdBy": "riversand@baxterpim.com_user",
+                    "modifiedService": "entityManageModelService",
+                    "modifiedBy": "riversand@baxterpim.com_user",
+                    "createdDate": "2021-04-23T01:53:59.449-0500",
+                    "modifiedDate": "2021-04-23T01:53:59.449-0500"
+                }
+            }
+        ],
+        "status": "success",
+        "totalRecords": 41
+    }
+}
