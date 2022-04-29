@@ -1,0 +1,181 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_party-cmccaalt_uiConfig",
+            "name": "rock-entity-todo_party-cmccaalt_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.74.2.1021",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2022-04-12T11:06:13.498-0500",
+                "modifiedDate": "2022-04-12T11:06:13.498-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmccaalt"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false
+                                    },
+                                    "manageInactivationMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Inactivate",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeacountstatus",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptydesiredeffetivedate",
+                                                    "baxptyrequestorname",
+                                                    "baxptyrequestoremail"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageAddressChangeMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Name-Address Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "legalcompanyname",
+                                                    "jdecustomernamemailingname",
+                                                    "dba",
+                                                    "baxptyattn",
+                                                    "baxptyco",
+                                                    "pobox",
+                                                    "baxptystreetnumber",
+                                                    "baxptyleadingstreetdirection",
+                                                    "baxptystreetname",
+                                                    "baxptystreettype",
+                                                    "baxptytrailingstreetdirection",
+                                                    "baxptysuitenumber",
+                                                    "baxptyroom",
+                                                    "baxptyfloor",
+                                                    "baxptydistrict",
+                                                    "baxptylandmark",
+                                                    "city",
+                                                    "stateprovince",
+                                                    "county",
+                                                    "postalcode",
+                                                    "country",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "lastname",
+                                                    "phonenumber",
+                                                    "primaryemail",
+                                                    "faxnum",
+                                                    "baxptyrequestorname",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyreasonforaccountopening",
+                                                    "jdeeffectivedatedateaccountcreatedinjde"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageTaxUpdateMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Tax Exempt Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "taxexemptcertificatenum",
+                                                    "jdetaxexemptcertificatename",
+                                                    "baxptyjdetaxcertificateeffectivedate",
+                                                    "jdetaxexemptcertificateexpirydate",
+                                                    "firstname",
+                                                    "lastname",
+                                                    "phonenumber",
+                                                    "primaryemail",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyrequestorname",
+                                                    "baxptyrequestoremail",
+                                                    "baxptydesiredeffetivedate"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageReactivationMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Reactivate",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeacountstatus",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptydesiredeffetivedate",
+                                                    "firstname",
+                                                    "lastname",
+                                                    "phonenumber",
+                                                    "primaryemail",
+                                                    "baxptyrequestorname",
+                                                    "baxptyrequestoremail"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageBillTypeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Billing Type Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "billingaddresstype",
+                                                    "taxid",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptydesiredeffetivedate",
+                                                    "firstname",
+                                                    "lastname",
+                                                    "phonenumber",
+                                                    "primaryemail",
+                                                    "baxptyrequestorname",
+                                                    "baxptyrequestoremail"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_ccinitiator_andrew_nacevski@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_ccinitiator_andrew_nacevski@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "andrew_nacevski@baxter.com",
+                "createdBy": "andrew_nacevski@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "andrew_nacevski@baxter.com_user",
+                "modifiedDate": "2020-11-04T11:35:59.783-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "thing",
+                            "role": "ccinitiator",
+                            "user": "andrew_nacevski@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Andrew's Grid": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "itmdesc2": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc2",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmdesc1": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc1",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "stktyp": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "stktyp",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "longitmnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "longitmnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "createdby": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "createdby",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmtyp": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmtyp",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "createdon": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "createdon",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Andrew's Grid",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.itmdesc1}",
+                                                    "subTitlePattern": "{entity.attributes.itmdesc1} | {entity.attributes.itmdesc2} | {entity.attributes.longitmnr} | {entity.attributes.itmtyp} | {entity.attributes.createdby} | {entity.attributes.createdon} | {entity.attributes.stktyp}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Andrew's Grid",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

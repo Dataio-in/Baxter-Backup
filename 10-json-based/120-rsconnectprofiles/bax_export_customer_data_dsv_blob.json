@@ -1,0 +1,131 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_export_customer_data_dsv_blob",
+            "name": "bax_export_customer_data_dsv_blob",
+            "type": "integrationprofile",
+            "properties": {
+                "lastMigrationTimestamp": "2022-02-13T10:16:11.610+0000",
+                "migrationVersion": 1,
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-18T07:41:19.278-0500",
+                "modifiedDate": "2022-04-18T07:41:19.278-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "AZURE_BLOB",
+                            "format": "DSV",
+                            "order": "40",
+                            "role": "admin",
+                            "service": "ENTITY_EXPORT",
+                            "source": "internal",
+                            "subtype": "System",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "transform": {
+                                "settings": {
+                                    "allowNullValues": "false",
+                                    "clearMissingAttributes": "false",
+                                    "strategies": [
+                                        {
+                                            "caseFormat": "NONE",
+                                            "trimTrailingNumbers": "false",
+                                            "isDefault": "false",
+                                            "removeSpecialCharacters": "false",
+                                            "removeWhitespace": "false",
+                                            "useExternalName": "true",
+                                            "collectionSeparator": "||",
+                                            "trimLeadingNumbers": "false"
+                                        }
+                                    ],
+                                    "entityType": "@field(type)",
+                                    "enableDynamicMapping": "true",
+                                    "source": "internal"
+                                }
+                            },
+                            "integrationType": "System",
+                            "profileType": "custom",
+                            "isEnabled": "true",
+                            "publish": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "isBinaryStreamPersistent": "true",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "folderPath": "csv/Global_Customer/",
+                                            "containerName": "baxterpimfs-export",
+                                            "fileType": ".*"
+                                        },
+                                        "type": "azureBlobConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "dsvSettings": {
+                                            "quotechar": "\"",
+                                            "delimiter": ",",
+                                            "startLine": 0
+                                        },
+                                        "isLocalizationEnabled": "true",
+                                        "additionalSettings": {
+                                            "fileExtension": "csv",
+                                            "loadSourceEntityMatchAttributes": true,
+                                            "multiFileExport": true,
+                                            "columnPrefix": "FROM_ENTITY_"
+                                        },
+                                        "encoding": "utf8"
+                                    },
+                                    "type": "DSV",
+                                    "batchSize": 45000,
+                                    "version": "1.1"
+                                }
+                            },
+                            "collect": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "includeParent": "false",
+                                            "includeChildren": "false",
+                                            "includeSiblings": "false",
+                                            "includeRelatedEntityExternalIds": "false"
+                                        },
+                                        "type": "rdpConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "multipleContexts": "true",
+                                        "batchSize": 45000,
+                                        "encoding": "utf8"
+                                    },
+                                    "type": "RSJSON",
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "false"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

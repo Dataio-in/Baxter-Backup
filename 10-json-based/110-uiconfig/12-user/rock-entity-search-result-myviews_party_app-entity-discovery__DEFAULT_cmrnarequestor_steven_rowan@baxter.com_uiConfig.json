@@ -1,0 +1,120 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_cmrnarequestor_steven_rowan@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_cmrnarequestor_steven_rowan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "steven_rowan@baxter.com",
+                "createdBy": "steven_rowan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "steven_rowan@baxter.com_user",
+                "modifiedDate": "2022-01-11T08:32:10.421-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "party",
+                            "role": "cmrnarequestor",
+                            "user": "steven_rowan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Activity": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "baxptyaddressupdatedby": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyaddressupdatedby",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "workflowstatusaccount": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "workflowstatusaccount",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "updatedby": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "updatedby",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxptyrequestorname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyrequestorname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomersearchtype": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "jdecustomersearchtype",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "updateddate": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "updateddate",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Activity",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.baxptyaddressupdatedby}",
+                                                    "subTitlePattern": "{entity.attributes.baxptyaddressupdatedby} | {entity.attributes.updatedby} | {entity.attributes.updateddate} | {entity.attributes.workflowstatusaccount} | {entity.attributes.baxptyrequestorname} | {entity.attributes.jdecustomersearchtype}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Activity",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

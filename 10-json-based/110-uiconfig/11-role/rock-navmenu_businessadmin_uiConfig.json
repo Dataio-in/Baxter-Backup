@@ -1,0 +1,94 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_businessadmin_uiConfig",
+            "name": "rock-navmenu_businessadmin",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "buildVersion": "1.60.0.1117",
+                "createdService": "configurationManageService",
+                "createdBy": "system_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "createdDate": "2020-11-20T09:14:34.388-0600",
+                "modifiedDate": "2020-11-20T09:14:34.388-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "businessadmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "visualizations": {
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "visible": true,
+                                            "actions": {
+                                                "visualization-dashboard": {
+                                                    "visible": true
+                                                },
+                                                "visualization-designer": {
+                                                    "dataRoute": "visualization-designer",
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "visualization-designer",
+                                                    "icon": "pebble-icon:visualization-designer",
+                                                    "title": "{[DgnTxt]}"
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "dataRoute": "visualization-manage-dashboard",
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "visualization-manage-dashboard",
+                                                    "icon": "pebble-icon:visualization-manage",
+                                                    "title": "{[MngRepsTxt]}"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "actions": {
+                                                "upload-hubstatus": {
+                                                    "dataRoute": "upload-hubstatus",
+                                                    "nonMinimizable": false,
+                                                    "component": {
+                                                        "path": "../../src/elements/app-business-function/app-business-function.html",
+                                                        "name": "app-business-function",
+                                                        "properties": {
+                                                            "name": "rock-wizard-custom-upload",
+                                                            "context": {}
+                                                        }
+                                                    },
+                                                    "visible": true,
+                                                    "nonClosable": false,
+                                                    "displaySequence": 10,
+                                                    "icon": "pebble-icon:digital-asset-library",
+                                                    "title": "Upload Hub Status",
+                                                    "enabled": true,
+                                                    "contextData": {}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

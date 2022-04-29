@@ -1,0 +1,122 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "app-repository_businessadmin_uiConfig",
+            "name": "app-repository_businessadmin",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "createdService": "configurationManageService",
+                "createdBy": "system_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "createdDate": "2020-11-20T09:10:41.223-0600",
+                "modifiedDate": "2020-11-20T09:10:41.223-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "app-repository",
+                            "role": "businessadmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "govmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-thing-dashboard": {
+                                    "enabled": true
+                                },
+                                "search-syndication": {
+                                    "enabled": true
+                                },
+                                "visualization-dashboard": {
+                                    "enabled": true
+                                },
+                                "authmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "workflowmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "search-generic-object": {
+                                    "enabled": true
+                                },
+                                "search-party": {
+                                    "enabled": true
+                                },
+                                "taxonomymodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-digitalasset-dashboard": {
+                                    "enabled": true
+                                },
+                                "systemlog-viewer": {
+                                    "enabled": false
+                                },
+                                "basemodel-referencedata-dashboard": {
+                                    "enabled": true
+                                },
+                                "instancedatamodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "plugin-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-designer": {
+                                    "refreshable": true,
+                                    "dataRoute": "visualization-designer",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../app-visualization/app-visualization.js",
+                                        "name": "app-visualization",
+                                        "properties": {}
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-pie-chart-design",
+                                    "title": "{[DgnTxt]}",
+                                    "enabled": true
+                                },
+                                "basemodel-party-dashboard": {
+                                    "enabled": true
+                                },
+                                "business-rule-create": {
+                                    "enabled": true
+                                },
+                                "visualization-manage-dashboard": {
+                                    "dataRoute": "visualization-manage-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../app-dashboard/app-dashboard.js",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit",
+                                            "app-name": "app-visualization-manage-dashboard"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-pie-chart-manage",
+                                    "title": "{[MngRepsTxt]}",
+                                    "enabled": true
+                                },
+                                "visualization-report": {
+                                    "enabled": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

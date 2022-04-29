@@ -1,0 +1,120 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_cmrnarequestor_sudipta_mondal@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_cmrnarequestor_sudipta_mondal@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "sudipta_mondal@baxter.com",
+                "createdBy": "sudipta_mondal@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "sudipta_mondal@baxter.com_user",
+                "modifiedDate": "2021-12-01T12:05:41.849-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "party",
+                            "role": "cmrnarequestor",
+                            "user": "sudipta_mondal@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "SM 12-01": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "createddate": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "createddate",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "updateddate": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "updateddate",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "sfdcboostsalescontactid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "sfdcboostsalescontactid",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "associatedjdeaccounts": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "associatedjdeaccounts",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxmdmid",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "sfdcboostservicecontactid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "sfdcboostservicecontactid",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "SM 12-01",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.baxmdmid}",
+                                                    "subTitlePattern": "{entity.attributes.baxmdmid} | {entity.attributes.sfdcboostservicecontactid} | {entity.attributes.associatedjdeaccounts} | {entity.attributes.sfdcboostsalescontactid} | {entity.attributes.createddate} | {entity.attributes.updateddate}"
+                                                }
+                                            }
+                                        },
+                                        "title": "SM 12-01",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

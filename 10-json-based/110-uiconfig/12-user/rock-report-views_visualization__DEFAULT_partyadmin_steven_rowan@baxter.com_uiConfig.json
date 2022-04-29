@@ -1,0 +1,47 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-report-views_visualization__DEFAULT_partyadmin_steven_rowan@baxter.com_uiConfig",
+            "name": "rock-report-views_visualization__DEFAULT_partyadmin_steven_rowan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "steven_rowan@baxter.com",
+                "createdBy": "steven_rowan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "steven_rowan@baxter.com_user",
+                "modifiedDate": "2022-01-24T08:52:28.007-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-report-views",
+                            "domain": "visualization",
+                            "role": "partyadmin",
+                            "user": "steven_rowan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "views": {
+                                    "cffa7950-b903-11e9-827e-f9b1ee160b05_Accounts": {
+                                        "reportId": "cffa7950-b903-11e9-827e-f9b1ee160b05",
+                                        "filterData": "[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"key\":\"externalEntityTypeName.keyword\",\"negate\":false,\"params\":{\"query\":\"Account\"},\"rsAlias\":\"Entity Type\",\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"externalEntityTypeName.keyword\":\"Account\"}}}]",
+                                        "isDefaultView": false,
+                                        "name": "Accounts",
+                                        "icon": "pebble-icon:my-view",
+                                        "title": "Accounts"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

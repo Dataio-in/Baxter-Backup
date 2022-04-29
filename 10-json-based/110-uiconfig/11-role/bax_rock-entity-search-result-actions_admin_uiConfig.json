@@ -1,0 +1,67 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-search-result-actions_admin_uiConfig",
+            "name": "bax_rock-entity-search-result-actions_admin_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.102-0600",
+                "modifiedDate": "2021-11-19T12:06:22.102-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result-actions",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "toolbarConfig": {
+                                    "buttonItems": {
+                                        "basic": {
+                                            "buttons": {
+                                                "download": {
+                                                    "visible": true,
+                                                    "actions": {
+                                                        "download-in-excel": {
+                                                            "visible": true
+                                                        },
+                                                        "download-in-csv": {
+                                                            "visible": true
+                                                        }
+                                                    }
+                                                },
+                                                "upload": {
+                                                    "visible": true
+                                                },
+                                                "bulkedit": {
+                                                    "visible": true
+                                                },
+                                                "bulkdelete": {
+                                                    "visible": true
+                                                },
+                                                "quickmanage": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

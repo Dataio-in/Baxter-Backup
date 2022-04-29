@@ -1,0 +1,39 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_bulkadmin_tina_huelsman@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_bulkadmin_tina_huelsman@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "tina_huelsman@baxter.com",
+                "createdBy": "tina_huelsman@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "tina_huelsman@baxter.com_user",
+                "modifiedDate": "2021-12-28T09:52:58.085-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "party",
+                            "role": "bulkadmin",
+                            "user": "tina_huelsman@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

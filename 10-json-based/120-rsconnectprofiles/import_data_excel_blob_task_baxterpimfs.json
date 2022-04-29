@@ -1,0 +1,157 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "import_data_excel_blob_task_baxterpimfs",
+            "name": "import_data_excel_blob_task_baxterpimfs",
+            "type": "integrationprofile",
+            "properties": {
+                "lastMigrationTimestamp": "2022-02-13T10:16:11.610+0000",
+                "migrationVersion": 1,
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-18T07:41:19.263-0500",
+                "modifiedDate": "2022-04-18T07:41:19.263-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "AZURE_BLOB_CONTAINER_baxter",
+                            "format": "Excel",
+                            "order": "10",
+                            "role": "admin",
+                            "service": "ENTITY_IMPORT",
+                            "source": "internal",
+                            "subtype": "User",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "statusEventEnabled": false,
+                            "transform": {
+                                "settings": {
+                                    "defaultEntityType": "rsunknown",
+                                    "allowNullValues": "false",
+                                    "matchEnhancerAttributesOnImport": false,
+                                    "loadDefaultOverrides": true,
+                                    "clearMissingAttributes": "false",
+                                    "strategies": [
+                                        {
+                                            "caseFormat": "NONE",
+                                            "trimTrailingNumbers": "false",
+                                            "isDefault": "false",
+                                            "removeSpecialCharacters": "false",
+                                            "removeWhitespace": "false",
+                                            "useExternalName": "true",
+                                            "trimLeadingNumbers": "false"
+                                        }
+                                    ],
+                                    "entityType": "@field(Type)",
+                                    "excludeMappingHeaders": [
+                                        "Action",
+                                        "Type",
+                                        "ID",
+                                        "Name"
+                                    ],
+                                    "enableDynamicMapping": "true",
+                                    "useDefaultContext": false,
+                                    "collectionSeparator": "||"
+                                }
+                            },
+                            "integrationType": "User",
+                            "profileType": "custom",
+                            "isEnabled": "true",
+                            "publish": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "isBinaryStreamPersistent": "false",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "requestforvaluemapping": "true"
+                                        },
+                                        "type": "rdpConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "additionalSettings": {
+                                            "supportsCollection": "true",
+                                            "encoding": "utf8"
+                                        }
+                                    },
+                                    "type": "RSJSON",
+                                    "batchSize": 1,
+                                    "version": "1.1"
+                                }
+                            },
+                            "migration": "true",
+                            "isMergeableWithCustom": true,
+                            "collect": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "isBinaryStreamPersistent": "true",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "sourceFolder": "",
+                                            "pattern": "*"
+                                        },
+                                        "type": "folderConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "sheets": [
+                                            {
+                                                "headerRow": "@rowHeader(Id,Type)",
+                                                "dataInfo": "entity",
+                                                "name": "Entities",
+                                                "headerRowNumber": 2
+                                            },
+                                            {
+                                                "headerRow": "@rowHeader(Id,Type)",
+                                                "dataInfo": "entity",
+                                                "name": "Sheet1",
+                                                "headerRowNumber": 2
+                                            },
+                                            {
+                                                "headerRow": "@rowHeader(Id,Type)",
+                                                "dataInfo": "relationship",
+                                                "name": "Relationships",
+                                                "headerRowNumber": 2
+                                            }
+                                        ],
+                                        "additionalSettings": {
+                                            "supportDynamicContextMapping": true,
+                                            "supportsCollection": "false",
+                                            "encoding": "utf8"
+                                        },
+                                        "httpSettings": {
+                                            "additionalSettings": {
+                                                "attributeSeperator": "#@#"
+                                            }
+                                        }
+                                    },
+                                    "type": "EXCEL",
+                                    "version": "1.1"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

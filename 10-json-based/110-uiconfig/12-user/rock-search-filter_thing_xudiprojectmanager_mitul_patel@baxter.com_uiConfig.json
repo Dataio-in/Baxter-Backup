@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_xudiprojectmanager_mitul_patel@baxter.com_uiConfig",
+            "name": "rock-search-filter_thing_xudiprojectmanager_mitul_patel@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "mitul_patel@baxter.com",
+                "createdBy": "mitul_patel@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "mitul_patel@baxter.com_user",
+                "modifiedDate": "2021-06-10T09:52:25.855-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "xudiprojectmanager",
+                            "user": "mitul_patel@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "makbuy": {
+                                        "visible": false,
+                                        "displaySequence": 1,
+                                        "name": "makbuy",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

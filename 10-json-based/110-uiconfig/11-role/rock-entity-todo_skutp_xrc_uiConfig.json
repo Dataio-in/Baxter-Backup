@@ -1,0 +1,68 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_skutp_xrc_uiConfig",
+            "name": "rock-entity-todo_skutp_xrc",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.587-0600",
+                "modifiedDate": "2021-11-19T02:22:50.587-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "entityType": "skutp",
+                            "role": "xrc"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false
+                                    },
+                                    "manageattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Optional xUDI RC Attributes",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "chgctrlnr",
+                                                    "commdistenddat",
+                                                    "datdue",
+                                                    "datfdarep",
+                                                    "dhfnr",
+                                                    "fdastat",
+                                                    "tcudocnr",
+                                                    "tcurevnr"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:tag"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

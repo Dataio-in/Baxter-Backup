@@ -1,0 +1,56 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "descriptionnormalization_matchConfig",
+            "name": "descriptionnormalization",
+            "type": "matchConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-11-20T05:46:54.076-0600",
+                "modifiedDate": "2020-11-20T05:46:54.076-0600"
+            },
+            "data": {
+                "jsonData": {
+                    "matchRules": [
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "descriptioncode": {
+                                                    "exact": "{{descriptioncode}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "descriptionnormalization"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 1
+                        }
+                    ],
+                    "type": "config"
+                }
+            }
+        }
+    ]
+}

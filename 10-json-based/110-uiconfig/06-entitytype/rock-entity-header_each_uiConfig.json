@@ -1,0 +1,67 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_each_uiConfig",
+            "name": "rock-entity-header_each",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:24.806-0600",
+                "modifiedDate": "2020-12-10T07:15:24.806-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "each"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "pkggtin": {
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "attributeName": "pkggtin",
+                                        "noTrim": true,
+                                        "label": "GTIN (Packaging)"
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "longitmnr": {
+                                        "visible": true,
+                                        "displaySequence": 15,
+                                        "attributeName": "longitmnr",
+                                        "noTrim": true,
+                                        "label": "Item Code"
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    }
+                                },
+                                "thumbnailConfig": {
+                                    "relationshipName": "hasimagesmaster",
+                                    "relationshipFilterAttributeName": "isprimary",
+                                    "relationshipFilterAttributeValue": false,
+                                    "thumbnailIdentifier": "thumbnailid"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

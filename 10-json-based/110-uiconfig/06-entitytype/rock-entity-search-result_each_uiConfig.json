@@ -1,0 +1,83 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_each_uiConfig",
+            "name": "rock-entity-search-result_each",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:43.288-0600",
+                "modifiedDate": "2020-12-10T07:15:43.288-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "each"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "itmdesc2": {
+                                                "visible": false
+                                            },
+                                            "itmdesc1": {
+                                                "visible": false
+                                            },
+                                            "pkggtin": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 60,
+                                                "name": "pkggtin",
+                                                "header": "GTIN (Packaging)",
+                                                "sortable": true
+                                            },
+                                            "stktyp": {
+                                                "visible": false
+                                            },
+                                            "longitmnr": {
+                                                "displaySequence": 15
+                                            },
+                                            "prodgrpname": {
+                                                "visible": false
+                                            },
+                                            "makbuy": {
+                                                "visible": false
+                                            },
+                                            "uomprimmaster": {
+                                                "visible": false
+                                            },
+                                            "itmtyp": {
+                                                "visible": false
+                                            },
+                                            "pimhierarchy": {
+                                                "visible": false
+                                            },
+                                            "itstktyp": {
+                                                "visible": false
+                                            },
+                                            "createdon": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

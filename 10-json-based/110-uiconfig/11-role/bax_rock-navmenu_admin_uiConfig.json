@@ -1,0 +1,171 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-navmenu_admin_uiConfig",
+            "name": "bax_rock-navmenu_admin_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-20T00:38:53.810-0500",
+                "modifiedDate": "2022-04-20T00:38:53.810-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "system-dashboard": {
+                                    "visible": true
+                                },
+                                "visualizations": {
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "actions": {
+                                                "visualization-designer": {
+                                                    "visible": true
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-referencedata": {
+                                    "visible": true
+                                },
+                                "configurations": {
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "dataModels": {
+                                            "actions": {
+                                                "basemodel-digitalasset-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-digitalasset-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "basemodel-digitalasset-dashboard",
+                                                    "icon": "pebble-icon:asset-data-model",
+                                                    "tableData": {
+                                                        "id": 26
+                                                    },
+                                                    "title": "{[BDDNMTit]}"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "visible": true,
+                                            "actions": {
+                                                "uploadAssets": {
+                                                    "visible": true,
+                                                    "text": "Upload Assets"
+                                                },
+                                                "uploadExcelMigration": {
+                                                    "dataRoute": "upload-excel-migration",
+                                                    "visible": true,
+                                                    "displaySequence": 10,
+                                                    "name": "uploadExcelMigration",
+                                                    "icon": "pebble-icon:action-publish",
+                                                    "text": "Upload Excel - Migration Mode"
+                                                },
+                                                "uploadEntities": {
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "text": "Upload Entities"
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createService": {
+                                                    "visible": true
+                                                },
+                                                "createRawMaterial": {
+                                                    "visible": true
+                                                },
+                                                "createCompoundingCode": {
+                                                    "visible": true
+                                                },
+                                                "createCustomer": {
+                                                    "visible": false
+                                                },
+                                                "createSKUTP": {
+                                                    "visible": true
+                                                },
+                                                "createSparePart": {
+                                                    "visible": true
+                                                },
+                                                "createContact": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 200,
+                                                    "name": "createContact",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Contact",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "contact"
+                                                        }
+                                                    }
+                                                },
+                                                "createAccount": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 180,
+                                                    "name": "createAccount",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Account",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "account"
+                                                        }
+                                                    }
+                                                },
+                                                "createProductGroup": {
+                                                    "visible": true
+                                                },
+                                                "createEntity": {
+                                                    "visible": false
+                                                },
+                                                "createOrganization": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-digitalasset": {
+                                    "visible": true
+                                },
+                                "dashboard": {
+                                    "visible": true
+                                },
+                                "system-administration": {
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

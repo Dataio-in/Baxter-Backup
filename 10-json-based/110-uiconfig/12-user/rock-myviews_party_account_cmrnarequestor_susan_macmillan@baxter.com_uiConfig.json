@@ -1,0 +1,78 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-myviews_party_account_cmrnarequestor_susan_macmillan@baxter.com_uiConfig",
+            "name": "rock-myviews_party_account_cmrnarequestor_susan_macmillan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "susan_macmillan@baxter.com",
+                "createdBy": "susan_macmillan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "susan_macmillan@baxter.com_user",
+                "modifiedDate": "2022-01-14T11:01:07.488-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-myviews",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmrnarequestor",
+                            "user": "susan_macmillan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "menuItems": {
+                                        "Logistics-Review": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdeinventorysourcing",
+                                                            "baxptyoriginalstateprovince",
+                                                            "baxptyoriginalcity",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "addressline4",
+                                                            "addressline3",
+                                                            "baxptyoriginalpostalcode",
+                                                            "jdedeliveryinstructline1",
+                                                            "jdedeliveryinstructline2",
+                                                            "deliveryattributecompleted",
+                                                            "baxptytransportcompletionnotes",
+                                                            "jderoutecode",
+                                                            "jdeshipviaregular"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Logistics-Review",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Logistics-Review",
+                                            "enabled": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

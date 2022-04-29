@@ -1,0 +1,132 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-navmenu_tpskuinitiator_uiConfig",
+            "name": "bax_rock-navmenu_tpskuinitiator_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-11-18T22:33:24.852-0600",
+                "modifiedDate": "2021-11-18T22:33:24.852-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "tpskuinitiator"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "system-dashboard": {
+                                    "visible": false
+                                },
+                                "visualizations": {
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "visible": false,
+                                            "actions": {
+                                                "visualization-designer": {
+                                                    "visible": false
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-referencedata": {
+                                    "visible": false
+                                },
+                                "configurations": {
+                                    "visible": false,
+                                    "subNavMenu": {
+                                        "dataModels": {
+                                            "actions": {
+                                                "basemodel-digitalasset-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-digitalasset-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "basemodel-digitalasset-dashboard",
+                                                    "icon": "pebble-icon:asset-data-model",
+                                                    "tableData": {
+                                                        "id": 26
+                                                    },
+                                                    "title": "{[BDDNMTit]}"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "visible": true,
+                                            "actions": {
+                                                "uploadAssets": {
+                                                    "visible": true,
+                                                    "text": "Upload Assets"
+                                                },
+                                                "uploadExcelMigration": {
+                                                    "dataRoute": "upload-excel-migration",
+                                                    "visible": true,
+                                                    "displaySequence": 10,
+                                                    "name": "uploadExcelMigration",
+                                                    "icon": "pebble-icon:action-publish",
+                                                    "text": "Upload Excel - Migration Mode"
+                                                },
+                                                "uploadEntities": {
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "text": "Upload Entities"
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createSKUTP": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 5,
+                                                    "name": "createSKUTP",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Finished Goods – SKU Third Party",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "skutp"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-digitalasset": {
+                                    "visible": true
+                                },
+                                "dashboard": {
+                                    "visible": false
+                                },
+                                "system-administration": {
+                                    "visible": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

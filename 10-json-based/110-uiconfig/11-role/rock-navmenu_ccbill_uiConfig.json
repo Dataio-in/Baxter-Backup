@@ -1,0 +1,617 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_ccbill_uiConfig",
+            "name": "rock-navmenu_ccbill",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.66.2.1025",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-03-05T10:28:46.200-0600",
+                "modifiedDate": "2021-03-05T10:28:46.200-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "ccbill"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "system-dashboard": {
+                                    "visible": true
+                                },
+                                "visualizations": {
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "actions": {
+                                                "visualization-designer": {
+                                                    "visible": true
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-referencedata": {
+                                    "dataRoute": "search-referencedata",
+                                    "visible": false,
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "parentapp": "visualizations",
+                                            "visible": false,
+                                            "displaySequence": 10,
+                                            "name": "visualization",
+                                            "tableData": {
+                                                "id": 14
+                                            },
+                                            "actions": {
+                                                "visualization-dashboard": {
+                                                    "mainapp": "visualizations",
+                                                    "dataRoute": "visualization-dashboard",
+                                                    "parentapp": "visualization",
+                                                    "visible": false,
+                                                    "displaySequence": 10,
+                                                    "name": "visualization-dashboard",
+                                                    "icon": "pebble-icon:dashboard-pie-chart",
+                                                    "tableData": {
+                                                        "id": 24
+                                                    },
+                                                    "title": "{[RepsTxt]}"
+                                                },
+                                                "visualization-designer": {
+                                                    "mainapp": "visualizations",
+                                                    "dataRoute": "visualization-designer",
+                                                    "parentapp": "visualization",
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "visualization-designer",
+                                                    "icon": "pebble-icon:dashboard-pie-chart-design",
+                                                    "tableData": {
+                                                        "id": 25
+                                                    },
+                                                    "title": "{[DgnTxt]}"
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "mainapp": "visualizations",
+                                                    "dataRoute": "visualization-manage-dashboard",
+                                                    "parentapp": "visualization",
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "visualization-manage-dashboard",
+                                                    "icon": "pebble-icon:dashboard-pie-chart-manage",
+                                                    "tableData": {
+                                                        "id": 26
+                                                    },
+                                                    "title": "{[MngRepsTxt]}"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 80,
+                                    "name": "search-referencedata",
+                                    "icon": "pebble-icon:tags",
+                                    "tableData": {
+                                        "id": 1
+                                    },
+                                    "title": "{[RefSRAppTit]}"
+                                },
+                                "configurations": {
+                                    "dataRoute": "",
+                                    "visible": false,
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "parentapp": "configurations",
+                                            "visible": false,
+                                            "name": "upload",
+                                            "tableData": {
+                                                "id": 18
+                                            },
+                                            "actions": {
+                                                "uploadAssets": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "upload-assets",
+                                                    "parentapp": "upload",
+                                                    "visible": false,
+                                                    "parentname": "upload",
+                                                    "displaySequence": 30,
+                                                    "name": "uploadAssets",
+                                                    "icon": "pebble-icon:asset-library",
+                                                    "tableData": {
+                                                        "id": 3
+                                                    },
+                                                    "text": "{[UplAssTxt]}"
+                                                },
+                                                "uploadCSV": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "upload-csv",
+                                                    "parentapp": "upload",
+                                                    "visible": false,
+                                                    "parentname": "upload",
+                                                    "displaySequence": 20,
+                                                    "name": "uploadCSV",
+                                                    "icon": "pebble-icon:publish",
+                                                    "tableData": {
+                                                        "id": 5
+                                                    },
+                                                    "text": "{[UplCSVTxt]}"
+                                                }
+                                            }
+                                        },
+                                        "dataModels": {
+                                            "parentapp": "configurations",
+                                            "visible": false,
+                                            "displaySequence": 20,
+                                            "name": "dataModels",
+                                            "tableData": {
+                                                "id": 15
+                                            },
+                                            "title": "{[DatModsTxt]}",
+                                            "actions": {
+                                                "basemodel-location-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-location-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 25,
+                                                    "name": "basemodel-location-dashboard",
+                                                    "icon": "pebble-icon:location-domain",
+                                                    "tableData": {
+                                                        "id": 28
+                                                    },
+                                                    "title": "{[BasLocDasAppTit]}"
+                                                },
+                                                "basemodel-uomdata-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-uomdata-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 60,
+                                                    "name": "basemodel-uomdata-dashboard",
+                                                    "icon": "pebble-icon:library-data",
+                                                    "tableData": {
+                                                        "id": 29
+                                                    },
+                                                    "title": "{[BasUomDasAppTit]}"
+                                                },
+                                                "basemodel-digitalasset-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-digitalasset-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 30,
+                                                    "name": "basemodel-digitalasset-dashboard",
+                                                    "icon": "pebble-icon:asset-data-model",
+                                                    "tableData": {
+                                                        "id": 30
+                                                    },
+                                                    "title": "{[BDDNMTit]}"
+                                                },
+                                                "basemodel-thing-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-thing-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 10,
+                                                    "name": "basemodel-thing-dashboard",
+                                                    "icon": "pebble-icon:model-things-domain",
+                                                    "tableData": {
+                                                        "id": 31
+                                                    },
+                                                    "title": "{[BasThiDasAppTit]}"
+                                                },
+                                                "basemodel-referencedata-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-referencedata-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 40,
+                                                    "name": "basemodel-referencedata-dashboard",
+                                                    "icon": "pebble-icon:model-reference-data-domain",
+                                                    "tableData": {
+                                                        "id": 32
+                                                    },
+                                                    "title": "{[BasRefDasAppTit]}"
+                                                },
+                                                "instancedatamodel-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "instancedatamodel-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 50,
+                                                    "name": "instancedatamodel-dashboard",
+                                                    "icon": "pebble-icon:dashboard-context",
+                                                    "tableData": {
+                                                        "id": 33
+                                                    },
+                                                    "title": "{[IDARTit]}"
+                                                },
+                                                "basemodel-party-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "basemodel-party-dashboard",
+                                                    "parentapp": "dataModels",
+                                                    "visible": false,
+                                                    "displaySequence": 20,
+                                                    "name": "basemodel-party-dashboard",
+                                                    "icon": "pebble-icon:model-party-domain",
+                                                    "tableData": {
+                                                        "id": 34
+                                                    },
+                                                    "title": "{[BasParDasAppTit]}"
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createService": {
+                                                    "visible": true
+                                                },
+                                                "createRawMaterial": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createRawMaterial",
+                                                    "tableData": {
+                                                        "id": 9
+                                                    }
+                                                },
+                                                "createCompoundingCode": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createCompoundingCode",
+                                                    "tableData": {
+                                                        "id": 10
+                                                    }
+                                                },
+                                                "createSparePart": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createSparePart",
+                                                    "tableData": {
+                                                        "id": 11
+                                                    }
+                                                },
+                                                "createProductGroup": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createProductGroup",
+                                                    "tableData": {
+                                                        "id": 12
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "governance": {
+                                            "parentapp": "configurations",
+                                            "visible": false,
+                                            "displaySequence": 30,
+                                            "name": "governance",
+                                            "tableData": {
+                                                "id": 17
+                                            },
+                                            "title": "{[GovTxt]}",
+                                            "actions": {
+                                                "govmodel-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "govmodel-dashboard",
+                                                    "parentapp": "governance",
+                                                    "visible": false,
+                                                    "displaySequence": 10,
+                                                    "name": "govmodel-dashboard",
+                                                    "icon": "pebble-icon:dashboard-governance",
+                                                    "tableData": {
+                                                        "id": 37
+                                                    },
+                                                    "title": "{[GDARTit]}"
+                                                },
+                                                "authmodel-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "authmodel-dashboard",
+                                                    "parentapp": "governance",
+                                                    "visible": false,
+                                                    "displaySequence": 30,
+                                                    "name": "authmodel-dashboard",
+                                                    "icon": "pebble-icon:dashboard-authorization",
+                                                    "tableData": {
+                                                        "id": 38
+                                                    },
+                                                    "title": "{[ADARTit]}"
+                                                },
+                                                "workflowmodel-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "workflowmodel-dashboard",
+                                                    "parentapp": "governance",
+                                                    "visible": false,
+                                                    "displaySequence": 20,
+                                                    "name": "workflowmodel-dashboard",
+                                                    "icon": "pebble-icon:dashboard-workflow",
+                                                    "tableData": {
+                                                        "id": 39
+                                                    },
+                                                    "title": "{[WDARTit]}"
+                                                }
+                                            }
+                                        },
+                                        "systemReferenceData": {
+                                            "parentapp": "configurations",
+                                            "visible": false,
+                                            "displaySequence": 10,
+                                            "name": "systemReferenceData",
+                                            "tableData": {
+                                                "id": 16
+                                            },
+                                            "title": "{[SysRefDatTxt]}",
+                                            "actions": {
+                                                "taxonomymodel-dashboard": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "taxonomymodel-dashboard",
+                                                    "parentapp": "systemReferenceData",
+                                                    "visible": false,
+                                                    "displaySequence": 10,
+                                                    "name": "taxonomymodel-dashboard",
+                                                    "icon": "pebble-icon:dashboard-taxonomy",
+                                                    "tableData": {
+                                                        "id": 37
+                                                    },
+                                                    "title": "{[TCARTit]}"
+                                                },
+                                                "search-uomdata": {
+                                                    "mainapp": "configurations",
+                                                    "dataRoute": "search-uomdata",
+                                                    "parentapp": "systemReferenceData",
+                                                    "visible": false,
+                                                    "displaySequence": 20,
+                                                    "name": "search-uomdata",
+                                                    "icon": "pebble-icon:library-search",
+                                                    "tableData": {
+                                                        "id": 38
+                                                    },
+                                                    "title": "{[UomSRAppTit]}"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 120,
+                                    "name": "configurations",
+                                    "icon": "pebble-icon:configuration",
+                                    "tableData": {
+                                        "id": 4
+                                    },
+                                    "title": "{[ConsTxt]}"
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "visible": true,
+                                            "actions": {
+                                                "uploadAssets": {
+                                                    "dataRoute": "upload-assets",
+                                                    "visible": false,
+                                                    "parentname": "upload",
+                                                    "displaySequence": 30,
+                                                    "name": "uploadAssets",
+                                                    "icon": "pebble-icon:asset-library",
+                                                    "tableData": {
+                                                        "id": 3
+                                                    },
+                                                    "text": "{[UplAssTxt]}"
+                                                },
+                                                "uploadCSV": {
+                                                    "dataRoute": "upload-csv",
+                                                    "visible": false,
+                                                    "parentname": "upload",
+                                                    "displaySequence": 20,
+                                                    "name": "uploadCSV",
+                                                    "icon": "pebble-icon:publish",
+                                                    "tableData": {
+                                                        "id": 5
+                                                    },
+                                                    "text": "{[UplCSVTxt]}"
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createService": {
+                                                    "visible": true
+                                                },
+                                                "createRawMaterial": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createRawMaterial",
+                                                    "tableData": {
+                                                        "id": 9
+                                                    }
+                                                },
+                                                "createCompoundingCode": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createCompoundingCode",
+                                                    "tableData": {
+                                                        "id": 10
+                                                    }
+                                                },
+                                                "createSparePart": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createSparePart",
+                                                    "tableData": {
+                                                        "id": 11
+                                                    }
+                                                },
+                                                "createProductGroup": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createProductGroup",
+                                                    "tableData": {
+                                                        "id": 12
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "open-apps": {
+                                    "dataRoute": "",
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "visible": true,
+                                            "displaySequence": 20,
+                                            "title": "{[UplTxt]}",
+                                            "actions": {
+                                                "manageMappings": {
+                                                    "dataRoute": "manage-mappings",
+                                                    "visible": false,
+                                                    "displaySequence": 50,
+                                                    "name": "manageMappings",
+                                                    "icon": "pebble-icon:connections",
+                                                    "text": "{[MngMapTxt]}",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": ""
+                                                        }
+                                                    }
+                                                },
+                                                "upload-hubstatus": {
+                                                    "dataRoute": "upload-hubstatus",
+                                                    "visible": false,
+                                                    "displaySequence": 60,
+                                                    "icon": "pebble-icon:publish",
+                                                    "title": "{[UplHubStaTxt]}"
+                                                },
+                                                "valueMappings": {
+                                                    "dataRoute": "value-mappings-manage",
+                                                    "visible": false,
+                                                    "displaySequence": 40,
+                                                    "name": "manageValueMappings",
+                                                    "icon": "pebble-icon:upload-assets-filled",
+                                                    "text": "{[QAVMLbl]}"
+                                                },
+                                                "uploadAssets": {
+                                                    "dataRoute": "upload-assets",
+                                                    "visible": false,
+                                                    "parentname": "upload",
+                                                    "displaySequence": 30,
+                                                    "name": "uploadAssets",
+                                                    "icon": "pebble-icon:asset-library",
+                                                    "tableData": {
+                                                        "id": 3
+                                                    },
+                                                    "text": "{[UplAssTxt]}"
+                                                },
+                                                "uploadEntities": {
+                                                    "dataRoute": "upload-excel",
+                                                    "visible": false,
+                                                    "displaySequence": 10,
+                                                    "name": "uploadEntities",
+                                                    "icon": "pebble-icon:publish",
+                                                    "text": "{[UplEntTxt]}"
+                                                },
+                                                "uploadCSV": {
+                                                    "dataRoute": "upload-csv",
+                                                    "visible": false,
+                                                    "parentname": "upload",
+                                                    "displaySequence": 20,
+                                                    "name": "uploadCSV",
+                                                    "icon": "pebble-icon:publish",
+                                                    "tableData": {
+                                                        "id": 5
+                                                    },
+                                                    "text": "{[UplCSVTxt]}"
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "displaySequence": 10,
+                                            "title": "{[CreTxt]}",
+                                            "actions": {
+                                                "createService": {
+                                                    "visible": true
+                                                },
+                                                "createRawMaterial": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createRawMaterial",
+                                                    "tableData": {
+                                                        "id": 9
+                                                    }
+                                                },
+                                                "createCompoundingCode": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createCompoundingCode",
+                                                    "tableData": {
+                                                        "id": 10
+                                                    }
+                                                },
+                                                "createBusinessRule": {
+                                                    "dataRoute": "business-rule-create",
+                                                    "visible": false,
+                                                    "displaySequence": 200,
+                                                    "name": "createBusinessRule",
+                                                    "icon": "pebble-icon:advanced-gear",
+                                                    "text": "{[BizRulTxt]}"
+                                                },
+                                                "createSparePart": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createSparePart",
+                                                    "tableData": {
+                                                        "id": 11
+                                                    }
+                                                },
+                                                "createEntity": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 10,
+                                                    "name": "createEntity",
+                                                    "icon": "pebble-icon:plus-outline",
+                                                    "text": "{[EntTxt]}"
+                                                },
+                                                "createProductGroup": {
+                                                    "visible": false,
+                                                    "parentname": "create",
+                                                    "name": "createProductGroup",
+                                                    "tableData": {
+                                                        "id": 12
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 40,
+                                    "name": "open-apps",
+                                    "icon": "pebble-icon:open-pages",
+                                    "tableData": {
+                                        "id": 5
+                                    },
+                                    "title": "{[OpeAppsTxt]}"
+                                },
+                                "search-digitalasset": {
+                                    "visible": false
+                                },
+                                "dashboard": {
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

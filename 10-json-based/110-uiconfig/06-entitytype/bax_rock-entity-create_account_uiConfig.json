@@ -1,0 +1,83 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-create_account_uiConfig",
+            "name": "bax_rock-entity-create_account_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-11T05:17:41.463-0500",
+                "modifiedDate": "2022-04-11T05:17:41.463-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-create",
+                            "entityType": "account"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "attributeNames": [
+                                        "legalcompanyname",
+                                        "erpaccountclassification",
+                                        "baxptycustomergroup",
+                                        "baxptysuitenumber",
+                                        "baxptystreettype",
+                                        "baxptyattn",
+                                        "baxptyco",
+                                        "baxptyroom",
+                                        "baxptyfloor",
+                                        "baxptystreetdirection",
+                                        "baxptystreetnumber",
+                                        "baxptystreetname",
+                                        "baxptylandmark",
+                                        "baxptydistrict",
+                                        "city",
+                                        "stateprovince",
+                                        "county",
+                                        "postalcode",
+                                        "country",
+                                        "anticipatedyearlypurchases",
+                                        "areyouagpomember",
+                                        "baxptydistributorornoninstitutional",
+                                        "taxid",
+                                        "primaryemail",
+                                        "phonenumber",
+                                        "faxnum",
+                                        "jdeparentnumber",
+                                        "dunsnumber",
+                                        "baxptysalestaxexempt",
+                                        "baxptyaccountopeninginstructions",
+                                        "baxptyisgoventity",
+                                        "baxptyrequestoremail",
+                                        "baxptyrequestorname",
+                                        "billingaddresstype",
+                                        "firstname",
+                                        "lastname",
+                                        "intentionalduplicatereason",
+                                        "dba",
+                                        "pobox",
+                                        "baxptytrailingstreetdirection",
+                                        "baxptyleadingstreetdirection",
+                                        "intentionalduplicate",
+                                        "jdecostcenter"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

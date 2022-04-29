@@ -1,0 +1,47 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-report-views_visualization__DEFAULT_cmrnachops_brett_mcgee@baxter.com_uiConfig",
+            "name": "rock-report-views_visualization__DEFAULT_cmrnachops_brett_mcgee@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "brett_mcgee@baxter.com",
+                "createdBy": "brett_mcgee@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "brett_mcgee@baxter.com_user",
+                "modifiedDate": "2021-11-29T09:49:19.223-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-report-views",
+                            "domain": "visualization",
+                            "role": "cmrnachops",
+                            "user": "brett_mcgee@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "views": {
+                                    "cffa7950-b903-11e9-827e-f9b1ee160b05_My Canada View": {
+                                        "reportId": "cffa7950-b903-11e9-827e-f9b1ee160b05",
+                                        "filterData": "[]",
+                                        "isDefaultView": false,
+                                        "name": "My Canada View",
+                                        "icon": "pebble-icon:my-view",
+                                        "title": "My Canada View"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_rawmaterial_uiConfig",
+            "name": "rock-entity-header_rawmaterial",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:24.841-0600",
+                "modifiedDate": "2020-12-10T07:15:24.841-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "rawmaterial"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "itmdesc2": {
+                                        "visible": true,
+                                        "displaySequence": 45,
+                                        "attributeName": "itmdesc2",
+                                        "noTrim": true,
+                                        "label": "Master Description 2"
+                                    },
+                                    "itmstat": {
+                                        "visible": true,
+                                        "displaySequence": 75,
+                                        "attributeName": "itmstat",
+                                        "noTrim": true,
+                                        "label": "Product Status"
+                                    },
+                                    "itmdesc1": {
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "attributeName": "itmdesc1",
+                                        "noTrim": true,
+                                        "label": "Master Description 1"
+                                    },
+                                    "workflowstatus": {
+                                        "visible": true,
+                                        "displaySequence": 60,
+                                        "attributeName": "workflowstatus",
+                                        "noTrim": true,
+                                        "label": "Global Workflow Status"
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "longitmnr": {
+                                        "visible": true,
+                                        "displaySequence": 15,
+                                        "attributeName": "longitmnr",
+                                        "noTrim": true,
+                                        "label": "Item Code"
+                                    },
+                                    "makbuy": {
+                                        "visible": true,
+                                        "displaySequence": 90,
+                                        "attributeName": "makbuy",
+                                        "noTrim": false,
+                                        "label": "Make or Buy"
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "x2": {
+                                        "visible": true,
+                                        "displaySequence": 105,
+                                        "attributeName": "x2",
+                                        "noTrim": true,
+                                        "label": "X2 Level Hierarchy"
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    },
+                                    "itmtyp": {
+                                        "visible": true,
+                                        "displaySequence": 120,
+                                        "attributeName": "itmtyp",
+                                        "noTrim": true,
+                                        "label": "Product Type"
+                                    }
+                                },
+                                "thumbnailConfig": {
+                                    "relationshipName": "imageofrawmaterial",
+                                    "relationshipFilterAttributeName": "isprimary",
+                                    "relationshipFilterAttributeValue": true,
+                                    "thumbnailIdentifier": "thumbnailid"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

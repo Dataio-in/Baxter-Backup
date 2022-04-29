@@ -1,0 +1,510 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_partyadmin_steven_rowan@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_partyadmin_steven_rowan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "steven_rowan@baxter.com",
+                "createdBy": "steven_rowan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "steven_rowan@baxter.com_user",
+                "modifiedDate": "2022-04-12T12:22:02.149-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "party",
+                            "role": "partyadmin",
+                            "user": "steven_rowan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Laura": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "baxptyrequestoremail": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyrequestoremail",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxptyrequestorname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyrequestorname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxptyoriginallegalcompanyname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyoriginallegalcompanyname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxptyaccountopeninginstructions": {
+                                                    "filterable": false,
+                                                    "displayType": "textarea",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyaccountopeninginstructions",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxmdmid",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Laura",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.baxptyrequestoremail}",
+                                                    "subTitlePattern": "{entity.attributes.baxptyrequestoremail} | {entity.attributes.baxptyrequestorname} | {entity.attributes.baxptyaccountopeninginstructions} | {entity.attributes.baxptyoriginallegalcompanyname} | {entity.attributes.baxmdmid}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Laura",
+                                        "value": "Laura",
+                                        "enabled": true
+                                    },
+                                    "Legal Name": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "legalcompanyname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "legalcompanyname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomertype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 45,
+                                                    "name": "jdecustomertype",
+                                                    "header": "JDE Customer Type",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomeralphaname": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 25,
+                                                    "name": "jdecustomeralphaname",
+                                                    "header": "JDE Customer(Alpha Name)",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomersearchtype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 40,
+                                                    "name": "jdecustomersearchtype",
+                                                    "header": "JDE Customer Search Type",
+                                                    "sortable": true
+                                                },
+                                                "billingaddresstype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 50,
+                                                    "name": "billingaddresstype",
+                                                    "header": "Billing Address Type",
+                                                    "sortable": true
+                                                },
+                                                "updateddate": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 100,
+                                                    "name": "updateddate",
+                                                    "header": "Updated Date",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "baxmdmid",
+                                                    "header": "Baxter MDM ID",
+                                                    "linkTemplate": "entity-manage?id={id}&type={type}"
+                                                },
+                                                "addressnumber": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 35,
+                                                    "name": "addressnumber",
+                                                    "header": "JDE Account Number",
+                                                    "sortable": true
+                                                },
+                                                "baxptyaddress": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "baxptyaddress",
+                                                    "header": "Address",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Legal Name",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "toolbarConfig": {
+                                                "buttonItems": {
+                                                    "basic": {
+                                                        "buttons": {
+                                                            "refresh": {
+                                                                "visible": true,
+                                                                "displaySequence": 100,
+                                                                "name": "refresh",
+                                                                "icon": "pebble-icon:refresh",
+                                                                "tooltip": "Refresh",
+                                                                "text": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.legalcompanyname}",
+                                                    "subTitlePattern": "{entity.attributes.legalcompanyname} | {entity.attributes.jdecustomertype} | {entity.attributes.jdecustomeralphaname} | {entity.attributes.jdecustomersearchtype} | {entity.attributes.billingaddresstype} | {entity.attributes.updateddate} | {entity.attributes.baxmdmid} | {entity.attributes.addressnumber} | {entity.attributes.baxptyaddress}",
+                                                    "actions": {}
+                                                },
+                                                "fieldChanges": {}
+                                            },
+                                            "tabular": {
+                                                "settings": {},
+                                                "fieldChanges": {}
+                                            },
+                                            "list": {
+                                                "settings": {
+                                                    "actions": {}
+                                                },
+                                                "fieldsChanges": {}
+                                            }
+                                        },
+                                        "title": "Legal Name",
+                                        "value": "Legal Name",
+                                        "enabled": true
+                                    },
+                                    "Steve": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "baxptystreettype": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptystreettype",
+                                                    "width": 20,
+                                                    "header": "Street Type",
+                                                    "sortable": true
+                                                },
+                                                "dunsnumber": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "dunsnumber",
+                                                    "width": 20,
+                                                    "header": "DUNS Number-DUNS (Operational)",
+                                                    "sortable": true
+                                                },
+                                                "legalcompanyname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "legalcompanyname",
+                                                    "width": 20,
+                                                    "header": "Legal Company Name",
+                                                    "sortable": true
+                                                },
+                                                "createddate": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "createddate",
+                                                    "width": 20,
+                                                    "header": "Created Date",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxmdmid",
+                                                    "width": 20,
+                                                    "header": "Baxter MDM ID",
+                                                    "sortable": true
+                                                },
+                                                "baxptystreetname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptystreetname",
+                                                    "width": 20,
+                                                    "header": "Street Name",
+                                                    "sortable": true
+                                                },
+                                                "baxptystreetnumber": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptystreetnumber",
+                                                    "width": 20,
+                                                    "header": "Street Number",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Steve",
+                                        "icon": "pebble-icon:my-view",
+                                        "gridPersonalizationSettings": {
+                                            "colState": [
+                                                {
+                                                    "hide": false,
+                                                    "width": 35,
+                                                    "pivot": false,
+                                                    "colId": "0",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 220,
+                                                    "pivot": false,
+                                                    "colId": "baxmdmid",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 347,
+                                                    "pivot": false,
+                                                    "colId": "legalcompanyname",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 121,
+                                                    "pivot": false,
+                                                    "colId": "createddate",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "sortIndex": 0,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "sort": "asc",
+                                                    "colId": "dunsnumber",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 150,
+                                                    "pivot": false,
+                                                    "colId": "baxptystreetname",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 148,
+                                                    "pivot": false,
+                                                    "colId": "baxptystreetnumber",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 121,
+                                                    "pivot": false,
+                                                    "colId": "baxptystreettype",
+                                                    "rowGroup": false
+                                                }
+                                            ]
+                                        },
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.createddate}",
+                                                    "subTitlePattern": "{entity.attributes.createddate} | {entity.attributes.dunsnumber} | {entity.attributes.baxmdmid} | {entity.attributes.legalcompanyname} | {entity.attributes.baxptystreetnumber} | {entity.attributes.baxptystreetname} | {entity.attributes.baxptystreettype}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Steve",
+                                        "value": "Steve",
+                                        "enabled": true
+                                    },
+                                    "Special": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "updatedby": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "updatedby",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomertype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 45,
+                                                    "name": "jdecustomertype",
+                                                    "header": "JDE Customer Type",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomeralphaname": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 25,
+                                                    "name": "jdecustomeralphaname",
+                                                    "header": "JDE Customer(Alpha Name)",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomersearchtype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 40,
+                                                    "name": "jdecustomersearchtype",
+                                                    "header": "JDE Customer Search Type",
+                                                    "sortable": true
+                                                },
+                                                "billingaddresstype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 50,
+                                                    "name": "billingaddresstype",
+                                                    "header": "Billing Address Type",
+                                                    "sortable": true
+                                                },
+                                                "updateddate": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 100,
+                                                    "name": "updateddate",
+                                                    "header": "Updated Date",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "baxmdmid",
+                                                    "header": "Baxter MDM ID",
+                                                    "linkTemplate": "entity-manage?id={id}&type={type}"
+                                                },
+                                                "addressnumber": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 35,
+                                                    "name": "addressnumber",
+                                                    "header": "JDE Account Number",
+                                                    "sortable": true
+                                                },
+                                                "baxptyaddress": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "baxptyaddress",
+                                                    "header": "Address",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Special",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "toolbarConfig": {
+                                                "buttonItems": {
+                                                    "basic": {
+                                                        "buttons": {
+                                                            "refresh": {
+                                                                "visible": true,
+                                                                "displaySequence": 100,
+                                                                "name": "refresh",
+                                                                "icon": "pebble-icon:refresh",
+                                                                "tooltip": "Refresh",
+                                                                "text": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.addressnumber}",
+                                                    "subTitlePattern": "{entity.attributes.addressnumber} | {entity.attributes.billingaddresstype} | {entity.attributes.jdecustomeralphaname} | {entity.attributes.jdecustomertype} | {entity.attributes.baxptyaddress} | {entity.attributes.jdecustomersearchtype} | {entity.attributes.updateddate} | {entity.attributes.updatedby} | {entity.attributes.baxmdmid}",
+                                                    "actions": {}
+                                                },
+                                                "fieldChanges": {}
+                                            },
+                                            "tabular": {
+                                                "settings": {},
+                                                "fieldChanges": {}
+                                            },
+                                            "list": {
+                                                "settings": {
+                                                    "actions": {}
+                                                },
+                                                "fieldsChanges": {}
+                                            }
+                                        },
+                                        "title": "Special",
+                                        "value": "Special",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

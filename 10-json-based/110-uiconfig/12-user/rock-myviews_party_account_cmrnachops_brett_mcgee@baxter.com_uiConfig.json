@@ -1,0 +1,302 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-myviews_party_account_cmrnachops_brett_mcgee@baxter.com_uiConfig",
+            "name": "rock-myviews_party_account_cmrnachops_brett_mcgee@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "brett_mcgee@baxter.com",
+                "createdBy": "brett_mcgee@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "brett_mcgee@baxter.com_user",
+                "modifiedDate": "2022-01-18T12:07:33.447-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-myviews",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmrnachops",
+                            "user": "brett_mcgee@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "menuItems": {
+                                        "Chops Review 2": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomernamemailingname",
+                                                            "jdecustomeralphaname",
+                                                            "baxptyjdecatcode09",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "addressline3",
+                                                            "addressline4",
+                                                            "baxptyoriginalattn",
+                                                            "jdeparentnumber",
+                                                            "parentcompanyname",
+                                                            "baxptychopsnotes",
+                                                            "jde1staddressnumber"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Chops Review 2",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Chops Review 2",
+                                            "enabled": true
+                                        },
+                                        "Tax Review": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomernamemailingname",
+                                                            "jdecustomeralphaname",
+                                                            "jdetaxexplanationcode",
+                                                            "jdetaxratearea",
+                                                            "jdetaxexemptcertificateexpirydate",
+                                                            "jdetaxexemptcertificatename",
+                                                            "baxptyjdetaxcertificateeffectivedate",
+                                                            "baxptysalestaxexempt",
+                                                            "taxattributecompleted",
+                                                            "baxptytaxcompletionnotes",
+                                                            "taxexemptcertificatenum",
+                                                            "regionaltaxexemptjdecatcode27"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Tax Review",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Tax Review",
+                                            "enabled": true
+                                        },
+                                        "SRM / ALT Review": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomernamemailingname",
+                                                            "baxptyoriginalstateprovince",
+                                                            "baxptyoriginalcity",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "addressline3",
+                                                            "addressline4",
+                                                            "jdeparentnumber"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "SRM / ALT Review",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "SRM / ALT Review",
+                                            "enabled": true
+                                        },
+                                        "C & D Attributes": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "allow-save-on-error": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jde4thaddressnumber",
+                                                            "jde1staddressnumber",
+                                                            "jdecustomersearchtype",
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomernamemailingname",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "city",
+                                                            "postalcode",
+                                                            "stateprovince",
+                                                            "country",
+                                                            "jdeparentnumber",
+                                                            "jdecustomertype",
+                                                            "jdepaymentterms",
+                                                            "jdesendinvoicetocp",
+                                                            "jdecreditchecklevelcode",
+                                                            "jdeholdorderscode",
+                                                            "jdecreditmessage",
+                                                            "getpaidstrategy",
+                                                            "jdecmrptcode32flagcreditcoll",
+                                                            "jdecmrptcode35flag340beligible",
+                                                            "jdecmrptcode38flagcreditcoll",
+                                                            "jdeorderinstruction",
+                                                            "applicablegbusglobalbusinessunits",
+                                                            "billingaddresstype",
+                                                            "baxptycustomergroup",
+                                                            "regionaltaxexemptjdecatcode27",
+                                                            "taxid",
+                                                            "baxptyjdecatcode09"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "C & D Attributes",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Chops Review",
+                                            "enabled": false
+                                        },
+                                        "AR Review": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomernamemailingname",
+                                                            "jdecustomeralphaname",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "addressline3",
+                                                            "jde4thaddressnumber",
+                                                            "jde1staddressnumber",
+                                                            "currencycode",
+                                                            "baxptydnberamcreditapprover",
+                                                            "baxptydunsusedforeramcreditdecision",
+                                                            "jdecmrptcode32flagcreditcoll",
+                                                            "jdecmrptcode38flagcreditcoll",
+                                                            "jdecreditlimit",
+                                                            "jdecreditmanager",
+                                                            "jdecreditmessage",
+                                                            "baxptyjdedatelastcreditreview",
+                                                            "jdecollectionmanager",
+                                                            "jdepaymentterms",
+                                                            "getpaidstrategy"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "AR Review",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "AR Review",
+                                            "enabled": true
+                                        },
+                                        "CA": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "baxptycountryac03",
+                                                            "jdeardirector",
+                                                            "jdecatcode25",
+                                                            "regionaltaxexemptjdecatcode27",
+                                                            "jdecustomercompliancetype",
+                                                            "jdecustomertype",
+                                                            "jderegional28",
+                                                            "jdeinventorysourcing",
+                                                            "jdeproofofdelivery",
+                                                            "jdeminorderchargecustflag",
+                                                            "jderegional06printmessgaeoncontracts",
+                                                            "baxptyjdecatcode09"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "CA",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "CA",
+                                            "enabled": true
+                                        },
+                                        "TS": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomernamemailingname",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "billingaddresstype",
+                                                            "city",
+                                                            "stateprovince",
+                                                            "postalcode",
+                                                            "jdeinventorysourcing",
+                                                            "baxptytransportcompletionnotes",
+                                                            "deliveryattributecompleted",
+                                                            "jdedeliveryinstructline1",
+                                                            "jdedeliveryinstructline2"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "TS",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Logistics Review",
+                                            "enabled": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

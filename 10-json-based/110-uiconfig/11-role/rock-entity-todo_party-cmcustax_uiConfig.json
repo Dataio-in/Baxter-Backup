@@ -1,0 +1,328 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_party-cmcustax_uiConfig",
+            "name": "rock-entity-todo_party-cmcustax_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.468-0600",
+                "modifiedDate": "2021-11-19T12:06:22.468-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmcustax"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false
+                                    },
+                                    "manageInactivationMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Inactivate",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeacountstatus",
+                                                    "baxptyreasonforaccountopening",
+                                                    "jdeorderinstruction",
+                                                    "jdecustomersearchtype",
+                                                    "jdeinventorysourcing",
+                                                    "jdecustomercompliancetype",
+                                                    "jdecustomerinactiveflag",
+                                                    "jdeholdorderscode",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageCAChangeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "CA Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdecustomeralphaname",
+                                                    "jdecustomersearchtype",
+                                                    "jdecustomernamemailingname",
+                                                    "addressline1",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "city",
+                                                    "jdegloffset",
+                                                    "costcenterpreference",
+                                                    "professiontype",
+                                                    "phonenumber",
+                                                    "phonenumbertype",
+                                                    "baxptycountryac03",
+                                                    "jdecustomertype",
+                                                    "jdecostcenter",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageTStoCMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "TS to C Change (US Only)",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdecustomersearchtype",
+                                                    "baxptyreasonforaccountopening",
+                                                    "phonenumber",
+                                                    "phonenumbertype",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "billingaddresstype",
+                                                    "jdeparentnumber",
+                                                    "addressline1",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "jdecustomernamemailingname",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "jdecustomeralphaname",
+                                                    "city",
+                                                    "jdecustomertype",
+                                                    "jdecustomertype",
+                                                    "jdetaxratearea",
+                                                    "baxptycountryac03",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageAddressChangeMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Name-Address Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "country",
+                                                    "stateprovince",
+                                                    "city",
+                                                    "postalcode",
+                                                    "baxptystreetname",
+                                                    "baxptystreetnumber",
+                                                    "baxptyreasonforaccountopening",
+                                                    "addressline1",
+                                                    "primarycontact",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "phonenumber",
+                                                    "jdecustomernamemailingname",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "phonenumbertype",
+                                                    "nickname",
+                                                    "lastname",
+                                                    "jdecustomeralphaname",
+                                                    "city",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "baxptystreetnumber",
+                                                    "baxptystreetname",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageTaxUpdateMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Tax Exempt Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "taxexemptcertificatenum",
+                                                    "jdetaxexemptcertificatename",
+                                                    "jdetaxexemptcertificateexpirydate",
+                                                    "baxptyjdetaxcertificateeffectivedate",
+                                                    "baxptyreasonforaccountopening",
+                                                    "primarycontact",
+                                                    "phonenumber",
+                                                    "nickname",
+                                                    "phonenumbertype",
+                                                    "lastname",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "jdetaxexemptcertificatename",
+                                                    "taxexemptcertificatenum",
+                                                    "jdetaxexemptcertificateexpirydate",
+                                                    "baxptyjdetaxcertificateeffectivedate",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageReactivationMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Reactivate",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdecustomeralphaname",
+                                                    "jdecustomernamemailingname",
+                                                    "baxptystreetnumber",
+                                                    "baxptystreetname",
+                                                    "city",
+                                                    "stateprovince",
+                                                    "postalcode",
+                                                    "country",
+                                                    "jdeorderinstruction",
+                                                    "jdecustomersearchtype",
+                                                    "jdeinventorysourcing",
+                                                    "jdecompliancetypecode",
+                                                    "jdecustomerinactiveflag",
+                                                    "jdeholdorderscode",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyurgentindicator",
+                                                    "jdeacountstatus",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageBillTypeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Bill Type or Parent Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "billingaddresstype",
+                                                    "baxptyreasonforaccountopening",
+                                                    "primarycontact",
+                                                    "phonenumber",
+                                                    "nickname",
+                                                    "phonenumbertype",
+                                                    "lastname",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "billingaddresstype",
+                                                    "jde1staddressnumber",
+                                                    "jdeparentnumber",
+                                                    "jde4thaddressnumber",
+                                                    "baxptyjdedatelastcreditreview",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageCustomerTypeChangeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Customer Type Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeorderinstruction",
+                                                    "jdecustomertype",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageBGChangeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "BG Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeorderinstruction",
+                                                    "jdecustomeralphaname",
+                                                    "jdecustomersearchtype",
+                                                    "jdecustomernamemailingname",
+                                                    "addressline1",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "baxptycountryac03",
+                                                    "city",
+                                                    "jdecustomertype",
+                                                    "billingaddresstype",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

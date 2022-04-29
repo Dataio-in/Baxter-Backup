@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_party_cmcuscmt_brianna_lindstrom@baxter.com_uiConfig",
+            "name": "rock-search-filter_party_cmcuscmt_brianna_lindstrom@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "brianna_lindstrom@baxter.com",
+                "createdBy": "brianna_lindstrom@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "brianna_lindstrom@baxter.com_user",
+                "modifiedDate": "2022-01-19T15:24:39.049-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "party",
+                            "role": "cmcuscmt",
+                            "user": "brianna_lindstrom@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "addressnumber": {
+                                        "visible": true,
+                                        "displaySequence": 2,
+                                        "name": "addressnumber",
+                                        "isUserFilter": true
+                                    },
+                                    "businessunitfordatasecurityinjde": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "businessunitfordatasecurityinjde",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

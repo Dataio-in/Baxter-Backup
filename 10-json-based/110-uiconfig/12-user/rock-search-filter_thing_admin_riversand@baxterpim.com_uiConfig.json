@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_admin_riversand@baxterpim.com_uiConfig",
+            "name": "rock-search-filter_thing_admin_riversand@baxterpim.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "riversand@baxterpim.com",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "modifiedDate": "2022-03-14T18:21:51.407-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "admin",
+                            "user": "riversand@baxterpim.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "itmstat": {
+                                        "visible": false,
+                                        "displaySequence": 1,
+                                        "name": "itmstat",
+                                        "isUserFilter": true
+                                    },
+                                    "prodgrpid": {
+                                        "visible": true,
+                                        "displaySequence": 2,
+                                        "name": "prodgrpid",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-search-result_dnborganization_uiConfig",
+            "name": "bax_rock-entity-search-result_dnborganization_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.822-0600",
+                "modifiedDate": "2021-11-19T12:06:21.822-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "domain": "party",
+                            "entityType": "dnborganization"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "country": {
+                                                "visible": false
+                                            },
+                                            "dunsnumber": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 10,
+                                                "name": "dunsnumber",
+                                                "header": "Duns Number",
+                                                "sortable": true
+                                            },
+                                            "firstname": {
+                                                "visible": false
+                                            },
+                                            "legalcompanyname": {
+                                                "visible": false
+                                            },
+                                            "baxptyregdname": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 30,
+                                                "name": "baxptyregdname",
+                                                "header": "Registered Name",
+                                                "sortable": true
+                                            },
+                                            "createddate": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 50,
+                                                "name": "createddate",
+                                                "header": "Created Date",
+                                                "sortable": true
+                                            },
+                                            "city": {
+                                                "visible": false
+                                            },
+                                            "billingaddresstype": {
+                                                "visible": false
+                                            },
+                                            "baxptyidentificationnumber": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "baxptyidentificationnumber",
+                                                "header": "Identification Number",
+                                                "sortable": true
+                                            },
+                                            "lastname": {
+                                                "visible": false
+                                            },
+                                            "postalcode": {
+                                                "visible": false
+                                            },
+                                            "baxptyemailaddr": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 40,
+                                                "name": "baxptyemailaddr",
+                                                "header": "Email Address",
+                                                "sortable": true
+                                            },
+                                            "addressline1": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": true
+                                            },
+                                            "jdecustomernamemailingname": {
+                                                "visible": false
+                                            },
+                                            "addressnumber": {
+                                                "visible": false
+                                            },
+                                            "primaryemail": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

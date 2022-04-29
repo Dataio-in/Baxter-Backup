@@ -1,0 +1,271 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result_hasimages_SKU_uiConfig",
+            "name": "rock-entity-relationship-search-result_hasimages_SKU",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.68.1.1016",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-23T01:07:37.061-0500",
+                "modifiedDate": "2021-04-23T01:07:37.061-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result",
+                            "relationship": "hasimages"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "addRelLovConfig": {
+                                    "visible": false
+                                },
+                                "copyActionConfig": {
+                                    "visible": false
+                                },
+                                "governDataConfig": {
+                                    "visible": false
+                                },
+                                "upDirectionConfig": {
+                                    "visible": true,
+                                    "viewConfig": {
+                                        "tile": {
+                                            "settings": {
+                                                "titlePattern": "{entity.attributes.property_originalfilename}",
+                                                "subTitlePattern": "{entity.attributes.order} | {entity.typeExternalName} | {entity.id} | {entity.name} | {entity.attributes.mdmid} | {entity.attributes.mdmname} | {entity.attributes.featurespecs} | {entity.attributes.color} | {entity.attributes.size}"
+                                            },
+                                            "visible": false
+                                        },
+                                        "list": {
+                                            "visible": true
+                                        }
+                                    },
+                                    "gridConfig": {
+                                        "addNewRelationConfig": {
+                                            "visible": false
+                                        },
+                                        "viewMode": "Tabular",
+                                        "title": "SKUs",
+                                        "fields": {
+                                            "shrtitmnr": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "shrtitmnr",
+                                                "isFromEntityAttribute": true,
+                                                "header": "# Short Item Number",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true
+                                            },
+                                            "requestobject": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "requestobject",
+                                                "isFromEntityAttribute": true,
+                                                "header": "Request Object",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "isprimary": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "isprimary",
+                                                "isFromEntityAttribute": true,
+                                                "header": "Is Primary",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true
+                                            }
+                                        }
+                                    }
+                                },
+                                "gridConfig": {
+                                    "advanceSelectionEnabled": false,
+                                    "dataRequest": {
+                                        "typesCriterion": [
+                                            "image"
+                                        ]
+                                    },
+                                    "itemConfig": {
+                                        "image": "thumbnail",
+                                        "subtitle": "filetype",
+                                        "thumbnailId": "thumbnailid",
+                                        "sort": {
+                                            "default": [
+                                                {
+                                                    "field": "createddate",
+                                                    "sortType": "desc"
+                                                }
+                                            ]
+                                        },
+                                        "title": "property_originalfilename",
+                                        "fields": {
+                                            "thumbnail": {
+                                                "displayType": "image",
+                                                "visible": true,
+                                                "displaySequence": 5,
+                                                "name": "thumbnailid",
+                                                "header": "",
+                                                "imageSrc": "entityThumbnail",
+                                                "readOnly": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "imagesize": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "displaySequence": 8,
+                                                "name": "imagesize",
+                                                "header": "Image size",
+                                                "editType": "",
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "property_originalfilename": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 6,
+                                                "name": "property_originalfilename",
+                                                "header": "File Name",
+                                                "editType": "",
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "isprimary": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 8,
+                                                "name": "isprimary",
+                                                "header": "Is Primary",
+                                                "editType": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": false
+                                            }
+                                        }
+                                    },
+                                    "schemaType": "colModel",
+                                    "viewConfig": {
+                                        "tile": {
+                                            "settings": {
+                                                "titlePattern": "{entity.attributes.property_originalfilename}",
+                                                "subTitlePattern": "{entity.attributes.shottype}",
+                                                "actions": {
+                                                    "downloadOriginalAsset": {
+                                                        "visible": true,
+                                                        "name": "downloadOriginalAsset",
+                                                        "icon": "pebble-icon:Download",
+                                                        "tooltip": "Download Original Asset",
+                                                        "eventName": "download-original-asset",
+                                                        "text": ""
+                                                    },
+                                                    "deleteAssetRelationship": {
+                                                        "visible": true,
+                                                        "name": "deleteAssetRelationship",
+                                                        "icon": "pebble-icon:Delete",
+                                                        "tooltip": "Delete Asset Relationship",
+                                                        "eventName": "delete-item",
+                                                        "text": ""
+                                                    },
+                                                    "delete": {
+                                                        "visible": true
+                                                    }
+                                                }
+                                            },
+                                            "visible": true,
+                                            "fieldChanges": {}
+                                        },
+                                        "tabular": {
+                                            "settings": {
+                                                "actions": {
+                                                    "downloadOriginalAsset": {
+                                                        "name": "downloadOriginalAsset",
+                                                        "icon": "pebble-icon:Download",
+                                                        "eventName": "download-original-asset"
+                                                    },
+                                                    "deleteAssetRelationship": {
+                                                        "name": "delete",
+                                                        "icon": "pebble-icon:Delete",
+                                                        "eventName": "delete-item"
+                                                    },
+                                                    "delete": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "visible": true,
+                                            "fieldChanges": {}
+                                        },
+                                        "list": {
+                                            "settings": {
+                                                "actions": {
+                                                    "downloadOriginalAsset": {
+                                                        "visible": true,
+                                                        "name": "downloadOriginalAsset",
+                                                        "icon": "pebble-icon:Download",
+                                                        "tooltip": "Download Original Asset",
+                                                        "eventName": "download-original-asset",
+                                                        "text": ""
+                                                    },
+                                                    "deleteAssetRelationship": {
+                                                        "visible": true,
+                                                        "name": "deleteAssetRelationship",
+                                                        "icon": "pebble-icon:Delete",
+                                                        "tooltip": "Delete Asset Relationship",
+                                                        "eventName": "delete-item",
+                                                        "text": ""
+                                                    },
+                                                    "delete": {
+                                                        "visible": true
+                                                    }
+                                                }
+                                            },
+                                            "visible": true,
+                                            "fieldChanges": {}
+                                        }
+                                    },
+                                    "viewMode": "Tile",
+                                    "title": "Images"
+                                },
+                                "addRelationConfig": {
+                                    "mode": "businessFunction",
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

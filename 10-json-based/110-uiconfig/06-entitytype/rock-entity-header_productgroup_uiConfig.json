@@ -1,0 +1,103 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_productgroup_uiConfig",
+            "name": "rock-entity-header_productgroup",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:24.834-0600",
+                "modifiedDate": "2020-12-10T07:15:24.834-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "productgroup"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "bu": {
+                                        "visible": true,
+                                        "displaySequence": 45,
+                                        "attributeName": "bu",
+                                        "noTrim": true,
+                                        "label": "Business Unit"
+                                    },
+                                    "workflowstatus": {
+                                        "visible": true,
+                                        "displaySequence": 60,
+                                        "attributeName": "workflowstatus",
+                                        "noTrim": true,
+                                        "label": "Global Workflow Status"
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "prodgrpname": {
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "attributeName": "prodgrpname",
+                                        "noTrim": true,
+                                        "label": "Product Group Description"
+                                    },
+                                    "prodgrpid": {
+                                        "visible": true,
+                                        "displaySequence": 15,
+                                        "attributeName": "prodgrpid",
+                                        "noTrim": true,
+                                        "label": "Product Group ID "
+                                    },
+                                    "makbuy": {
+                                        "visible": true,
+                                        "displaySequence": 90,
+                                        "attributeName": "makbuy",
+                                        "noTrim": true,
+                                        "label": "Make or Buy"
+                                    },
+                                    "drugmdothflg": {
+                                        "visible": true,
+                                        "displaySequence": 120,
+                                        "attributeName": "drugmdothflg",
+                                        "noTrim": true,
+                                        "label": "Product categorization"
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "x2": {
+                                        "visible": true,
+                                        "displaySequence": 105,
+                                        "attributeName": "x2",
+                                        "noTrim": true,
+                                        "label": "X2 Level Hierarchy"
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    }
+                                },
+                                "thumbnailConfig": {
+                                    "relationshipName": "hasimagesmaster",
+                                    "relationshipFilterAttributeName": "isprimary",
+                                    "relationshipFilterAttributeValue": true,
+                                    "thumbnailIdentifier": "thumbnailid"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

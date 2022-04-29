@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_skutp_gplan_uiConfig",
+            "name": "rock-entity-search-result_skutp_gplan",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.294-0600",
+                "modifiedDate": "2021-11-19T02:22:50.294-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "skutp",
+                            "role": "gplan"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "opg2": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 195,
+                                                "name": "opg2",
+                                                "header": "Production line (OPG2)",
+                                                "sortable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

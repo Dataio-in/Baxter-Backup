@@ -1,0 +1,38 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-report-views_visualization__DEFAULT_mdmadmin_luis_valencia@baxter.com_uiConfig",
+            "name": "rock-report-views_visualization__DEFAULT_mdmadmin_luis_valencia@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "luis_valencia@baxter.com",
+                "createdBy": "luis_valencia@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "luis_valencia@baxter.com_user",
+                "modifiedDate": "2021-09-14T08:22:30.906-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-report-views",
+                            "domain": "visualization",
+                            "role": "mdmadmin",
+                            "user": "luis_valencia@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "views": {}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

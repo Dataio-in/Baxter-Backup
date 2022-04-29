@@ -1,0 +1,115 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_compoundingcode_uiConfig",
+            "name": "rock-entity-search-result_compoundingcode",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:43.251-0600",
+                "modifiedDate": "2020-12-10T07:15:43.251-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "compoundingcode"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "itmdesc2": {
+                                                "displaySequence": 45
+                                            },
+                                            "itmstat": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 75,
+                                                "name": "itmstat",
+                                                "header": "Product Status",
+                                                "sortable": true
+                                            },
+                                            "itmdesc1": {
+                                                "displaySequence": 30
+                                            },
+                                            "longitmnr": {
+                                                "displaySequence": 15
+                                            },
+                                            "targetmkt": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 105,
+                                                "name": "targetmkt",
+                                                "header": "Target Market",
+                                                "sortable": true
+                                            },
+                                            "makbuy": {
+                                                "visible": false
+                                            },
+                                            "uomprimmaster": {
+                                                "visible": false
+                                            },
+                                            "itmtyp": {
+                                                "visible": false
+                                            },
+                                            "itstktyp": {
+                                                "visible": false
+                                            },
+                                            "createdon": {
+                                                "displaySequence": 135
+                                            },
+                                            "bu": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 60,
+                                                "name": "bu",
+                                                "header": "Business Unit",
+                                                "sortable": true
+                                            },
+                                            "stktyp": {
+                                                "visible": false
+                                            },
+                                            "ctryorig": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 120,
+                                                "name": "ctryorig",
+                                                "header": "Country of Origin",
+                                                "sortable": true
+                                            },
+                                            "prodgrpname": {
+                                                "visible": false
+                                            },
+                                            "x2": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 90,
+                                                "name": "x2",
+                                                "header": "X2",
+                                                "sortable": true
+                                            },
+                                            "pimhierarchy": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

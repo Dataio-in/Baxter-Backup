@@ -1,0 +1,316 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-myviews_party_account_bulkadmin_tina_huelsman@baxter.com_uiConfig",
+            "name": "rock-myviews_party_account_bulkadmin_tina_huelsman@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "tina_huelsman@baxter.com",
+                "createdBy": "tina_huelsman@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "tina_huelsman@baxter.com_user",
+                "modifiedDate": "2022-03-31T09:07:51.616-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-myviews",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "bulkadmin",
+                            "user": "tina_huelsman@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "menuItems": {
+                                        "Parsed Address": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "baxptystreetnumber",
+                                                            "baxptyleadingstreetdirection",
+                                                            "baxptystreetname",
+                                                            "baxptytrailingstreetdirection",
+                                                            "baxptystreettype",
+                                                            "baxptysuitenumber",
+                                                            "pobox",
+                                                            "baxptyattn",
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomernamemailingname",
+                                                            "baxptyoriginalcity",
+                                                            "baxptyoriginalstateprovince",
+                                                            "baxptyoriginalpostalcode",
+                                                            "jdeeffectivedatedateaccountcreatedinjde",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "baxptyco",
+                                                            "dba",
+                                                            "erpaccountclassification"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Parsed Address",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Parsed Address",
+                                            "enabled": true
+                                        },
+                                        "Defaults": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomernamemailingname",
+                                                            "legalcompanyname",
+                                                            "dunsnumber",
+                                                            "industryclassification",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "jde1staddressnumber",
+                                                            "jdeparentnumber"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Defaults",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Defaults",
+                                            "enabled": true
+                                        },
+                                        "TS Check": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "addressnumber",
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomernamemailingname",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "jdecustomertype",
+                                                            "jderegional28"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "TS Check",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "TS Check",
+                                            "enabled": true
+                                        },
+                                        "C & D Attributes": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "allow-save-on-error": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "addressnumber",
+                                                            "jdecustomeralphaname",
+                                                            "taxid",
+                                                            "jdecustomersearchtype",
+                                                            "jdeparentnumber",
+                                                            "jde1staddressnumber",
+                                                            "jde4thaddressnumber",
+                                                            "jdecustomernamemailingname",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "city",
+                                                            "stateprovince",
+                                                            "postalcode",
+                                                            "country",
+                                                            "county",
+                                                            "jdeeffectivedatedateaccountcreatedinjde",
+                                                            "jdecustomertype",
+                                                            "jderegional06printmessgaeoncontracts",
+                                                            "jdeinventorysourcing",
+                                                            "jdecustomercompliancetype",
+                                                            "industryclassification",
+                                                            "jdeminorderchargecustflag",
+                                                            "jdecatcode25",
+                                                            "regionaltaxexemptjdecatcode27",
+                                                            "jderegional28",
+                                                            "jdecmrptcode35flag340beligible",
+                                                            "jdecreditlimit",
+                                                            "jdecreditmanager",
+                                                            "jdecreditchecklevelcode",
+                                                            "jdesendinvoicetocp",
+                                                            "jdesendstatementto",
+                                                            "jdecollectionmanager",
+                                                            "jdepolicynamecompanyforfeepayment",
+                                                            "jdecreditmessage",
+                                                            "jdecmrptcode38flagcreditcoll",
+                                                            "jdecmrptcode32flagcreditcoll",
+                                                            "billingaddresstype",
+                                                            "jdedelinquencynotices",
+                                                            "jdedelinquencyfeescollectionindicator",
+                                                            "jdecreditholdexempt",
+                                                            "jdepaymentterms",
+                                                            "jdedate-lastcreditreview",
+                                                            "jdeholdorderscode",
+                                                            "getpaidstrategy",
+                                                            "jdeitemrestrictions",
+                                                            "jdeardirector",
+                                                            "jdecustomerinactiveflag",
+                                                            "jdepriorityprocessing",
+                                                            "edisentreceivedbothindicator",
+                                                            "taxexemptcertificatenum",
+                                                            "jdetaxratearea",
+                                                            "jdetaxexemptcertificatename",
+                                                            "jdetaxexemptcertificateexpirydate",
+                                                            "jdedeliveryinstructline1",
+                                                            "jdedeliveryinstructline2",
+                                                            "jderoutecode",
+                                                            "jdeshipviaregular"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "C & D Attributes",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "C & D Attributes",
+                                            "enabled": false
+                                        },
+                                        "Davita": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomersearchtype",
+                                                            "jdeparentnumber",
+                                                            "jde1staddressnumber",
+                                                            "jde4thaddressnumber",
+                                                            "addressnumber",
+                                                            "taxid",
+                                                            "jdecustomernamemailingname",
+                                                            "addressline1",
+                                                            "addressline2",
+                                                            "jdeeffectivedatedateaccountcreatedinjde",
+                                                            "city",
+                                                            "stateprovince",
+                                                            "country",
+                                                            "postalcode",
+                                                            "county",
+                                                            "jdecustomertype",
+                                                            "jderegional06printmessgaeoncontracts",
+                                                            "sendacknowledgementflag",
+                                                            "jdeinventorysourcing",
+                                                            "jdeproofofdelivery",
+                                                            "jdecustomercompliancetype",
+                                                            "jdeminorderchargecustflag",
+                                                            "jdecatcode25",
+                                                            "regionaltaxexemptjdecatcode27",
+                                                            "jderegional28",
+                                                            "jdecmrptcode35flag340beligible",
+                                                            "jdecreditlimit",
+                                                            "jdecreditmanager",
+                                                            "jdecreditchecklevelcode",
+                                                            "jdesendinvoicetocp",
+                                                            "jdesendstatementto",
+                                                            "jdecollectionmanager",
+                                                            "jdepolicynamecompanyforfeepayment",
+                                                            "jdecreditmessage",
+                                                            "jdecmrptcode32flagcreditcoll",
+                                                            "jdecmrptcode38flagcreditcoll",
+                                                            "billingaddresstype",
+                                                            "jdedelinquencynotices",
+                                                            "jdedelinquencyfeescollectionindicator",
+                                                            "jdecreditholdexempt",
+                                                            "jdegloffset",
+                                                            "jdepaymentterms",
+                                                            "jdedate-lastcreditreview",
+                                                            "jdeprintstatement",
+                                                            "jdeholdorderscode",
+                                                            "getpaidstrategy",
+                                                            "currencycode",
+                                                            "jdeitemrestrictions",
+                                                            "taxexemptcertificatenum",
+                                                            "jdeardirector",
+                                                            "jdetaxexplanationcode",
+                                                            "jderelated-addressnumber",
+                                                            "jdecustomerporequiredflag",
+                                                            "jdecustomerinactiveflag",
+                                                            "jdesubstitutesproductallowedflag",
+                                                            "batchprocessingmode",
+                                                            "jdesendmethod",
+                                                            "amountdecimalsforedi",
+                                                            "jdeautosubstitutesreplishmentflag",
+                                                            "jdepriorityprocessing",
+                                                            "jdereceivablesflag",
+                                                            "jdetaxratearea",
+                                                            "jdeorderinstruction",
+                                                            "jdelicensingitemrestriction",
+                                                            "jdecompliancetypecode",
+                                                            "jdelicensenumber",
+                                                            "jdelicensename",
+                                                            "jdelicenseeffectivedate",
+                                                            "jdelicenseexpireddate",
+                                                            "businessunitfordatasecurityinjde"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Davita",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Davita",
+                                            "enabled": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

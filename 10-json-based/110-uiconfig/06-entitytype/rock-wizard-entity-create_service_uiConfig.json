@@ -1,0 +1,63 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-wizard-entity-create_service_uiConfig",
+            "name": "rock-wizard-entity-create_service",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.66.2.1025",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-03-05T12:22:12.294-0600",
+                "modifiedDate": "2021-03-05T12:22:12.294-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-wizard-entity-create",
+                            "entityType": "service"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "steps": {
+                                    "step-1-2-rock-attribute-manage": {
+                                        "component": {
+                                            "path": "/../../rock-attribute-manage/rock-attribute-manage.js",
+                                            "name": "rock-attribute-manage",
+                                            "properties": {
+                                                "mode": "edit",
+                                                "hide-history": true,
+                                                "config-context": {
+                                                    "attributeNames": [
+                                                        "longitmnr"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "visible": false,
+                                        "displaySequence": 11,
+                                        "skipEvent": "onSkip",
+                                        "name": "step-1-2-rock-attribute-manage",
+                                        "nextEvent": "onSave",
+                                        "stepperTitle": "Check Or Fill Other Attributes"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

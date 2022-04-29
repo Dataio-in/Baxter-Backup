@@ -1,0 +1,135 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-navmenu_cmccaar_uiConfig",
+            "name": "bax_rock-navmenu_cmccaar_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.153-0600",
+                "modifiedDate": "2021-11-19T12:06:22.153-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "cmccaar"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "visualizations": {
+                                    "visible": false
+                                },
+                                "search-referencedata": {
+                                    "visible": false
+                                },
+                                "configurations": {
+                                    "visible": false
+                                },
+                                "createAccount": {
+                                    "dataRoute": "",
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createAccount": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "icon": "pebble-icon:baxterpim-Hospital",
+                                                    "text": "Account",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "account"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 40,
+                                    "name": "createAccount",
+                                    "icon": "pebble-icon:baxterpim-Hospital",
+                                    "title": "Create Account"
+                                },
+                                "search-digitalasset": {
+                                    "visible": false
+                                },
+                                "home": {
+                                    "displaySequence": 10
+                                },
+                                "system-dashboard": {
+                                    "visible": false
+                                },
+                                "search": {
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "search": {
+                                            "visible": true,
+                                            "actions": {
+                                                "search-party": {
+                                                    "visible": true
+                                                },
+                                                "search-thing": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 30
+                                },
+                                "open-apps": {
+                                    "displaySequence": 20
+                                },
+                                "quick-actions": {
+                                    "visible": false
+                                },
+                                "createContact": {
+                                    "dataRoute": "",
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createContact": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "icon": "pebble-icon:User",
+                                                    "text": "Contact",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "contact"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "displaySequence": 50,
+                                    "name": "createContact",
+                                    "icon": "pebble-icon:User",
+                                    "title": "Create Contact"
+                                },
+                                "dashboard": {
+                                    "visible": true
+                                },
+                                "system-administration": {
+                                    "visible": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

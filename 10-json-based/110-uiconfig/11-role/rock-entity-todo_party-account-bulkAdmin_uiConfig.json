@@ -1,0 +1,430 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_party-account-bulkAdmin_uiConfig",
+            "name": "rock-entity-todo_party-account-bulkAdmin_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.370-0600",
+                "modifiedDate": "2021-11-19T12:06:22.370-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "bulkAdmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false
+                                    },
+                                    "manageInactivationMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Inactivate",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeacountstatus",
+                                                    "baxptyreasonforaccountopening",
+                                                    "jdeorderinstruction",
+                                                    "jdecustomersearchtype",
+                                                    "jdeinventorysourcing",
+                                                    "jdecompliancetypecode",
+                                                    "jdecustomerinactiveflag",
+                                                    "jdeholdorderscode",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageCAChangeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "CA Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdecustomeralphaname",
+                                                    "jdecustomersearchtype",
+                                                    "jdecustomernamemailingname",
+                                                    "addressline1",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "city",
+                                                    "jdegloffset",
+                                                    "costcenterpreference",
+                                                    "professiontype",
+                                                    "phonenumber",
+                                                    "phonenumbertype",
+                                                    "jdeorderinstruction",
+                                                    "jdecustomersearchtype",
+                                                    "businessunitfordatasecurityinjde",
+                                                    "jdeinventorysourcing",
+                                                    "jdecustomercompliancetype",
+                                                    "jderegional28",
+                                                    "jdepaymentterms",
+                                                    "jdetaxexplanationcode",
+                                                    "jdetaxratearea",
+                                                    "billingaddresstype",
+                                                    "baxptyjderelatedaddressnumber",
+                                                    "jdesendmethod",
+                                                    "costcenterpreference",
+                                                    "baxptycostcenterexpirydate",
+                                                    "baxptycostcentereffectivedate",
+                                                    "currencycode",
+                                                    "sendacknowledgementflag",
+                                                    "jdeproofofdelivery",
+                                                    "jdecustomerporequiredflag",
+                                                    "batchprocessingmode",
+                                                    "amountdecimalsforedi",
+                                                    "baxptycountryac03",
+                                                    "jdecustomercompliancetype",
+                                                    "jdecostcenter",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageTStoCMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "TS to C Change (US Only)",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdecustomersearchtype",
+                                                    "baxptyreasonforaccountopening",
+                                                    "jdeorderinstruction",
+                                                    "jdecompliancetypecode",
+                                                    "jdelicensenumber",
+                                                    "jdelicenseexpireddate",
+                                                    "jdelicensename",
+                                                    "jdeitemgroup",
+                                                    "jdelicensingitemrestriction",
+                                                    "jdesendstatementto",
+                                                    "jdeardirector",
+                                                    "jdedelinquencyfeescollectionindicator",
+                                                    "jdecreditmanager",
+                                                    "jdedelinquencynotices",
+                                                    "jdecmrptcode35flag340beligible",
+                                                    "jdesendinvoicetocp",
+                                                    "jdecreditlimit",
+                                                    "jdepolicynamecompanyforfeepayment",
+                                                    "getpaidstrategy",
+                                                    "jderegional28",
+                                                    "jdecollectionmanager",
+                                                    "jdeinventorysourcing",
+                                                    "jdeproofofdelivery",
+                                                    "jdeitemrestrictions",
+                                                    "jdecreditchecklevelcode",
+                                                    "jdecmrptcode38flagcreditcoll",
+                                                    "jdeminorderchargecustflag",
+                                                    "sendacknowledgementflag",
+                                                    "jdeholdorderscode",
+                                                    "jdeinclusionexclusiontable",
+                                                    "jdedeliveryinstructline1",
+                                                    "phonenumber",
+                                                    "nickname",
+                                                    "phonenumbertype",
+                                                    "lastname",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "billingaddresstype",
+                                                    "jdeparentnumber",
+                                                    "addressline1",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "jdecustomernamemailingname",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "jdecustomeralphaname",
+                                                    "city",
+                                                    "jdecustomertype",
+                                                    "jdetaxratearea",
+                                                    "jde4thaddressnumber",
+                                                    "baxptycountryac03",
+                                                    "jderegional06printmessgaeoncontracts",
+                                                    "jdecatcode25",
+                                                    "regionaltaxexemptjdecatcode27",
+                                                    "jdecompliancetypecode",
+                                                    "jdelicenseeffectivedate",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyjdedatelastcreditreview",
+                                                    "jdecmrptcode32flagcreditcoll",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageAddressChangeMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Name-Address Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "country",
+                                                    "stateprovince",
+                                                    "city",
+                                                    "postalcode",
+                                                    "baxptystreetname",
+                                                    "baxptystreetnumber",
+                                                    "baxptyreasonforaccountopening",
+                                                    "addressline1",
+                                                    "primarycontact",
+                                                    "addressline2",
+                                                    "phonenumber",
+                                                    "jdecustomernamemailingname",
+                                                    "nickname",
+                                                    "phonenumbertype",
+                                                    "lastname",
+                                                    "jdecustomeralphaname",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "jdeorderinstruction",
+                                                    "jdeinventorysourcing",
+                                                    "jdelicenseeffectivedate",
+                                                    "jdelicenseexpireddate",
+                                                    "jdecompliancetypecode",
+                                                    "jdelicensename",
+                                                    "jdelicensenumber",
+                                                    "jdeitemgroup",
+                                                    "jdelicensingitemrestriction",
+                                                    "baxptystreetnumber",
+                                                    "baxptystreetname",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageTaxUpdateMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Tax Exempt Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "taxexemptcertificatenum",
+                                                    "jdetaxexemptcertificatename",
+                                                    "jdetaxexemptcertificateexpirydate",
+                                                    "baxptyjdetaxcertificateeffectivedate",
+                                                    "baxptyreasonforaccountopening",
+                                                    "primarycontact",
+                                                    "phonenumber",
+                                                    "nickname",
+                                                    "phonenumbertype",
+                                                    "lastname",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "jdetaxexemptcertificatename",
+                                                    "taxexemptcertificatenum",
+                                                    "jdetaxexemptcertificateexpirydate",
+                                                    "baxptyjdetaxcertificateeffectivedate",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyreasonforaccountopening",
+                                                    "regionaltaxexemptjdecatcode27",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageReactivationMaintenanceWorkflowattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Reactivate",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdecustomeralphaname",
+                                                    "jdecustomernamemailingname",
+                                                    "baxptystreetnumber",
+                                                    "baxptystreetname",
+                                                    "city",
+                                                    "stateprovince",
+                                                    "postalcode",
+                                                    "country",
+                                                    "jdeorderinstruction",
+                                                    "jdecustomersearchtype",
+                                                    "jdeinventorysourcing",
+                                                    "jdecompliancetypecode",
+                                                    "jdecustomerinactiveflag",
+                                                    "jdeholdorderscode",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyurgentindicator",
+                                                    "jdeacountstatus",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageBillTypeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Bill Type or Parent Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "billingaddresstype",
+                                                    "baxptyreasonforaccountopening",
+                                                    "primarycontact",
+                                                    "phonenumber",
+                                                    "nickname",
+                                                    "phonenumbertype",
+                                                    "lastname",
+                                                    "professiontype",
+                                                    "taxid",
+                                                    "firstname",
+                                                    "jde1staddressnumber",
+                                                    "jdeparentnumber",
+                                                    "jde4thaddressnumber",
+                                                    "baxptyjdedatelastcreditreview",
+                                                    "baxptyurgentindicator",
+                                                    "baxptyreasonforaccountopening",
+                                                    "jdeorderinstruction",
+                                                    "jdecompliancetypecode",
+                                                    "jdelicenseeffectivedate",
+                                                    "jdelicenseexpireddate",
+                                                    "jdelicensename",
+                                                    "jdelicensenumber",
+                                                    "jdeitemgroup",
+                                                    "jdelicensingitemrestriction",
+                                                    "jdesendstatementto",
+                                                    "jdeardirector",
+                                                    "jdedelinquencyfeescollectionindicator",
+                                                    "jdecreditmanager",
+                                                    "jdedelinquencynotices",
+                                                    "jdecmrptcode35flag340beligible",
+                                                    "jdesendinvoicetocp",
+                                                    "jdecreditlimit",
+                                                    "jdepolicynamecompanyforfeepayment",
+                                                    "getpaidstrategy",
+                                                    "jderegional28",
+                                                    "jdecollectionmanager",
+                                                    "jdecustomercompliancetype",
+                                                    "regionaltaxexemptjdecatcode27",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageCustomerTypeChangeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Customer Type Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeorderinstruction",
+                                                    "jdecustomertype",
+                                                    "baxptyreasonforaccountopening",
+                                                    "baxptyurgentindicator",
+                                                    "jderegional28",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    },
+                                    "manageBGChangeMaintenanceattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "BG Change",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "jdeorderinstruction",
+                                                    "jdecustomeralphaname",
+                                                    "jdecustomersearchtype",
+                                                    "jdecustomernamemailingname",
+                                                    "addressline1",
+                                                    "postalcode",
+                                                    "addressline2",
+                                                    "stateprovince",
+                                                    "country",
+                                                    "city",
+                                                    "billingaddresstype",
+                                                    "jdeinventorysourcing",
+                                                    "jdecustomercompliancetype",
+                                                    "jderegional28",
+                                                    "jdepaymentterms",
+                                                    "currencycode",
+                                                    "baxptyjderelatedaddressnumber",
+                                                    "jdecustomerporequiredflag",
+                                                    "batchprocessingmode",
+                                                    "amountdecimalsforedi",
+                                                    "baxptycountryac03",
+                                                    "jdecustomercompliancetype",
+                                                    "jdeardirector",
+                                                    "sendacknowledgementflag",
+                                                    "jdeproofofdelivery",
+                                                    "jdecustomertype",
+                                                    "baxptyrequestoremail",
+                                                    "baxptyrequestorname"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:action-add-fill"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-actions_thing_mdmadmin_uiConfig",
+            "name": "rock-entity-search-result-actions_thing_mdmadmin",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:43.239-0600",
+                "modifiedDate": "2020-12-10T07:15:43.239-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result-actions",
+                            "domain": "thing",
+                            "role": "mdmadmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "toolbarConfig": {
+                                    "buttonItems": {
+                                        "basic": {
+                                            "buttons": {
+                                                "upload": {
+                                                    "visible": true
+                                                },
+                                                "bulkedit": {
+                                                    "visible": true
+                                                },
+                                                "quickmanage": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

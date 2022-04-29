@@ -1,0 +1,65 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-create_case_uiConfig",
+            "name": "rock-entity-create_case",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:24.555-0600",
+                "modifiedDate": "2020-12-10T07:15:24.555-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-create",
+                            "entityType": "case"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "attributeNames": [
+                                        "pakfactor",
+                                        "lengthimperial",
+                                        "widthimperial",
+                                        "heightimperial",
+                                        "uomdimensionimperial",
+                                        "volumeimperial",
+                                        "weightimperial",
+                                        "lengthmetric",
+                                        "widthmetric",
+                                        "heightmetric",
+                                        "uomdimensionmetric",
+                                        "volumemetric",
+                                        "weightmetric",
+                                        "grossweightimperial",
+                                        "grossweightmetric",
+                                        "netweightmetric",
+                                        "netweightimperial",
+                                        "uomweightimperial",
+                                        "uomweightmetric",
+                                        "uomvolumeimperial",
+                                        "uomvolumemetric"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

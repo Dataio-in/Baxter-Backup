@@ -1,0 +1,47 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-report-views_visualization__DEFAULT_partyadmin_monica_lozano@baxter.com_uiConfig",
+            "name": "rock-report-views_visualization__DEFAULT_partyadmin_monica_lozano@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "monica_lozano@baxter.com",
+                "createdBy": "monica_lozano@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "monica_lozano@baxter.com_user",
+                "modifiedDate": "2022-01-20T12:35:52.399-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-report-views",
+                            "domain": "visualization",
+                            "role": "partyadmin",
+                            "user": "monica_lozano@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "views": {
+                                    "cffa7950-b903-11e9-827e-f9b1ee160b05_Mónica": {
+                                        "reportId": "cffa7950-b903-11e9-827e-f9b1ee160b05",
+                                        "filterData": "[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"internal\":\"account\",\"key\":\"externalEntityTypeName.keyword\",\"negate\":false,\"params\":{\"query\":\"Account\"},\"rsAlias\":\"Entity Type\",\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"externalEntityTypeName.keyword\":\"Account\"}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"key\":\"activityStartDate\",\"negate\":false,\"params\":{\"query\":\"2022-01-20\"},\"rsAlias\":\"Activity Start Date\",\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"activityStartDate\":\"2022-01-20\"}}}]",
+                                        "isDefaultView": false,
+                                        "name": "Mónica",
+                                        "icon": "pebble-icon:my-view",
+                                        "title": "Mónica"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

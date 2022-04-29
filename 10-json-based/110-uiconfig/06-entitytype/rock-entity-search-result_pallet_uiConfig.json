@@ -1,0 +1,116 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_pallet_uiConfig",
+            "name": "rock-entity-search-result_pallet",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.66.2.1025",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-03-05T09:55:30.805-0600",
+                "modifiedDate": "2021-03-05T09:55:30.805-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "pallet"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "itmdesc2": {
+                                                "visible": false
+                                            },
+                                            "itmdesc1": {
+                                                "visible": false
+                                            },
+                                            "longitmnr": {
+                                                "displaySequence": 15
+                                            },
+                                            "makbuy": {
+                                                "visible": false
+                                            },
+                                            "stacklimit": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 135,
+                                                "name": "stacklimit",
+                                                "header": "Stacking Limit",
+                                                "sortable": true
+                                            },
+                                            "numberoflayers": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 120,
+                                                "name": "numberoflayers",
+                                                "header": "Number of Layers",
+                                                "sortable": true
+                                            },
+                                            "uomprimmaster": {
+                                                "visible": false
+                                            },
+                                            "itmtyp": {
+                                                "visible": false
+                                            },
+                                            "itstktyp": {
+                                                "visible": false
+                                            },
+                                            "createdon": {
+                                                "visible": false
+                                            },
+                                            "pkggtin": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 60,
+                                                "name": "pkggtin",
+                                                "header": "GTIN (Packaging)",
+                                                "sortable": true
+                                            },
+                                            "stktyp": {
+                                                "visible": false
+                                            },
+                                            "prodgrpname": {
+                                                "visible": false
+                                            },
+                                            "pakfactor": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 90,
+                                                "name": "pakfactor",
+                                                "header": "Pack Factor",
+                                                "sortable": true
+                                            },
+                                            "pallettype": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 105,
+                                                "name": "pallettype",
+                                                "header": "Pallet Type",
+                                                "sortable": true
+                                            },
+                                            "pimhierarchy": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

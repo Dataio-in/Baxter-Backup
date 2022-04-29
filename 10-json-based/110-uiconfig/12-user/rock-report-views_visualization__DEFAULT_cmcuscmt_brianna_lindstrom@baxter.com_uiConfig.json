@@ -1,0 +1,47 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-report-views_visualization__DEFAULT_cmcuscmt_brianna_lindstrom@baxter.com_uiConfig",
+            "name": "rock-report-views_visualization__DEFAULT_cmcuscmt_brianna_lindstrom@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "brianna_lindstrom@baxter.com",
+                "createdBy": "brianna_lindstrom@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "brianna_lindstrom@baxter.com_user",
+                "modifiedDate": "2021-12-28T10:36:19.639-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-report-views",
+                            "domain": "visualization",
+                            "role": "cmcuscmt",
+                            "user": "brianna_lindstrom@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "views": {
+                                    "cffa7950-b903-11e9-827e-f9b1ee160b05_Open Workflows": {
+                                        "reportId": "cffa7950-b903-11e9-827e-f9b1ee160b05",
+                                        "filterData": "[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"key\":\"assignedUser\",\"negate\":true,\"params\":[\"_unassigned\",\"system\",\"pompana_goud@baxter.com\",\"jayakrishnan_e_k@baxter.com\",\"sowmya_c@baxter.com\",\"jean_luc_poupon@baxter.com\",\"julio_jobe@baxter.com\",\"mario_gurrola@baxter.com\",\"rajani_navada@baxter.com\",\"marsela_rivera@baxter.com\"],\"rsAlias\":\"Assigned User\",\"type\":\"phrases\",\"value\":\"_unassigned, system, pompana_goud@baxter.com, jayakrishnan_e_k@baxter.com, sowmya_c@baxter.com, jean_luc_poupon@baxter.com, julio_jobe@baxter.com, mario_gurrola@baxter.com, rajani_navada@baxter.com, marsela_rivera@baxter.com\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"assignedUser\":\"_unassigned\"}},{\"match_phrase\":{\"assignedUser\":\"system\"}},{\"match_phrase\":{\"assignedUser\":\"pompana_goud@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"jayakrishnan_e_k@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"sowmya_c@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"jean_luc_poupon@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"julio_jobe@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"mario_gurrola@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"rajani_navada@baxter.com\"}},{\"match_phrase\":{\"assignedUser\":\"marsela_rivera@baxter.com\"}}]}}},{\"$state\":{\"store\":\"appState\"},\"exists\":{\"field\":\"workflowStatus.keyword\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"key\":\"workflowStatus.keyword\",\"negate\":false,\"rsAlias\":\"Workflow Status\",\"type\":\"exists\",\"value\":\"exists\"}},{\"$state\":{\"store\":\"appState\"},\"exists\":{\"field\":\"workflowEndDate\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"key\":\"workflowEndDate\",\"negate\":true,\"rsAlias\":\"Workflow End Date\",\"type\":\"exists\",\"value\":\"exists\"}}]",
+                                        "isDefaultView": false,
+                                        "name": "Open Workflows",
+                                        "icon": "pebble-icon:my-view",
+                                        "title": "Open Workflows"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

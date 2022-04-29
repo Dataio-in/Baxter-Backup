@@ -1,0 +1,92 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-detail-tabs_customer_uiConfig",
+            "name": "bax_rock-entity-detail-tabs_customer_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.766-0600",
+                "modifiedDate": "2021-11-19T12:06:21.766-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-detail-tabs",
+                            "entityType": "customer"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "tabItems": {
+                                    "relationships": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "relationshipNames": [
+                                                        "_ALL"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "assets": {
+                                        "visible": false
+                                    },
+                                    "attributes": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "attributeNames": [
+                                                        "updatedby",
+                                                        "legalcompanyname",
+                                                        "baxptystreettype",
+                                                        "baxptysuitenumber",
+                                                        "dunsnumber",
+                                                        "dba",
+                                                        "baxptystreetname",
+                                                        "baxptyattn",
+                                                        "baxptyroom",
+                                                        "baxmdmid",
+                                                        "baxptyco",
+                                                        "baxptysystemimportkey",
+                                                        "createddate",
+                                                        "baxptyfloor",
+                                                        "baxptylandmark",
+                                                        "baxptystreetnumber",
+                                                        "baxptydistrict",
+                                                        "updateddate",
+                                                        "createdby",
+                                                        "pobox",
+                                                        "city",
+                                                        "country",
+                                                        "stateprovince",
+                                                        "postalcode",
+                                                        "baxptyassociatedxtypeaccount",
+                                                        "associatedjdeaccounts"
+                                                    ]
+                                                },
+                                                "need-attributes-grouping": true
+                                            }
+                                        }
+                                    },
+                                    "graph": {
+                                        "visible": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

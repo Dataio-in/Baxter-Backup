@@ -1,0 +1,186 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_partyadmin_sudipta_mondal@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_partyadmin_sudipta_mondal@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "sudipta_mondal@baxter.com",
+                "createdBy": "sudipta_mondal@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "sudipta_mondal@baxter.com_user",
+                "modifiedDate": "2021-12-15T11:15:46.468-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "party",
+                            "role": "partyadmin",
+                            "user": "sudipta_mondal@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Test": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "mobile": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "mobile",
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "phonenumber": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "phonenumber",
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxmdmid",
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "primaryemail": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "primaryemail",
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Test",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.mobile}",
+                                                    "subTitlePattern": "{entity.attributes.mobile} | {entity.attributes.baxmdmid} | {entity.attributes.phonenumber} | {entity.attributes.primaryemail}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Test",
+                                        "value": "Test",
+                                        "enabled": true
+                                    },
+                                    "SM": {
+                                        "isUserAction": true,
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "marketingconsentchangedate": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "marketingconsentchangedate",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "name": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "name",
+                                                    "width": 20,
+                                                    "header": "Name",
+                                                    "sortable": true
+                                                },
+                                                "modifiedDate": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "modifiedDate",
+                                                    "width": 20,
+                                                    "header": "Modified Date",
+                                                    "sortable": true
+                                                },
+                                                "modifiedBy": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "modifiedBy",
+                                                    "width": 20,
+                                                    "header": "Modified By",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxmdmid",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "workstatus": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "workstatus",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "status": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "status",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "SM",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.baxmdmid}",
+                                                    "subTitlePattern": "{entity.attributes.baxmdmid} | {entity.attributes.workstatus} | {entity.attributes.status} | {entity.attributes.marketingconsentchangedate}"
+                                                }
+                                            }
+                                        },
+                                        "title": "SM",
+                                        "value": "SM",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

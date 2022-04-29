@@ -1,0 +1,146 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "contact_matchConfig",
+            "name": "contact",
+            "type": "matchConfig",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "modifiedDate": "2022-04-29T09:55:39.512-0500"
+            },
+            "data": {
+                "jsonData": {
+                    "matchRules": [
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "lastname": {
+                                                    "exact": "{{lastname}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "firstname": {
+                                                    "exact": "{{firstname}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "phonenumber": {
+                                                    "exact": "{{phonenumber}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "contact"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 4
+                        },
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "baxmdmid": {
+                                                    "exact": "{{baxmdmid}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "contact"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 1
+                        },
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "primaryemail": {
+                                                    "exact": "{{primaryemail}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "contact"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 2
+                        },
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "mobile": {
+                                                    "exact": "{{mobile}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "contact"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 3
+                        }
+                    ],
+                    "type": "config"
+                }
+            }
+        }
+    ]
+}

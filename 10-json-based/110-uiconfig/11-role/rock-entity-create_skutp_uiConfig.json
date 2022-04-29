@@ -1,0 +1,48 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-create_skutp_uiConfig",
+            "name": "rock-entity-create_skutp",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-11-18T22:33:59.956-0600",
+                "modifiedDate": "2021-11-18T22:33:59.956-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-create",
+                            "entityType": "skutp",
+                            "role": "tpskuinitiator"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "attributeNames": [
+                                        "itmdesc1",
+                                        "itemcodeautogenerate",
+                                        "itemcodebusiness",
+                                        "makbuy",
+                                        "pimhierarchy",
+                                        "drugmdothflg",
+                                        "x2"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

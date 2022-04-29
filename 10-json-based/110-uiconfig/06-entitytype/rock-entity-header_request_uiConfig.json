@@ -1,0 +1,75 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_request_uiConfig",
+            "name": "rock-entity-header_request",
+            "type": "uiConfig",
+            "properties": {
+                "createdByrequest": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:24.850-0600",
+                "modifiedDate": "2020-12-10T07:15:24.850-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "request"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "requesttype": {
+                                        "visible": true,
+                                        "attributeName": "requesttype",
+                                        "noTrim": false,
+                                        "label": "Request Action"
+                                    },
+                                    "requestobject": {
+                                        "visible": true,
+                                        "attributeName": "requestobject",
+                                        "noTrim": true,
+                                        "label": "Request Object"
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    },
+                                    "requestcomments": {
+                                        "visible": true,
+                                        "attributeName": "requestcomments",
+                                        "noTrim": true,
+                                        "label": "Request Comments"
+                                    }
+                                },
+                                "thumbnailConfig": {
+                                    "relationshipName": "hasimagesmaster",
+                                    "relationshipFilterAttributeName": "isprimary",
+                                    "relationshipFilterAttributeValue": false,
+                                    "thumbnailIdentifier": "thumbnailid"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

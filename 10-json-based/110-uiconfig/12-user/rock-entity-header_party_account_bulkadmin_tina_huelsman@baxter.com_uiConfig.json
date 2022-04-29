@@ -1,0 +1,106 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_party_account_bulkadmin_tina_huelsman@baxter.com_uiConfig",
+            "name": "rock-entity-header_party_account_bulkadmin_tina_huelsman@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "tina_huelsman@baxter.com",
+                "createdBy": "tina_huelsman@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "tina_huelsman@baxter.com_user",
+                "modifiedDate": "2021-12-28T09:42:56.175-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "bulkadmin",
+                            "user": "tina_huelsman@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "jderegional28": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jderegional28",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "legalcompanyname": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "legalcompanyname",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomertype": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jdecustomertype",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "city": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "city",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomeralphaname": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jdecustomeralphaname",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomersearchtype": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jdecustomersearchtype",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "billingaddresstype": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "billingaddresstype",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "stateprovince": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "stateprovince",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomernamemailingname": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "jdecustomernamemailingname",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "addressnumber": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "addressnumber",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "baxptyaddress": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "baxptyaddress",
+                                        "label": "{model.externalName}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

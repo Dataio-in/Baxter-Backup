@@ -1,0 +1,56 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "healthcheck_matchConfig",
+            "name": "healthcheck",
+            "type": "matchConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "system_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "createdDate": "2022-03-19T08:01:11.301-0500",
+                "modifiedDate": "2022-03-19T08:01:11.301-0500"
+            },
+            "data": {
+                "jsonData": {
+                    "matchRules": [
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "externalName": {
+                                                    "eq": "{{externalName}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "healthcheck"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 1
+                        }
+                    ],
+                    "type": "config"
+                }
+            }
+        }
+    ]
+}

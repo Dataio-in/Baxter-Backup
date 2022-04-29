@@ -1,0 +1,205 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-business-actions-party_partyadmin_uiConfig",
+            "name": "bax_rock-business-actions-party_partyadmin_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.094-0600",
+                "modifiedDate": "2021-11-19T12:06:22.094-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-business-actions",
+                            "domain": "party",
+                            "role": "partyadmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "actionGroups": {
+                                    "connectors": {
+                                        "visible": false,
+                                        "title": "Connectors",
+                                        "actions": {
+                                            "re-publish-baxterbaxsolid": {
+                                                "visible": false,
+                                                "name": "re-publish-baxterbaxsolid",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "JSON Export Baxsolid",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish-baxterbaxsolid"
+                                            },
+                                            "excel-import-migration": {
+                                                "visible": false,
+                                                "name": "upload-excel",
+                                                "icon": "pebble-icon:upload-excel",
+                                                "eventName": "action-upload",
+                                                "text": "Import excel in migration-mode",
+                                                "componentName": "rock-wizard-entity-upload"
+                                            },
+                                            "re-publish": {
+                                                "visible": "flase",
+                                                "name": "re-publish",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "Publish JSON",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish"
+                                            },
+                                            "re-publish-baxterjde": {
+                                                "visible": false,
+                                                "name": "re-publish-baxterjde",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "JSON Export JDE",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish-baxterjde"
+                                            },
+                                            "re-publish-azure": {
+                                                "visible": false,
+                                                "name": "re-publish-azure",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "Publish to EventHub",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish-azure"
+                                            }
+                                        }
+                                    },
+                                    "assignments": {
+                                        "visible": true,
+                                        "isWorkflowActions": true,
+                                        "title": "{[BAAssTit]}",
+                                        "actions": {
+                                            "reassignTask": {
+                                                "visible": true,
+                                                "name": "reassignTask",
+                                                "icon": "pebble-icon:reassign-task-filled",
+                                                "eventName": "action-reassignTask",
+                                                "text": "{[RsgTskTxt]}",
+                                                "componentName": "rock-wizard-workflow-assignment"
+                                            },
+                                            "releaseTask": {
+                                                "visible": true,
+                                                "name": "releaseTask",
+                                                "icon": "pebble-icon:release-task-filled",
+                                                "eventName": "action-releaseTask",
+                                                "text": "{[RlsTskTxt]}",
+                                                "componentName": "rock-wizard-workflow-assignment"
+                                            },
+                                            "takeTask": {
+                                                "visible": true,
+                                                "name": "takeTask",
+                                                "icon": "pebble-icon:take-task-filled",
+                                                "eventName": "action-takeTask",
+                                                "text": "{[TakTskTxt]}",
+                                                "componentName": "rock-wizard-workflow-assignment"
+                                            }
+                                        }
+                                    },
+                                    "downloads": {
+                                        "visible": true,
+                                        "title": "{[BADwnTit]}",
+                                        "actions": {
+                                            "download-in-excel": {
+                                                "visible": true,
+                                                "cop-context": {
+                                                    "subtype": "User",
+                                                    "service": "ENTITY_EXPORT",
+                                                    "channel": "UI",
+                                                    "format": "Excel",
+                                                    "source": "internal",
+                                                    "order": 10
+                                                },
+                                                "name": "download in Excel",
+                                                "icon": "pebble-icon:download-excel",
+                                                "eventName": "action-download",
+                                                "text": "{[BADELbl]}",
+                                                "componentName": "rock-wizard-entity-download"
+                                            },
+                                            "download-in-csv": {
+                                                "visible": false,
+                                                "cop-context": {
+                                                    "subtype": "User",
+                                                    "service": "ENTITY_EXPORT",
+                                                    "channel": "UI",
+                                                    "format": "DSV",
+                                                    "source": "internal",
+                                                    "order": 10
+                                                },
+                                                "name": "download in CSV",
+                                                "icon": "pebble-icon:file-type-text",
+                                                "eventName": "action-download",
+                                                "text": "{[BADCLbl]}",
+                                                "componentName": "rock-wizard-entity-download"
+                                            }
+                                        }
+                                    },
+                                    "context": {
+                                        "visible": false,
+                                        "title": "Context Manage",
+                                        "actions": {
+                                            "add-context": {
+                                                "visible": true,
+                                                "text": "Add To Region/Legal Entities",
+                                                "properties": {
+                                                    "allowedEntityTypes": []
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "basic": {
+                                        "visible": true,
+                                        "actions": {
+                                            "snapshots": {
+                                                "visible": false
+                                            },
+                                            "compare": {
+                                                "visible": true
+                                            },
+                                            "copy": {
+                                                "visible": true
+                                            },
+                                            "paste": {
+                                                "visible": true
+                                            },
+                                            "roll-up": {
+                                                "visible": false
+                                            }
+                                        }
+                                    },
+                                    "uploads": {
+                                        "visible": false,
+                                        "title": "{[BAUplTit]}",
+                                        "actions": {
+                                            "upload-from-excel": {
+                                                "visible": false,
+                                                "name": "Import from Excel",
+                                                "icon": "pebble-icon:upload-excel",
+                                                "eventName": "action-upload",
+                                                "text": "{[BAUELbl]}",
+                                                "componentName": "rock-wizard-cloud-upload"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

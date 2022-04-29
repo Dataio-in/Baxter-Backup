@@ -1,0 +1,76 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "account_associatedaccount_account_addrel_graphProcessModel",
+            "name": "account_associatedaccount_account_addrel",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "account_associatedaccount_account",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "relationshipName": "associatedaccount",
+                        "attributeMaps": [
+                            {
+                                "jdeparentnumber": "addressnumber"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddTargetRelationship",
+                                        "setRelAttrValues": [
+                                            {
+                                                "accounttyperelationattr": "Parent-Child"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddTargetRelationship",
+                                        "setRelAttrValues": [
+                                            {
+                                                "accounttyperelationattr": "Parent-Child"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.750-0600",
+                "modifiedDate": "2021-11-19T12:06:22.750-0600"
+            }
+        }
+    ]
+}

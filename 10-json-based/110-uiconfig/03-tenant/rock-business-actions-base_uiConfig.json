@@ -1,0 +1,70 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-business-actions-base_uiConfig",
+            "name": "rock-business-actions",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "buildVersion": "1.66.2.1025",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-03-05T08:06:18.627-0600",
+                "modifiedDate": "2021-03-05T08:06:18.627-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-business-actions",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "actionGroups": {
+                                    "basic": {
+                                        "visible": true,
+                                        "title": "{[BABasTit]}",
+                                        "actions": {
+                                            "clone": {
+                                                "visible": false,
+                                                "name": "clone",
+                                                "icon": "pebble-icon:action-clone",
+                                                "eventName": "action-clone",
+                                                "text": "{[ClnTxt]}",
+                                                "componentName": "rock-wizard-entity-clone",
+                                                "intent": "write"
+                                            },
+                                            "roll-up": {
+                                                "visible": false,
+                                                "name": "roll-up",
+                                                "icon": "pebble-icon:dots-group",
+                                                "eventName": "action-rollup",
+                                                "text": "{[BARULbl]}",
+                                                "componentName": "rock-wizard-roll-up",
+                                                "intent": "write",
+                                                "properties": {
+                                                    "context": {
+                                                        "entityType": ""
+                                                    }
+                                                },
+                                                "subComponentName": "roll-up"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

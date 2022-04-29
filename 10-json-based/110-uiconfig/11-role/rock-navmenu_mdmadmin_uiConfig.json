@@ -1,0 +1,107 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_mdmadmin_uiConfig",
+            "name": "rock-navmenu_mdmadmin",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.68.1.1016",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-23T01:00:41.579-0500",
+                "modifiedDate": "2021-04-23T01:00:41.579-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "mdmadmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "system-dashboard": {
+                                    "visible": true
+                                },
+                                "visualizations": {
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "actions": {
+                                                "visualization-designer": {
+                                                    "visible": true
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-referencedata": {
+                                    "visible": true
+                                },
+                                "configurations": {
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "dataModels": {
+                                            "visible": false
+                                        },
+                                        "governance": {
+                                            "visible": false
+                                        }
+                                    }
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "visible": true,
+                                            "actions": {
+                                                "uploadAssets": {
+                                                    "visible": true,
+                                                    "text": "Upload Assets"
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createService": {
+                                                    "visible": true
+                                                },
+                                                "createRawMaterial": {
+                                                    "visible": true
+                                                },
+                                                "createCompoundingCode": {
+                                                    "visible": true
+                                                },
+                                                "createSparePart": {
+                                                    "visible": true
+                                                },
+                                                "createProductGroup": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-digitalasset": {
+                                    "visible": true
+                                },
+                                "dashboard": {
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

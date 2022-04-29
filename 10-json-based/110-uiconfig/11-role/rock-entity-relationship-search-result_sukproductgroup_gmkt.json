@@ -1,0 +1,205 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result_sukproductgroup_gmkt",
+            "name": "rock-entity-relationship-search-result_sukproductgroup_gmkt",
+            "type": "uiConfig",
+            "properties": {
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.74.2.1021",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-14T01:17:42.224-0500",
+                "modifiedDate": "2022-04-14T01:17:42.224-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result",
+                            "relationship": "rchildof",
+                            "role": "gmkt"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "addNewRelationConfig": {
+                                    "visible": false
+                                },
+                                "addRelLovConfig": {
+                                    "idField": "id",
+                                    "titlePattern": "{entity.attributes.mdmid}",
+                                    "visible": false
+                                },
+                                "copyActionConfig": {
+                                    "visible": false
+                                },
+                                "governDataConfig": {
+                                    "visible": false
+                                },
+                                "upDirectionConfig": {
+                                    "visible": true,
+                                    "gridConfig": {
+                                        "viewMode": "Tabular",
+                                        "fields": {
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "prodgrpname": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "prodgrpname",
+                                                "isFromEntityAttribute": true,
+                                                "header": "Product Group Description",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true
+                                            },
+                                            "prodgrpid": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "prodgrpid",
+                                                "isFromEntityAttribute": true,
+                                                "header": "Product Group ID",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            }
+                                        },
+                                        "addRelationConfig": {
+                                            "mode": "businessFunction",
+                                            "visible": false
+                                        }
+                                    },
+                                    "businessActions": {
+                                        "basic": {
+                                            "visible": true,
+                                            "actions": {
+                                                "create-and-add": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "viewConfig": {
+                                            "tile": {
+                                                "visible": false
+                                            },
+                                            "list": {
+                                                "visible": false
+                                            }
+                                        },
+                                        "fields": {
+                                            "itmdesc1": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 30,
+                                                "name": "itmdesc1",
+                                                "isFromEntityAttribute": true,
+                                                "header": "Master Description 1",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": false,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "longitmnr": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "longitmnr",
+                                                "isFromEntityAttribute": true,
+                                                "header": "Item Code",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": false,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "upcnr": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 10,
+                                                "name": "upcnr",
+                                                "isFromEntityAttribute": true,
+                                                "header": "GTIN Number",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": false,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            }
+                                        }
+                                    },
+                                    "schemaType": "colModel",
+                                    "viewMode": "Tabular"
+                                },
+                                "businessActions": {
+                                    "basic": {
+                                        "visible": true,
+                                        "actions": {
+                                            "add": {
+                                                "visible": false,
+                                                "name": "add",
+                                                "icon": "pebble-icon:link",
+                                                "eventName": "relationship-action-add",
+                                                "text": "{[AddTxt]}",
+                                                "intent": "write"
+                                            },
+                                            "copy-ids": {
+                                                "visible": false,
+                                                "delimeter": "\n",
+                                                "name": "copy-ids",
+                                                "icon": "pebble-icon:action-copy",
+                                                "eventName": "relationship-action-copy",
+                                                "text": "{[CopIdBtn]}",
+                                                "attributeField": "id",
+                                                "intent": "read"
+                                            },
+                                            "create-and-add": {
+                                                "visible": true,
+                                                "name": "create-add",
+                                                "icon": "pebble-icon:create-add",
+                                                "eventName": "relationship-action-create",
+                                                "text": "{[AddNewBtn]}",
+                                                "intent": "write"
+                                            }
+                                        }
+                                    }
+                                },
+                                "addRelationConfig": {
+                                    "mode": "businessFunction",
+                                    "visible": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

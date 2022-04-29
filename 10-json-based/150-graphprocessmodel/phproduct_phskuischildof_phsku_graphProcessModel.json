@@ -1,0 +1,80 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "phproduct_phskuischildof_phsku_graphProcessModel",
+            "name": "phproduct_phskuischildof_phsku",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "phproduct_phskuischildof_phsku",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "whereUsedRelationshipBased",
+                        "relationshipName": "phskuischildof",
+                        "matchRulesOperator": "or",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "baxterpim.admin@riversand.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "baxterpim.admin@riversand.com_user",
+                "createdDate": "2020-10-09T06:54:37.333-0500",
+                "modifiedDate": "2020-10-09T06:54:37.333-0500"
+            },
+            "data": {
+                "attributes": {
+                    "shortdescription": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "maxtoppings": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    },
+                    "maxfreetoppings": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_tpskuinitiator_barbara_oconnor@baxter.com_uiConfig",
+            "name": "rock-search-filter_thing_tpskuinitiator_barbara_oconnor@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "barbara_oconnor@baxter.com",
+                "createdBy": "barbara_oconnor@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "barbara_oconnor@baxter.com_user",
+                "modifiedDate": "2022-02-07T15:20:55.305-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "tpskuinitiator",
+                            "user": "barbara_oconnor@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "prodgrpname": {
+                                        "visible": true,
+                                        "displaySequence": 2,
+                                        "name": "prodgrpname",
+                                        "isUserFilter": true
+                                    },
+                                    "longitmnr": {
+                                        "visible": true,
+                                        "displaySequence": 3,
+                                        "name": "longitmnr",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

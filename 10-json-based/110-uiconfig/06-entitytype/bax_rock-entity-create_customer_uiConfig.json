@@ -1,0 +1,60 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-create_customer_uiConfig",
+            "name": "bax_rock-entity-create_customer_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.759-0600",
+                "modifiedDate": "2021-11-19T12:06:21.759-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-create",
+                            "entityType": "customer"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "attributeNames": [
+                                        "legalcompanyname",
+                                        "jdecustomersearchtype",
+                                        "taxid",
+                                        "primaryemail",
+                                        "phonenumber",
+                                        "faxnum",
+                                        "addressline1",
+                                        "addressline2",
+                                        "addressline3",
+                                        "addressline4",
+                                        "city",
+                                        "stateprovince",
+                                        "county",
+                                        "postalcode",
+                                        "country",
+                                        "dunsnumber",
+                                        "intentionalduplicate",
+                                        "billingaddresstype",
+                                        "anticipatedyearlypurchases",
+                                        "baxptydistributorornoninstitutional"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result-actions_hasimages_xudiprojectmanager",
+            "name": "rock-entity-relationship-search-result-actions_hasimages_xudiprojectmanager",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-23T01:27:01.759-0500",
+                "modifiedDate": "2021-04-23T01:27:01.759-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result-actions",
+                            "relationship": "hasimages",
+                            "role": "xudiprojectmanager"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "upDirectionConfig": {
+                                    "toolbarConfig": {
+                                        "buttonItems": {
+                                            "basic": {
+                                                "buttons": {
+                                                    "edit": {
+                                                        "visible": true
+                                                    },
+                                                    "quickmanage": {
+                                                        "visible": true
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "toolbarConfig": {
+                                    "buttonItems": {
+                                        "basic": {
+                                            "buttons": {
+                                                "edit": {
+                                                    "visible": true
+                                                },
+                                                "quickmanage": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

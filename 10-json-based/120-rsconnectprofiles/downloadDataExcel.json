@@ -1,0 +1,140 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "downloadDataExcel",
+            "name": "downloadDataExcel",
+            "type": "integrationprofile",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-20T08:41:37.804-0500",
+                "modifiedDate": "2022-04-20T08:41:37.804-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "UI",
+                            "format": "Excel",
+                            "order": "10",
+                            "role": "admin",
+                            "service": "ENTITY_EXPORT",
+                            "source": "internal",
+                            "subtype": "User",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "transform": {
+                                "settings": {
+                                    "allowNullValues": "false",
+                                    "clearMissingAttributes": "false",
+                                    "strategies": [
+                                        {
+                                            "caseFormat": "NONE",
+                                            "trimTrailingNumbers": "false",
+                                            "isDefault": "false",
+                                            "removeSpecialCharacters": "false",
+                                            "removeWhitespace": "false",
+                                            "useExternalName": "true",
+                                            "trimLeadingNumbers": "false"
+                                        }
+                                    ],
+                                    "entityType": "@field(type)",
+                                    "enableDynamicMapping": "true",
+                                    "source": "rms"
+                                }
+                            },
+                            "integrationType": "User",
+                            "profileType": "extended",
+                            "isEnabled": "true",
+                            "publish": {
+                                "filter": {},
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "sourceFolder": "",
+                                            "pattern": ""
+                                        },
+                                        "type": "folderConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "additionalSettings": {
+                                            "inheritedValueAsToolTip": true
+                                        },
+                                        "encoding": "utf8"
+                                    },
+                                    "type": "SMARTEXCEL",
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "true"
+                            },
+                            "extendedBaseProfileName": "sys_export_data_excel_ui_sync_base",
+                            "collect": {
+                                "filter": {
+                                    "include": {
+                                        "typesCriterion": {}
+                                    },
+                                    "exclude": {
+                                        "typesCriterion": {
+                                            "queryFilters": {},
+                                            "_ALL": {
+                                                "queryFields": {
+                                                    "relationships": [
+                                                        "belongsto",
+                                                        "belongstotaxonomy",
+                                                        "belongstoroot",
+                                                        "allowedlocales"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "includeMatchingAttributes": true,
+                                            "includeParent": false,
+                                            "includeEnhancerAttributes": true,
+                                            "includeRelatedEntities": false,
+                                            "includeRelatedEntitiesRecursive": false,
+                                            "version": "1.1",
+                                            "includeRelatedEntityExternalIds": true
+                                        },
+                                        "type": "rdpConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "supportsCollection": "true",
+                                        "additionalSettings": {
+                                            "batchSizeLimit": 60000,
+                                            "supportEmptyContextsRequest": true,
+                                            "loadDynamicContext": true,
+                                            "encoding": "utf8",
+                                            "isGetCoalesce": false
+                                        }
+                                    },
+                                    "type": "RSJSON",
+                                    "batchSize": 1,
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "false"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

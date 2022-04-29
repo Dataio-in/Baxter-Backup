@@ -1,0 +1,128 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "exportJSONJob",
+            "name": "exportJSONJob",
+            "type": "integrationprofile",
+            "properties": {
+                "lastMigrationTimestamp": "2022-02-13T10:16:11.610+0000",
+                "migrationVersion": 1,
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-18T07:41:19.299-0500",
+                "modifiedDate": "2022-04-18T07:41:19.299-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "JOB",
+                            "format": "JSON",
+                            "order": "10",
+                            "role": "admin",
+                            "service": "ENTITY_EXPORT",
+                            "source": "internal",
+                            "subtype": "System",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "transform": {
+                                "settings": {
+                                    "allowNullValues": "false",
+                                    "clearMissingAttributes": "false",
+                                    "strategies": [
+                                        {
+                                            "caseFormat": "NONE",
+                                            "trimTrailingNumbers": "false",
+                                            "isDefault": "false",
+                                            "removeSpecialCharacters": "false",
+                                            "removeWhitespace": "false",
+                                            "useExternalName": "true",
+                                            "trimLeadingNumbers": "false"
+                                        }
+                                    ],
+                                    "entityType": "@field(type)",
+                                    "enableDynamicMapping": "true",
+                                    "manageSelfDataInContext": "false",
+                                    "source": "internal",
+                                    "nullRecordTransformer": "true"
+                                }
+                            },
+                            "integrationType": "User",
+                            "profileType": "extended",
+                            "isEnabled": "true",
+                            "publish": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "mode": "ASYNC"
+                                        },
+                                        "type": "presentationConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {},
+                                    "type": "RSJSON",
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "true"
+                            },
+                            "extendedBaseProfileName": "sys_export_analytics_data_json_ui_task_base",
+                            "collect": {
+                                "filter": {
+                                    "include": {
+                                        "typesCriterion": {
+                                            "exclude": {},
+                                            "_ALL": {
+                                                "queryFields": {
+                                                    "relationships": [
+                                                        "_ALL"
+                                                    ],
+                                                    "attributes": [
+                                                        "_ALL"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "exclude": {}
+                                },
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "includeParent": "false",
+                                            "includeChildren": "false",
+                                            "includeSiblings": "false",
+                                            "includeRelatedEntityExternalIds": "false"
+                                        },
+                                        "type": "rdpConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "encoding": "utf8"
+                                    },
+                                    "type": "RSJSON",
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "true"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

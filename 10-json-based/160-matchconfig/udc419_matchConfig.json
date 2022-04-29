@@ -1,0 +1,56 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "udc419_matchConfig",
+            "name": "udc419",
+            "type": "matchConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-12-16T02:53:17.637-0600",
+                "modifiedDate": "2021-12-16T02:53:17.637-0600"
+            },
+            "data": {
+                "jsonData": {
+                    "matchRules": [
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "refcode": {
+                                                    "exact": "{{refcode}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "udc419"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 1
+                        }
+                    ],
+                    "type": "config"
+                }
+            }
+        }
+    ]
+}

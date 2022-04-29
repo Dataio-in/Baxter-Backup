@@ -1,0 +1,57 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-business-actions_thing_admin_uiConfig",
+            "name": "rock-business-actions_thing_admin",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:42.571-0600",
+                "modifiedDate": "2020-12-10T07:15:42.571-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-business-actions",
+                            "domain": "thing",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "actionGroups": {
+                                    "assignments": {
+                                        "actions": {
+                                            "reassignTask": {
+                                                "visible": true
+                                            }
+                                        }
+                                    },
+                                    "reviews": {
+                                        "visible": true,
+                                        "actions": {
+                                            "matchandmerge": {
+                                                "visible": true
+                                            }
+                                        }
+                                    },
+                                    "context": {
+                                        "visible": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

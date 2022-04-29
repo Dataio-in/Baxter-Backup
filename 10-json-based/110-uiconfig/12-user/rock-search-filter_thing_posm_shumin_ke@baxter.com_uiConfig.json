@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_posm_shumin_ke@baxter.com_uiConfig",
+            "name": "rock-search-filter_thing_posm_shumin_ke@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "shumin_ke@baxter.com",
+                "createdBy": "shumin_ke@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "shumin_ke@baxter.com_user",
+                "modifiedDate": "2021-10-21T13:45:31.451-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "posm",
+                            "user": "shumin_ke@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "rsInternalGenericCreatedBy": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "rsInternalGenericCreatedBy",
+                                        "isUserFilter": true
+                                    },
+                                    "workflowstatus": {
+                                        "visible": true,
+                                        "displaySequence": 2,
+                                        "name": "workflowstatus",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

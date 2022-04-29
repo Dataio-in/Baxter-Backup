@@ -1,0 +1,106 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "sku_reachofsku_each_rolldown_graphProcessModel",
+            "name": "sku_reachofsku_each_rolldown",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "sku_reachofsku_each",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "itemreferencesequence": "itemreferencesequence"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "itemreferencesequence",
+                                "concatDelimiter": "_"
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:14:40.777-0600",
+                "modifiedDate": "2020-12-10T07:14:40.777-0600"
+            },
+            "data": {
+                "attributes": {
+                    "itemreferencesequence": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "companyprefix": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "natdrugcd": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "longitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "shrtitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

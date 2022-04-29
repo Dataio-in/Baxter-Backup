@@ -1,0 +1,103 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result-actions_admin",
+            "name": "rock-entity-relationship-search-result-actions_admin",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.74.2.1021",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-14T01:19:15.546-0500",
+                "modifiedDate": "2022-04-14T01:19:15.546-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result-actions",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "upDirectionConfig": {
+                                    "toolbarConfig": {
+                                        "buttonItems": {
+                                            "basic": {
+                                                "buttons": {
+                                                    "download": {
+                                                        "visible": true
+                                                    },
+                                                    "edit": {
+                                                        "visible": false
+                                                    },
+                                                    "upload": {
+                                                        "visible": true
+                                                    },
+                                                    "bulkedit": {
+                                                        "visible": true
+                                                    },
+                                                    "quickmanage": {
+                                                        "visible": true
+                                                    },
+                                                    "divider-3": {
+                                                        "visible": false
+                                                    },
+                                                    "delete": {
+                                                        "visible": true
+                                                    },
+                                                    "bulkrelationshipedit": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "toolbarConfig": {
+                                    "buttonItems": {
+                                        "basic": {
+                                            "buttons": {
+                                                "download": {
+                                                    "visible": true
+                                                },
+                                                "edit": {
+                                                    "visible": false
+                                                },
+                                                "upload": {
+                                                    "visible": true
+                                                },
+                                                "bulkedit": {
+                                                    "visible": true
+                                                },
+                                                "quickmanage": {
+                                                    "visible": true
+                                                },
+                                                "divider-3": {
+                                                    "visible": true
+                                                },
+                                                "delete": {
+                                                    "visible": true
+                                                },
+                                                "bulkrelationshipedit": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

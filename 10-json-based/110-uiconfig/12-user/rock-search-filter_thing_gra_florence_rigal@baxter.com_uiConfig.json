@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_gra_florence_rigal@baxter.com_uiConfig",
+            "name": "rock-search-filter_thing_gra_florence_rigal@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "florence_rigal@baxter.com",
+                "createdBy": "florence_rigal@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "florence_rigal@baxter.com_user",
+                "modifiedDate": "2020-11-02T04:06:58.838-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "gra",
+                            "user": "florence_rigal@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "bu": {
+                                        "visible": true,
+                                        "displaySequence": 2,
+                                        "name": "bu",
+                                        "isUserFilter": true
+                                    },
+                                    "x7lvl": {
+                                        "visible": false,
+                                        "displaySequence": 1,
+                                        "name": "x7lvl",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

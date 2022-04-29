@@ -1,0 +1,103 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-header_contact_uiConfig",
+            "name": "bax_rock-entity-header_contact_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.724-0600",
+                "modifiedDate": "2021-11-19T12:06:21.724-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "contact"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "firstname": {
+                                        "visible": true,
+                                        "displaySequence": 10,
+                                        "attributeName": "firstname",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "jobtitle": {
+                                        "visible": true,
+                                        "displaySequence": 50,
+                                        "attributeName": "jobtitle",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "specialityprimary": {
+                                        "visible": true,
+                                        "displaySequence": 70,
+                                        "attributeName": "specialityprimary",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "phonenumber": {
+                                        "visible": true,
+                                        "displaySequence": 40,
+                                        "attributeName": "phonenumber",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "mobile": {
+                                        "visible": true,
+                                        "displaySequence": 45,
+                                        "attributeName": "mobile",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    },
+                                    "department": {
+                                        "visible": true,
+                                        "displaySequence": 60,
+                                        "attributeName": "department",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "primaryemail": {
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "attributeName": "primaryemail",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "lastname": {
+                                        "visible": true,
+                                        "displaySequence": 20,
+                                        "attributeName": "lastname",
+                                        "noTrim": true,
+                                        "label": "{model.externalName}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

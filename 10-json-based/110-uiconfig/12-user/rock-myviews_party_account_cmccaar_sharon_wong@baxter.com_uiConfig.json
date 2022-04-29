@@ -1,0 +1,87 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-myviews_party_account_cmccaar_sharon_wong@baxter.com_uiConfig",
+            "name": "rock-myviews_party_account_cmccaar_sharon_wong@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "sharon_wong@baxter.com",
+                "createdBy": "sharon_wong@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "sharon_wong@baxter.com_user",
+                "modifiedDate": "2022-01-14T09:54:37.476-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-myviews",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmccaar",
+                            "user": "sharon_wong@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "menuItems": {
+                                        "C & D": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "currencycode",
+                                                            "jde4thaddressnumber",
+                                                            "addressline2",
+                                                            "jdecreditmanager",
+                                                            "jdecreditchecklevelcode",
+                                                            "jdecreditmessage",
+                                                            "jdecreditlimit",
+                                                            "jdecmrptcode38flagcreditcoll",
+                                                            "baxptyjdedatelastcreditreview",
+                                                            "jdecustomeralphaname",
+                                                            "jdecustomernamemailingname",
+                                                            "addressline3",
+                                                            "addressline1",
+                                                            "jdecollectionmanager",
+                                                            "getpaidstrategy",
+                                                            "jdepaymentterms",
+                                                            "jde1staddressnumber",
+                                                            "baxptydnberamcreditapprover",
+                                                            "jderegional28",
+                                                            "jdeminorderchargecustflag",
+                                                            "jdeparentnumber",
+                                                            "jdeattributecompleted",
+                                                            "baxptyarcompletionnotes"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "C & D",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "C & D",
+                                            "enabled": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

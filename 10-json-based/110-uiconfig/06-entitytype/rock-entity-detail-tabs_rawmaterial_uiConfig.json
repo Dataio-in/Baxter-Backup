@@ -1,0 +1,176 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-detail-tabs_rawmaterial_uiConfig",
+            "name": "rock-entity-detail-tabs_rawmaterial",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.68.1.1016",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-23T01:15:05.739-0500",
+                "modifiedDate": "2021-04-23T01:15:05.739-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-detail-tabs",
+                            "entityType": "rawmaterial"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "tabItems": {
+                                    "relationships": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "relationshipNames": [
+                                                        "_ALL"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "assets": {
+                                        "visible": true
+                                    },
+                                    "attributes": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "attributeNames": [
+                                                        "itmdesc2",
+                                                        "itmdesc1",
+                                                        "jdelastmodifieddate",
+                                                        "comcd",
+                                                        "companyprefix",
+                                                        "effenddat",
+                                                        "uomprimmaster",
+                                                        "fgtype",
+                                                        "lastmodifiedby",
+                                                        "entityeditpermission",
+                                                        "longitmnrhistory",
+                                                        "scoutbaxnrat",
+                                                        "gtinhelper1",
+                                                        "maintresp",
+                                                        "lintyp",
+                                                        "effstrtdat",
+                                                        "shlflifdy",
+                                                        "lastupddateapac",
+                                                        "gqareviewrequired",
+                                                        "lotproctyp",
+                                                        "gambrorefnr",
+                                                        "shrtitmnr",
+                                                        "workflowstatus",
+                                                        "makbuy",
+                                                        "itemreferencesequence",
+                                                        "upcnr",
+                                                        "salpriclvl",
+                                                        "aiptrigger",
+                                                        "eccncd",
+                                                        "bu",
+                                                        "itmsrtx",
+                                                        "uomprimmet",
+                                                        "repl",
+                                                        "pdoreviewrequired",
+                                                        "tempsensflg",
+                                                        "lastupddateetpd",
+                                                        "mintemp",
+                                                        "itmstat",
+                                                        "manufitmnr",
+                                                        "recordcordinatioreviewrequired",
+                                                        "maxtemp",
+                                                        "invcostlvl",
+                                                        "itmtyp",
+                                                        "createdon",
+                                                        "mupdate",
+                                                        "ergonrefnr",
+                                                        "ctryorig",
+                                                        "cemkflg",
+                                                        "regionalworkflowstatus",
+                                                        "adminreviewrequired",
+                                                        "ukidtargetmktseqcalc",
+                                                        "boallwdflg",
+                                                        "hasglblval",
+                                                        "itstktyp",
+                                                        "nonstkitm",
+                                                        "createdby",
+                                                        "bxsaipflg",
+                                                        "corpflg",
+                                                        "x2lvl",
+                                                        "reqstr",
+                                                        "triggeroperationalbranch",
+                                                        "gtinalloctyp",
+                                                        "aiprequestsequence",
+                                                        "itemcodeautogenerate",
+                                                        "uomprimimp",
+                                                        "rmwiptemplate",
+                                                        "x7lvl",
+                                                        "rmwipmanufacturingplant",
+                                                        "x2",
+                                                        "purpriclvl",
+                                                        "uomscc8",
+                                                        "sourceoutsideofcountry",
+                                                        "uomupc",
+                                                        "longitmnr",
+                                                        "legacyitem",
+                                                        "massuploadflag",
+                                                        "chkavail",
+                                                        "uomscc1",
+                                                        "uomscc2",
+                                                        "uomscc3",
+                                                        "uomscc4",
+                                                        "uomscc5",
+                                                        "uomscc6",
+                                                        "uomscc7",
+                                                        "aipjdeacknowledgement",
+                                                        "hzdflg",
+                                                        "coscidint",
+                                                        "operationalbranchdetailseqcalc",
+                                                        "lastupddatelatam",
+                                                        "src",
+                                                        "lastmodifieddate",
+                                                        "aipresponse",
+                                                        "jdeacknowledgement",
+                                                        "scalarefnr",
+                                                        "stktyp",
+                                                        "ukidctrymanufseqcalc",
+                                                        "glcls",
+                                                        "itemcodebusiness",
+                                                        "lastupddateucan",
+                                                        "scoutbaxnrde",
+                                                        "lastupddateemea",
+                                                        "targetmkts",
+                                                        "opg2s",
+                                                        "plntlastasss",
+                                                        "ctrymanufs",
+                                                        "ccitmtyp"
+                                                    ]
+                                                },
+                                                "need-attributes-grouping": true
+                                            }
+                                        }
+                                    },
+                                    "graph": {
+                                        "visible": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

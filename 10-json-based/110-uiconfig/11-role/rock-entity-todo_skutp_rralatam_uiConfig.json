@@ -1,0 +1,69 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_skutp_rralatam_uiConfig",
+            "name": "rock-entity-todo_skutp_rralatam",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.555-0600",
+                "modifiedDate": "2021-11-19T02:22:50.555-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "entityType": "skutp",
+                            "role": "rralatam"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false,
+                                        "data": {
+                                            "name": "assignPrimaryImage",
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Assign Primary Image"
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:brand-filled"
+                                        }
+                                    },
+                                    "managecontains4": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Manage Optional regional regulatory Attributes",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "itmdesc1"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:tag"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

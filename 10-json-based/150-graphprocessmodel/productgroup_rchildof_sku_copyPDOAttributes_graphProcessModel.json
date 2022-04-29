@@ -1,0 +1,213 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "productgroup_rchildof_sku_copyPDOAttributes_graphProcessModel",
+            "name": "productgroup_rchildof_sku_copyPDOAttributes",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "graphProcessPath": "productgroup_rchildof_sku",
+                "matchRulesOperator": "and",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "rchildof",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "targetFilters": [
+                            {
+                                "attributeFilters": [
+                                    {
+                                        "workflowstatus": [
+                                            {
+                                                "value": "In Progress",
+                                                "operator": "exact"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "seq": 2,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "rchildof",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "targetFilters": [
+                            {
+                                "attributeFilters": [
+                                    {
+                                        "workflowstatus": [
+                                            {
+                                                "value": "Final Review",
+                                                "operator": "eq"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-06-23T00:21:06.121-0500",
+                "modifiedDate": "2021-06-23T00:21:06.121-0500"
+            },
+            "data": {
+                "attributes": {
+                    "cytosflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "dehpfreeflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "formgeneric": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "formstrengh": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "hzdflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "lotproctyp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "ltxfreeflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "maxtemp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "mercfreeflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "mintemp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "mnthexp": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "nominfillvol": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "primcontainmat": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "pvcfreeflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "shlflifdy": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "tempsensflg": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "uomprimmaster": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "pdodocref": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

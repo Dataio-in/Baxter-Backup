@@ -1,0 +1,44 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "csv_export_baxter",
+            "name": "csv_export_baxter",
+            "type": "integrationprofile",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-18T07:41:19.553-0500",
+                "modifiedDate": "2022-04-18T07:41:19.553-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "JOB",
+                            "format": "DSV",
+                            "order": "10",
+                            "role": "admin",
+                            "service": "ENTITY_EXPORT",
+                            "source": "internal",
+                            "subtype": "user",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "integrationType": "user",
+                            "profileType": "custom",
+                            "isEnabled": "true"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

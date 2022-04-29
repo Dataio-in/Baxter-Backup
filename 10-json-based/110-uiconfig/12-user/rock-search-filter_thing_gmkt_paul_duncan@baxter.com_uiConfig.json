@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_gmkt_paul_duncan@baxter.com_uiConfig",
+            "name": "rock-search-filter_thing_gmkt_paul_duncan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "paul_duncan@baxter.com",
+                "createdBy": "paul_duncan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "paul_duncan@baxter.com_user",
+                "modifiedDate": "2021-02-10T14:13:59.141-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "gmkt",
+                            "user": "paul_duncan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "rsInternalGenericCreatedBy": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "rsInternalGenericCreatedBy",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

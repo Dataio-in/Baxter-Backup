@@ -1,0 +1,137 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_ccinitiator_anit_prasad@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_ccinitiator_anit_prasad@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "anit_prasad@baxter.com",
+                "createdBy": "anit_prasad@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "anit_prasad@baxter.com_user",
+                "modifiedDate": "2021-02-17T19:02:28.357-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "thing",
+                            "role": "ccinitiator",
+                            "user": "anit_prasad@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Description Test": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "itmdesc2": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc2",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmdesc1": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc1",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "createdDate": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "createdDate",
+                                                    "width": 20,
+                                                    "header": "{[CreDatTxt]}",
+                                                    "sortable": true
+                                                },
+                                                "createdBy": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "createdBy",
+                                                    "width": 20,
+                                                    "header": "{[CreByTxt]}",
+                                                    "sortable": true
+                                                },
+                                                "prodgrpname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "prodgrpname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "name": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "name",
+                                                    "width": 20,
+                                                    "header": "{[NamTxt]}",
+                                                    "sortable": true
+                                                },
+                                                "skudescdist": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "skudescdist",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "skuname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "skuname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Description Test",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.itmdesc1}",
+                                                    "subTitlePattern": "{entity.attributes.itmdesc1} | {entity.attributes.itmdesc2} | {entity.attributes.prodgrpname} | {entity.attributes.skuname} | {entity.attributes.skudescdist}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Description Test",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

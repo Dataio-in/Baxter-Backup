@@ -1,0 +1,139 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_custom_import_data_dsv_blob_task",
+            "name": "bax_custom_import_data_dsv_blob_task",
+            "type": "integrationprofile",
+            "properties": {
+                "lastMigrationTimestamp": "2022-02-13T10:16:11.610+0000",
+                "migrationVersion": 1,
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-18T07:41:19.296-0500",
+                "modifiedDate": "2022-04-18T07:41:19.296-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "AZURE_BLOB_CONTAINER",
+                            "format": "DSV",
+                            "order": "10",
+                            "role": "admin",
+                            "service": "ENTITY_IMPORT",
+                            "source": "internal",
+                            "subtype": "User",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "statusEventEnabled": false,
+                            "transform": {
+                                "settings": {
+                                    "defaultEntityType": "account",
+                                    "allowNullValues": "false",
+                                    "matchEnhancerAttributesOnImport": true,
+                                    "loadDefaultOverrides": true,
+                                    "clearMissingAttributes": "false",
+                                    "strategies": [
+                                        {
+                                            "caseFormat": "NONE",
+                                            "trimTrailingNumbers": "false",
+                                            "isDefault": "false",
+                                            "removeSpecialCharacters": "false",
+                                            "removeWhitespace": "false",
+                                            "useExternalName": "true",
+                                            "trimLeadingNumbers": "false"
+                                        }
+                                    ],
+                                    "entityType": "@field(Type)",
+                                    "excludeMappingHeaders": [
+                                        "Action",
+                                        "Type",
+                                        "ID",
+                                        "Name"
+                                    ],
+                                    "enableDynamicMapping": "true",
+                                    "useDefaultContext": false,
+                                    "collectionSeparator": "||"
+                                }
+                            },
+                            "integrationType": "System",
+                            "profileType": "custom",
+                            "isEnabled": "true",
+                            "publish": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "isBinaryStreamPersistent": "true",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "requestforvaluemapping": "true"
+                                        },
+                                        "type": "rdpConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "additionalSettings": {
+                                            "supportsCollection": "true",
+                                            "encoding": "utf8"
+                                        }
+                                    },
+                                    "type": "RSJSON",
+                                    "batchSize": 1,
+                                    "version": "1.1"
+                                }
+                            },
+                            "migration": "true",
+                            "isMergeableWithCustom": false,
+                            "collect": {
+                                "isBinaryStreamPersistent": "true",
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "folderPath": "csv/",
+                                            "containerName": "baxterpimfs-import",
+                                            "fileType": "csv"
+                                        },
+                                        "type": "azureBlobContainerConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "filter": {
+                                        "include": {},
+                                        "exclude": {}
+                                    },
+                                    "settings": {
+                                        "dsvSettings": {
+                                            "quotechar": "\"",
+                                            "delimiter": ",",
+                                            "startLine": 0
+                                        },
+                                        "additionalSettings": {
+                                            "supportDynamicContextMapping": true,
+                                            "supportsCollection": "false",
+                                            "bulkLoadProfile": "sys_import_bulk-load_asset_blob_task_base",
+                                            "encoding": "utf8"
+                                        }
+                                    },
+                                    "type": "DSV",
+                                    "version": "1.1"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

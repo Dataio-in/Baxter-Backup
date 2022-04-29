@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-context-selector_thing_uiConfig",
+            "name": "rock-context-selector_thing",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:55.919-0500",
+                "modifiedDate": "2020-10-09T06:29:55.919-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-context-selector",
+                            "domain": "thing"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "context": {
+                                    "visible": true
+                                },
+                                "source": {
+                                    "hidden": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

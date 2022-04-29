@@ -1,0 +1,68 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "baxptyrefautopopulate4thaddress_matchConfig",
+            "name": "baxptyrefautopopulate4thaddress",
+            "type": "matchConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T11:18:36.065-0600",
+                "modifiedDate": "2021-11-19T11:18:36.065-0600"
+            },
+            "data": {
+                "jsonData": {
+                    "matchRules": [
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "refsearchtype": {
+                                                    "exact": "{{refsearchtype}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "refstate": {
+                                                    "exact": "{{refstate}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "refbilltype": {
+                                                    "exact": "{{refbilltype}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "baxptyrefautopopulate4thaddress"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 1
+                        }
+                    ],
+                    "type": "config"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_sparepart_tsds_uiConfig",
+            "name": "rock-entity-todo_sparepart_tsds",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-12-16T03:04:44.903-0600",
+                "modifiedDate": "2021-12-16T03:04:44.903-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "entityType": "sparepart",
+                            "role": "tsds"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false
+                                    },
+                                    "manageattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Optional Technical Service Data Support Attributes",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "1wayrepl",
+                                                    "cytosflg",
+                                                    "dehpfreeflg",
+                                                    "ergonrefnr",
+                                                    "gambrorefnr",
+                                                    "hzdflg",
+                                                    "itemcodeautogenerate",
+                                                    "itemcodebusiness",
+                                                    "itmdesc2",
+                                                    "ltxfreeflg",
+                                                    "manufitmnr",
+                                                    "mercfreeflg",
+                                                    "prtlrepl",
+                                                    "custfrienddesc",
+                                                    "pvcfreeflg",
+                                                    "repl",
+                                                    "scalarefnr",
+                                                    "scoutbaxnrat",
+                                                    "scoutbaxnrde",
+                                                    "shlflifdy"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:tag"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

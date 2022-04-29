@@ -1,0 +1,51 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_sku_ccinitiator_uiConfig",
+            "name": "rock-entity-search-result_sku_ccinitiator",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:43.418-0600",
+                "modifiedDate": "2020-12-10T07:15:43.418-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "sku",
+                            "role": "ccinitiator"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "ccitmtyp": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 195,
+                                                "name": "ccitmtyp",
+                                                "header": "Compounding Product Type",
+                                                "sortable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

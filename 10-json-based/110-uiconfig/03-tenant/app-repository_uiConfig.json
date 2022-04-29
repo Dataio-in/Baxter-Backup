@@ -1,0 +1,109 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "app-repository_uiConfig",
+            "name": "app-repository",
+            "type": "uiConfig",
+            "properties": {
+                "migrationVersion": 1,
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:44.075-0500",
+                "modifiedDate": "2020-10-09T06:29:44.075-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "app-repository",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "govmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-thing-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-dashboard": {
+                                    "enabled": true
+                                },
+                                "authmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "search-location": {
+                                    "enabled": false
+                                },
+                                "workflowmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "system-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-location-dashboard": {
+                                    "dataRoute": "basemodel-location-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-data-model",
+                                    "title": "Location Dashboard",
+                                    "enabled": false
+                                },
+                                "search-party": {
+                                    "enabled": false
+                                },
+                                "taxonomymodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-digitalasset-dashboard": {
+                                    "enabled": true
+                                },
+                                "systemlog-viewer": {
+                                    "enabled": false
+                                },
+                                "basemodel-referencedata-dashboard": {
+                                    "enabled": true
+                                },
+                                "instancedatamodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-designer": {
+                                    "enabled": false
+                                },
+                                "basemodel-party-dashboard": {
+                                    "enabled": false
+                                },
+                                "visualization-report": {
+                                    "enabled": true
+                                },
+                                "visualization-manage-dashboard": {
+                                    "enabled": false
+                                },
+                                "syndication-dashboard": {
+                                    "enabled": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

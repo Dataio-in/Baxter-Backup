@@ -1,0 +1,76 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_skutp_admin_uiConfig",
+            "name": "rock-entity-todo_skutp_admin",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.400-0600",
+                "modifiedDate": "2021-11-19T02:22:50.400-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "entityType": "skutp",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false,
+                                        "data": {
+                                            "name": "assignPrimaryImage",
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Assign Primary Image"
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:brand-filled"
+                                        }
+                                    },
+                                    "managecontains1": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Optional Attributes for xUDI - MDM role",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "dmdidiffprim",
+                                                    "dmdinr",
+                                                    "secdinr",
+                                                    "prevdi",
+                                                    "issueag2",
+                                                    "uoudinr",
+                                                    "packageinfo",
+                                                    "issueagprevdi"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:tag"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

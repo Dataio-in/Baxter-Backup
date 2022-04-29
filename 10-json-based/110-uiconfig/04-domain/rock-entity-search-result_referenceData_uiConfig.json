@@ -1,0 +1,259 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_referenceData_uiConfig",
+            "name": "rock-entity-search-result_referenceData",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:55.992-0500",
+                "modifiedDate": "2020-10-09T06:29:55.992-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "domain": "referenceData"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "cvdlo1": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 10,
+                                                "name": "cvdlo1",
+                                                "header": "CVDL01",
+                                                "sortable": true
+                                            },
+                                            "refvalue1": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 2,
+                                                "name": "refvalue1",
+                                                "header": "Value1",
+                                                "sortable": true
+                                            },
+                                            "rtempcontrolled": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 19,
+                                                "name": "rtempcontrolled",
+                                                "header": "Temp Controlled",
+                                                "sortable": true
+                                            },
+                                            "rrcdesc": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 6,
+                                                "name": "rrcdesc",
+                                                "header": "RESOURCE CLASS",
+                                                "sortable": true
+                                            },
+                                            "refregioncode": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 11,
+                                                "name": "refregioncode",
+                                                "header": "Region Code",
+                                                "sortable": true
+                                            },
+                                            "rrscdesc": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 7,
+                                                "name": "rrscdesc",
+                                                "header": "RSC DESC",
+                                                "sortable": true
+                                            },
+                                            "rmintemp": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 21,
+                                                "name": "rmintemp",
+                                                "header": "Min Temp",
+                                                "sortable": true
+                                            },
+                                            "ritemgroupdescription": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 23,
+                                                "name": "ritemgroupdescription",
+                                                "header": "Item Group Description",
+                                                "sortable": true
+                                            },
+                                            "reflegalentitycode": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 15,
+                                                "name": "reflegalentitycode",
+                                                "header": "LegalEntity Code",
+                                                "sortable": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "rcommoditycode": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 3,
+                                                "name": "rcommoditycode",
+                                                "header": "COMMODITY CODE",
+                                                "sortable": true
+                                            },
+                                            "cvcrcd": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 8,
+                                                "name": "cvcrcd",
+                                                "header": "CVCRCD",
+                                                "sortable": true
+                                            },
+                                            "thumbnail": {
+                                                "visible": false
+                                            },
+                                            "rmaxtemp": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "rmaxtemp",
+                                                "header": "Max Temp",
+                                                "sortable": true
+                                            },
+                                            "rresourceclass": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 5,
+                                                "name": "rresourceclass",
+                                                "header": "Master Description 2",
+                                                "sortable": true
+                                            },
+                                            "rnewwmstemperaturestorageclass": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 24,
+                                                "name": "rnewwmstemperaturestorageclass",
+                                                "header": "New WMS Temperature Storage class",
+                                                "sortable": true
+                                            },
+                                            "contextdescription": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 12,
+                                                "name": "contextdescription",
+                                                "header": "Description",
+                                                "sortable": true
+                                            },
+                                            "refvalue": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "name": "refvalue",
+                                                "header": "Value",
+                                                "sortable": true
+                                            },
+                                            "refcode": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 1,
+                                                "name": "refcode",
+                                                "header": "Code",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "sdunsnumber": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 13,
+                                                "name": "sdunsnumber",
+                                                "header": "Duns Number",
+                                                "sortable": true
+                                            },
+                                            "cvcdec": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 9,
+                                                "name": "cvcdec",
+                                                "header": "CVCDEC",
+                                                "sortable": true
+                                            },
+                                            "slegalname": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 14,
+                                                "name": "slegalname",
+                                                "header": "Legal Name",
+                                                "sortable": true
+                                            },
+                                            "rmetricuom": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 17,
+                                                "name": "rmetricuom",
+                                                "header": "Metric UoM",
+                                                "sortable": true
+                                            },
+                                            "ruommaster": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 16,
+                                                "name": "ruommaster",
+                                                "header": "Uom Master",
+                                                "sortable": true
+                                            },
+                                            "rresourcesubclass": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 4,
+                                                "name": "rresourcesubclass",
+                                                "header": "RESOURCE SUB CLASS",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "ritemgroupcustomergroup": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 22,
+                                                "name": "ritemgroupcustomergroup",
+                                                "header": "Item Group (Customer Group)",
+                                                "sortable": true
+                                            },
+                                            "rimperialuom": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 18,
+                                                "name": "rimperialuom",
+                                                "header": "Imperial UoM",
+                                                "sortable": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "productgroup_rchildof_sku_copyProductCategorization_graphProcessModel",
+            "name": "productgroup_rchildof_sku_copyProductCategorization",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "_DEFAULT",
+                "defaultValueLocale": "_DEFAULT",
+                "graphProcessPath": "productgroup_rchildof_sku_copyProductCategorization",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "rchildof",
+                        "matchRulesOperator": "or",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "targetFilters": [
+                            {
+                                "attributeFilters": [
+                                    {
+                                        "varDummyMarketingWFStatus": [
+                                            {
+                                                "value": "Marketing In Progress",
+                                                "operator": "exact"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-06-23T00:27:12.846-0500",
+                "modifiedDate": "2021-06-23T00:27:12.846-0500"
+            },
+            "data": {
+                "attributes": {
+                    "drugmdothflg": {
+                        "properties": {
+                            "strategy": "copyWhenEmpty"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

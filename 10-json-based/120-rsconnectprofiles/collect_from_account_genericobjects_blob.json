@@ -1,0 +1,99 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "collect_from_account_genericobjects_blob",
+            "name": "Collect_From_account_GenericObjects_blob",
+            "type": "integrationprofile",
+            "properties": {
+                "lastMigrationTimestamp": "2022-02-13T10:16:11.610+0000",
+                "migrationVersion": 1,
+                "createdService": "configurationManageService",
+                "createdBy": "dataio_admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "dataio_admin@riversand.com_user",
+                "createdDate": "2022-04-18T07:41:19.316-0500",
+                "modifiedDate": "2022-04-18T07:41:19.316-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "RSConnect",
+                            "channel": "SCHEDULE_JOB",
+                            "format": "JSON",
+                            "order": "30",
+                            "role": "admin",
+                            "service": "ENTITY_EXPORT",
+                            "source": "internal",
+                            "subtype": "System",
+                            "user": "system"
+                        },
+                        "jsonData": {
+                            "transform": {
+                                "settings": {
+                                    "nullRecordTransformer": "true"
+                                }
+                            },
+                            "integrationType": "System",
+                            "profileType": "custom",
+                            "isEnabled": "true",
+                            "publish": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "channel": [
+                                    {
+                                        "settings": {},
+                                        "type": "folderConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {},
+                                    "type": "RSJSON",
+                                    "batchSize": 30000,
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "false"
+                            },
+                            "collect": {
+                                "filter": {
+                                    "include": {},
+                                    "exclude": {}
+                                },
+                                "channel": [
+                                    {
+                                        "settings": {
+                                            "scheduledPublish": true
+                                        },
+                                        "type": "genericObjectConnector"
+                                    }
+                                ],
+                                "format": {
+                                    "settings": {
+                                        "additionalSettings": {
+                                            "supportsCollection": "false",
+                                            "includeRelatedEntities": "true",
+                                            "encoding": "utf8",
+                                            "publishSyndicationProfile": "bax_export_account_data_dsv_blob",
+                                            "includeRelatedEntityExternalIds": "true"
+                                        }
+                                    },
+                                    "type": "RSJSON",
+                                    "batchSize": 200,
+                                    "version": "1.1"
+                                },
+                                "isDataPersistent": "false"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_dataReader_karthik_sekar@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_dataReader_karthik_sekar@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "karthik_sekar@baxter.com",
+                "createdBy": "karthik_sekar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "karthik_sekar@baxter.com_user",
+                "modifiedDate": "2021-01-07T05:30:05.281-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "thing",
+                            "role": "dataReader",
+                            "user": "karthik_sekar@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "GTIN": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "itmdesc2": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc2",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmstat": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmstat",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmdesc1": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc1",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "longitmnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "longitmnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "upcnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "upcnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "GTIN",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.upcnr}",
+                                                    "subTitlePattern": "{entity.attributes.upcnr} | {entity.attributes.longitmnr} | {entity.attributes.itmdesc1} | {entity.attributes.itmdesc2} | {entity.attributes.itmstat}"
+                                                }
+                                            }
+                                        },
+                                        "title": "GTIN",
+                                        "value": "GTIN",
+                                        "enabled": true
+                                    },
+                                    "shelf life": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "eccertexpdat": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "eccertexpdat",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "longitmnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "longitmnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "shlflifdy": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "shlflifdy",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "mnthexp": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "mnthexp",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "eudamedcecertificateexpirydate": {
+                                                    "filterable": false,
+                                                    "displayType": "date",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "eudamedcecertificateexpirydate",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "extdat": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "extdat",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "shelf life",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.longitmnr}",
+                                                    "subTitlePattern": "{entity.attributes.longitmnr} | {entity.attributes.shlflifdy} | {entity.attributes.extdat} | {entity.attributes.mnthexp} | {entity.attributes.eccertexpdat} | {entity.attributes.eudamedcecertificateexpirydate}"
+                                                }
+                                            }
+                                        },
+                                        "title": "shelf life",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

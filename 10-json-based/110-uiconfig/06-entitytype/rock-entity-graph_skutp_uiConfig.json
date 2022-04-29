@@ -1,0 +1,64 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-graph_skutp_uiConfig",
+            "name": "rock-entity-graph_skutp",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.135-0600",
+                "modifiedDate": "2021-11-19T02:22:50.135-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-graph",
+                            "entityType": "skutp"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "entityGraphTreeConfig": {
+                                    "relationships": [
+                                        {
+                                            "relationshipName": "rpalletofsku",
+                                            "treeNodeTitle": "attribute:pakfactor"
+                                        },
+                                        {
+                                            "relationshipName": "rcaseofsku",
+                                            "treeNodeTitle": "attribute:pkggtin"
+                                        },
+                                        {
+                                            "relationshipName": "rpackofsku",
+                                            "treeNodeTitle": "attribute:pkggtin"
+                                        },
+                                        {
+                                            "relationshipName": "reachofsku",
+                                            "treeNodeTitle": "attribute:pkggtin"
+                                        }
+                                    ],
+                                    "treeNodeTitle": "attribute:itmdesc1"
+                                },
+                                "componentsVisibility": {
+                                    "rock-variant-configurator": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

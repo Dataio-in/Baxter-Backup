@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_admin_baxterpim.admin@riversand.com_uiConfig",
+            "name": "rock-search-filter_thing_admin_baxterpim.admin@riversand.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "baxterpim.admin@riversand.com",
+                "createdBy": "baxterpim.admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpim.admin@riversand.com_user",
+                "modifiedDate": "2020-10-14T10:41:44.777-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "admin",
+                            "user": "baxterpim.admin@riversand.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "pkpimid": {
+                                        "visible": false,
+                                        "displaySequence": 1,
+                                        "name": "pkpimid",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

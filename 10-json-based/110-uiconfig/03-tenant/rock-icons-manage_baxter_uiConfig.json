@@ -1,0 +1,39 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-icons-manage_baxter_uiConfig",
+            "name": "rock-icons-manage_baxter",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-18T00:48:15.870-0500",
+                "modifiedDate": "2022-04-18T00:48:15.870-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-icons-manage",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "icons": {
+                                    "baxterpimfs-Hospital": "<g id='baxterpimfs-Hospital' ' > <image id='image0' width='24' height='24' x='0' y='0' href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAAAAACVjL5nAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0T//xSrMc0AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQflCREGLR6xQGkkAAAC00lEQVQ4y5WSf0jUZxzHX98f5t26oea322LXd6yjE0H6Y0jZwQ5GDHW1/pltldhGDEHsaqPol4ib3rLB3EQYY7IMHSjT7I9BaRt4lHNoocMkzgx/XbdSLk+vvLxd3ffZHzO3ww6293+f9/N+PZ/n8+FBJGik1H6B7TzTdnvbiDsxoZKgiaypY0wpoQ+6iDfvjGdOzU58nJOQkITgVuj0Ypi7AFfmyrAU2vSOVxF7pgP+xe5vyc8EYKMlY10NOQgxXLBtSH+iN+ke3aMFKK+8eM8Z64x13nNWdlCuBXSP7tGb9Cfbhod3CaHC6NGB10FWpE4QLbT0WyyRD0/BD+b+flpCr8zngHjXOOhntGcLKkgV0pz8Y2Xe1p/ht1/PmH/5ojc/WyJeJUXrZOvpPqcM12/U9BvvS4UMIES7S/Kl2LrqhRCiJ2B+ESCzIbMewJzWExJCiK76FJvka3c925JEMG4FyGtsPDX5leEw5kF2ymOvHcproAriVoJIAAlrNRrDh9/0vXX9pUv0AZ/P7nq6I7w5tVEu/SeTANz5ff/Ig09Mdd/73wB6sz76Miq0mlYpiyRA2O+rXbJDMBcguGZsEwRvhk+SDEhzZLc9GDeZ1r8HsD7FMRONaN+lZScFHKK7OOZTf9IqAJyfXqt++vaafdr5pMCC2qYt5JiL9j20FcL9prbLS9+k/1FiykgGjLsqji62EnMU2IDB2eNzSJZi597cf2XkhK+ooAAyynIlr3jP72Bv9pgXMBXlegFye8/uj5Ies5+nMAmQ0X4EmuHRrP8dyJg+sYFVkldbRqiqzOV1eavcxvx/AkT1+NnpyHRkvFZ8tvpUBdnLXayKtjJ5vaoDqDsU/4qnYcUke0G9ujToJmwU9O6O3F9+UkvAzXEIuDsa5AN/e0O7jRKODaZpX0trz0Xt8Z0o8p/cXr7usbGOl4EZOcQLy16WkUpcuWSa5P/qL756Kz0C/dYIAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTA5LTE3VDA2OjQ1OjMwKzAwOjAwxzLMIQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wOS0xN1QwNjo0NTozMCswMDowMLZvdJ0AAAAASUVORK5CYII=' />"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

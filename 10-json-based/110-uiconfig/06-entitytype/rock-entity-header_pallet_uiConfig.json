@@ -1,0 +1,89 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_pallet_uiConfig",
+            "name": "rock-entity-header_pallet",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.66.2.1025",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-03-05T10:03:27.091-0600",
+                "modifiedDate": "2021-03-05T10:03:27.091-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "pallet"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "longitmnr": {
+                                        "visible": true,
+                                        "displaySequence": 15,
+                                        "attributeName": "longitmnr",
+                                        "noTrim": true,
+                                        "label": "Item Code"
+                                    },
+                                    "stacklimit": {
+                                        "visible": true,
+                                        "displaySequence": 75,
+                                        "attributeName": "stacklimit",
+                                        "noTrim": true,
+                                        "label": "Stacking Limit"
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "pakfactor": {
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "attributeName": "pakfactor",
+                                        "noTrim": true,
+                                        "label": "Pack Factor"
+                                    },
+                                    "pallettype": {
+                                        "visible": true,
+                                        "displaySequence": 45,
+                                        "attributeName": "pallettype",
+                                        "noTrim": true,
+                                        "label": "Pallet Type"
+                                    },
+                                    "numberoflayers": {
+                                        "visible": true,
+                                        "displaySequence": 60,
+                                        "attributeName": "numberoflayers",
+                                        "noTrim": true,
+                                        "label": "Number of Layers"
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    }
+                                },
+                                "thumbnailConfig": {
+                                    "relationshipName": "hasimagesmaster",
+                                    "relationshipFilterAttributeName": "isprimary",
+                                    "relationshipFilterAttributeValue": false,
+                                    "thumbnailIdentifier": "thumbnailid"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

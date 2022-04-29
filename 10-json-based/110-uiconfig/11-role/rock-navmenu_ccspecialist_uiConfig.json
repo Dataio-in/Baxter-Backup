@@ -1,0 +1,100 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_ccspecialist_uiConfig",
+            "name": "rock-navmenu_ccspecialist",
+            "type": "uiConfig",
+            "properties": {
+                "migrationVersion": 1,
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:43.907-0600",
+                "modifiedDate": "2020-12-10T07:15:43.907-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "ccspecialist"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "actions": {
+                                                "uploadTenantSeed": {
+                                                    "visible": true
+                                                },
+                                                "uploadEntities": {
+                                                    "visible": true,
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "context": {},
+                                                            "type": "sku",
+                                                            "valueContext": {
+                                                                "source": "internal",
+                                                                "locale": "en-US"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "title": "Create",
+                                            "actions": {
+                                                "createCompoundingCode": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 60,
+                                                    "name": "createCompoundingCode",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Compounding Code",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "compoundingcode"
+                                                        }
+                                                    }
+                                                },
+                                                "createRequest": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 70,
+                                                    "name": "createRequest",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Request",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "request"
+                                                        }
+                                                    }
+                                                },
+                                                "createEntityInternal": {
+                                                    "visible": false
+                                                },
+                                                "createEntity": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

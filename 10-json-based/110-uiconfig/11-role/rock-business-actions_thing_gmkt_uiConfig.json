@@ -1,0 +1,122 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-business-actions_thing_gmkt_uiConfig",
+            "name": "rock-business-actions_thing_gmkt",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:42.585-0600",
+                "modifiedDate": "2020-12-10T07:15:42.585-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-business-actions",
+                            "domain": "thing",
+                            "role": "gmkt"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "actionGroups": {
+                                    "connectors": {
+                                        "visible": true,
+                                        "actions": {
+                                            "re-publish": {
+                                                "visible": true
+                                            }
+                                        }
+                                    },
+                                    "assignments": {
+                                        "visible": true,
+                                        "isWorkflowActions": true,
+                                        "actions": {
+                                            "reassignTask": {
+                                                "visible": false
+                                            },
+                                            "releaseTask": {
+                                                "visible": true
+                                            },
+                                            "takeTask": {
+                                                "visible": true
+                                            }
+                                        }
+                                    },
+                                    "reviews": {
+                                        "visible": false
+                                    },
+                                    "downloads": {
+                                        "visible": false
+                                    },
+                                    "context": {
+                                        "visible": false,
+                                        "actions": {
+                                            "add-context": {
+                                                "visible": true,
+                                                "text": "Add To Region/Legal Entities",
+                                                "properties": {
+                                                    "allowedEntityTypes": [
+                                                        "sparepart",
+                                                        "sku",
+                                                        "rawmaterial",
+                                                        "service",
+                                                        "mro",
+                                                        "compoundingcode"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "variants": {
+                                        "visible": false
+                                    },
+                                    "basic": {
+                                        "visible": true,
+                                        "actions": {
+                                            "snapshots": {
+                                                "visible": false
+                                            },
+                                            "compare": {
+                                                "visible": true
+                                            },
+                                            "copy": {
+                                                "visible": true
+                                            },
+                                            "paste": {
+                                                "visible": true
+                                            },
+                                            "roll-up": {
+                                                "visible": false
+                                            }
+                                        }
+                                    },
+                                    "transitions": {
+                                        "visible": true,
+                                        "isWorkflowActions": true,
+                                        "actions": {
+                                            "wfTransition": {
+                                                "visible": true
+                                            }
+                                        }
+                                    },
+                                    "uploads": {
+                                        "visible": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

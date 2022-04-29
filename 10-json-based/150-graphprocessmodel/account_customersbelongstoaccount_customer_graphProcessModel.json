@@ -1,0 +1,244 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "account_customersbelongstoaccount_customer_graphProcessModel",
+            "name": "account_customersbelongstoaccount_customer",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "account_customersbelongstoaccount_customer",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "customersbelongstoaccount",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "seq": 2,
+                        "matchType": "attributeBased",
+                        "relationshipName": "customersbelongstoaccount",
+                        "attributeMaps": [
+                            {
+                                "legalcompanyname": "legalcompanyname",
+                                "country": "country",
+                                "postalcode": "postalcode",
+                                "city": "city",
+                                "stateprovince": "stateprovince",
+                                "baxptystreetname": "baxptystreetname",
+                                "baxptystreetnumber": "baxptystreetnumber",
+                                "baxptysuitenumber": "baxptysuitenumber"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Create"
+                                    },
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddSourceRelationship"
+                                    },
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": [
+                                    "legalcompanyname",
+                                    "country",
+                                    "postalcode",
+                                    "city",
+                                    "stateprovince",
+                                    "baxptystreetname",
+                                    "baxptystreetnumber",
+                                    "baxptysuitenumber"
+                                ],
+                                "concatDelimiter": "_"
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.786-0600",
+                "modifiedDate": "2021-11-19T12:06:22.786-0600"
+            },
+            "data": {
+                "attributes": {
+                    "pobox": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptystreetnumber": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "legalcompanyname": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "city": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptystreetname": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptydistrict": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptystreettype": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "dunsnumber": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "stateprovince": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "country": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "postalcode": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "dba": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptyfloor": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptylandmark": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptyattn": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptysuitenumber": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptyco": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    },
+                    "baxptyroom": {
+                        "properties": {
+                            "strategy": "copy",
+                            "strategyMode": "replace"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

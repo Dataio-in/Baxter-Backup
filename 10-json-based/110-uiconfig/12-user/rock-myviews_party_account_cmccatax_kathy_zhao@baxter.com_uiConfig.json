@@ -1,0 +1,73 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-myviews_party_account_cmccatax_kathy_zhao@baxter.com_uiConfig",
+            "name": "rock-myviews_party_account_cmccatax_kathy_zhao@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "kathy_zhao@baxter.com",
+                "createdBy": "kathy_zhao@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "kathy_zhao@baxter.com_user",
+                "modifiedDate": "2022-01-14T13:18:05.471-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-myviews",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmccatax",
+                            "user": "kathy_zhao@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "menuItems": {
+                                        "Tax Review": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "jdetaxratearea",
+                                                            "jdetaxexplanationcode",
+                                                            "regionaltaxexemptjdecatcode27",
+                                                            "taxattributecompleted",
+                                                            "baxptytaxcompletionnotes",
+                                                            "baxptyoriginalstateprovince",
+                                                            "baxptyoriginalcity",
+                                                            "baxptyoriginalpostalcode",
+                                                            "jdecustomernamemailingname"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Tax Review",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Tax Review",
+                                            "enabled": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

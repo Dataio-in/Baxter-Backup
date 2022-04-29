@@ -1,0 +1,188 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-business-actions_admin_uiConfig",
+            "name": "rock-business-actions_admin",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "buildVersion": "1.66.1.1013",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:42.563-0600",
+                "modifiedDate": "2020-12-10T07:15:42.563-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-business-actions",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "actionGroups": {
+                                    "connectors": {
+                                        "visible": true,
+                                        "title": "Connectors",
+                                        "actions": {
+                                            "re-publish-baxterbaxsolid": {
+                                                "visible": false,
+                                                "name": "re-publish-baxterbaxsolid",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "JSON Export Baxsolid",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish-baxterbaxsolid"
+                                            },
+                                            "re-publish": {
+                                                "visible": true,
+                                                "name": "re-publish",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "Publish JSON",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish"
+                                            },
+                                            "re-publish-baxterjde": {
+                                                "visible": false,
+                                                "name": "re-publish-baxterjde",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "JSON Export JDE",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish-baxterjde"
+                                            },
+                                            "re-publish-azure": {
+                                                "visible": false,
+                                                "name": "re-publish-azure",
+                                                "icon": "pebble-icon:republish-filled",
+                                                "eventName": "action-re-publish",
+                                                "text": "Publish to EventHub",
+                                                "componentName": "rock-wizard-re-publish",
+                                                "subComponentName": "re-publish-azure"
+                                            }
+                                        }
+                                    },
+                                    "assignments": {
+                                        "visible": true,
+                                        "isWorkflowActions": true,
+                                        "title": "{[BAAssTit]}",
+                                        "actions": {
+                                            "reassignTask": {
+                                                "visible": true,
+                                                "name": "reassignTask",
+                                                "icon": "pebble-icon:reassign-task-filled",
+                                                "eventName": "action-reassignTask",
+                                                "text": "{[RsgTskTxt]}",
+                                                "componentName": "rock-wizard-workflow-assignment"
+                                            },
+                                            "releaseTask": {
+                                                "visible": true,
+                                                "name": "releaseTask",
+                                                "icon": "pebble-icon:release-task-filled",
+                                                "eventName": "action-releaseTask",
+                                                "text": "{[RlsTskTxt]}",
+                                                "componentName": "rock-wizard-workflow-assignment"
+                                            },
+                                            "takeTask": {
+                                                "visible": true,
+                                                "name": "takeTask",
+                                                "icon": "pebble-icon:take-task-filled",
+                                                "eventName": "action-takeTask",
+                                                "text": "{[TakTskTxt]}",
+                                                "componentName": "rock-wizard-workflow-assignment"
+                                            }
+                                        }
+                                    },
+                                    "context": {
+                                        "visible": true,
+                                        "title": "Context Manage",
+                                        "actions": {
+                                            "add-context": {
+                                                "visible": true,
+                                                "text": "Add To Region/Legal Entities",
+                                                "properties": {
+                                                    "allowedEntityTypes": [
+                                                        "sparepart",
+                                                        "sku",
+                                                        "rawmaterial",
+                                                        "service",
+                                                        "mro",
+                                                        "compoundingcode"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "basic": {
+                                        "actions": {
+                                            "snapshots": {
+                                                "visible": false,
+                                                "name": "snapshots",
+                                                "icon": "pebble-icon:history",
+                                                "eventName": "action-view-snapshot",
+                                                "text": "{[VerTxt]}",
+                                                "componentName": "rock-wizard-entity-snapshot",
+                                                "intent": "read",
+                                                "properties": {
+                                                    "context": {
+                                                        "entityType": ""
+                                                    }
+                                                }
+                                            },
+                                            "compare": {
+                                                "dataRoute": "compare-entities",
+                                                "visible": true,
+                                                "name": "compare",
+                                                "icon": "pebble-icon:action-compare",
+                                                "eventName": "action-compare-entities",
+                                                "threshold": 5,
+                                                "text": "{[CmpTxt]}",
+                                                "intent": "read"
+                                            },
+                                            "copy": {
+                                                "visible": true,
+                                                "name": "copy",
+                                                "icon": "pebble-icon:action-copy",
+                                                "eventName": "action-copy",
+                                                "text": "{[BACopLbl]}",
+                                                "intent": "read"
+                                            },
+                                            "paste": {
+                                                "visible": true,
+                                                "name": "paste",
+                                                "icon": "pebble-icon:action-paste",
+                                                "eventName": "action-paste",
+                                                "text": "{[PasTxt]}",
+                                                "componentName": "rock-wizard-entity-paste",
+                                                "intent": "write"
+                                            },
+                                            "roll-up": {
+                                                "visible": false,
+                                                "properties": {
+                                                    "context": {
+                                                        "entityType": "productgroup"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

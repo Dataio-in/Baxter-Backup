@@ -1,0 +1,64 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-actions_taxonomyModel_uiConfig",
+            "name": "rock-entity-search-result-actions_taxonomyModel",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:55.976-0500",
+                "modifiedDate": "2020-10-09T06:29:55.976-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result-actions",
+                            "domain": "taxonomyModel"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "toolbarConfig": {
+                                    "buttonItems": {
+                                        "basic": {
+                                            "buttons": {
+                                                "download": {
+                                                    "visible": true,
+                                                    "actions": {
+                                                        "download-in-excel": {
+                                                            "visible": true
+                                                        },
+                                                        "download-in-csv": {
+                                                            "visible": true
+                                                        }
+                                                    }
+                                                },
+                                                "upload": {
+                                                    "visible": true
+                                                },
+                                                "bulkedit": {
+                                                    "visible": true
+                                                },
+                                                "bulkdelete": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

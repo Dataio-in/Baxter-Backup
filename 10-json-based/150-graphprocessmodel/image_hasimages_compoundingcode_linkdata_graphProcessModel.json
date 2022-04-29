@@ -1,0 +1,64 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "image_hasimages_compoundingcode_linkdata_graphProcessModel",
+            "name": "image_hasimages_compoundingcode_linkdata",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "image_hasimages_compoundingcode",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "imgproductid": "shrtitmnr"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddTargetRelationship"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "AddTargetRelationship"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-23T01:51:47.467-0500",
+                "modifiedDate": "2021-04-23T01:51:47.467-0500"
+            }
+        }
+    ]
+}

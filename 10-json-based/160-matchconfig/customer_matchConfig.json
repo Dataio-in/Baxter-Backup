@@ -1,0 +1,164 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "customer_matchConfig",
+            "name": "customer",
+            "type": "matchConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.793-0600",
+                "modifiedDate": "2021-11-19T12:06:22.793-0600"
+            },
+            "data": {
+                "jsonData": {
+                    "matchRules": [
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "baxmdmid": {
+                                                    "exact": "{{baxmdmid}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "customer"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 1
+                        },
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "city": {
+                                                    "exact": "{{city}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "country": {
+                                                    "exact": "{{country}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "stateprovince": {
+                                                    "exact": "{{stateprovince}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "postalcode": {
+                                                    "exact": "{{postalcode}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "legalcompanyname": {
+                                                    "exact": "{{legalcompanyname}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "baxptystreetname": {
+                                                    "exact": "{{baxptystreetname}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "baxptystreetnumber": {
+                                                    "exact": "{{baxptystreetnumber}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "baxptysuitenumber": {
+                                                    "exact": "{{baxptysuitenumber}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "customer"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 2
+                        },
+                        {
+                            "matchType": "deterministic",
+                            "searchQuery": {
+                                "query": {
+                                    "filters": {
+                                        "attributesCriterion": [
+                                            {
+                                                "legalcompanyname": {
+                                                    "exact": "{{legalcompanyname}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "city": {
+                                                    "exact": "{{city}}",
+                                                    "type": "_STRING"
+                                                }
+                                            },
+                                            {
+                                                "pobox": {
+                                                    "exact": "{{pobox}}",
+                                                    "type": "_STRING"
+                                                }
+                                            }
+                                        ],
+                                        "typesCriterion": [
+                                            "customer"
+                                        ]
+                                    },
+                                    "valueContexts": [
+                                        {
+                                            "source": "internal",
+                                            "locale": "en-US"
+                                        }
+                                    ]
+                                }
+                            },
+                            "matchSequence": 3
+                        }
+                    ],
+                    "type": "config"
+                }
+            }
+        }
+    ]
+}

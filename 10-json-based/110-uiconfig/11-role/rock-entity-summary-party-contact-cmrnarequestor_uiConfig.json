@@ -1,0 +1,172 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-summary-party-contact-cmrnarequestor_uiConfig",
+            "name": "rock-entity-summary-party-contact-cmrnarequestor_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.748-0600",
+                "modifiedDate": "2021-11-19T12:06:21.748-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-summary",
+                            "domain": "party",
+                            "entityType": "contact",
+                            "role": "cmrnarequestor"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "widgets": {
+                                    "rock-entity-tofix": {
+                                        "nonMaximizable": true,
+                                        "visible": false,
+                                        "nonClosable": true,
+                                        "displaySequence": 10,
+                                        "name": "rock-entity-tofix",
+                                        "nonDraggable": true,
+                                        "config": {
+                                            "component": {
+                                                "path": "../rock-entity-tofix/rock-entity-tofix.js",
+                                                "name": "rock-entity-tofix",
+                                                "properties": {
+                                                    "view-mode": true,
+                                                    "open-content-in-full-mode": true,
+                                                    "docking-point": "entity-detail-tabs",
+                                                    "need-attributes-grouping": true,
+                                                    "max-error-attributes-to-display": 30
+                                                }
+                                            },
+                                            "position-x": 0,
+                                            "iconButtons": {
+                                                "refresh": {
+                                                    "visible": true,
+                                                    "name": "refresh",
+                                                    "icon": "pebble-icon:refresh",
+                                                    "label": "{[RfsTxt]}",
+                                                    "showInMoreActions": false
+                                                }
+                                            },
+                                            "heading": "{[ESEFLbl]}",
+                                            "position-y": 0,
+                                            "width": 10,
+                                            "height": 10
+                                        }
+                                    },
+                                    "rock-entity-relationships-summary": {
+                                        "nonMaximizable": true,
+                                        "visible": true,
+                                        "nonClosable": true,
+                                        "displaySequence": 30,
+                                        "name": "rock-entity-relationships-summary",
+                                        "nonDraggable": true,
+                                        "config": {
+                                            "component": {
+                                                "path": "../rock-entity-relationships-summary/rock-entity-relationships-summary.js",
+                                                "name": "rock-entity-relationships-summary",
+                                                "properties": {
+                                                    "apply-context-coalesce": true,
+                                                    "domain": "party",
+                                                    "link-tab": "relationships"
+                                                }
+                                            },
+                                            "position-x": 0,
+                                            "iconButtons": [
+                                                {
+                                                    "name": "refreshIcon",
+                                                    "icon": "pebble-icon:refresh",
+                                                    "label": "{[RfsTxt]}",
+                                                    "showInMoreActions": false
+                                                }
+                                            ],
+                                            "heading": "{[RelTxt]}",
+                                            "position-y": 0,
+                                            "width": 12,
+                                            "applyContextCoalesce": true,
+                                            "height": 10
+                                        }
+                                    },
+                                    "rock-entity-todo": {
+                                        "nonMaximizable": true,
+                                        "visible": false,
+                                        "nonClosable": true,
+                                        "displaySequence": 20,
+                                        "name": "rock-entity-todo",
+                                        "nonDraggable": true,
+                                        "config": {
+                                            "component": {
+                                                "path": "../rock-entity-todo/rock-entity-todo.js",
+                                                "name": "rock-entity-todo",
+                                                "properties": {
+                                                    "docking-point": "entity-detail-tabs"
+                                                }
+                                            },
+                                            "position-x": 6,
+                                            "iconButtons": {
+                                                "refresh": {
+                                                    "visible": true,
+                                                    "name": "refresh",
+                                                    "icon": "pebble-icon:refresh",
+                                                    "label": "{[RfsTxt]}",
+                                                    "showInMoreActions": false
+                                                }
+                                            },
+                                            "heading": "{[ESETLbl]}",
+                                            "position-y": 0,
+                                            "width": 6,
+                                            "height": 10
+                                        }
+                                    },
+                                    "rock-entity-assets-summary": {
+                                        "nonMaximizable": true,
+                                        "visible": false,
+                                        "nonClosable": true,
+                                        "displaySequence": 40,
+                                        "name": "rock-entity-assets-summary",
+                                        "nonDraggable": true,
+                                        "config": {
+                                            "component": {
+                                                "path": "../rock-entity-relationships-summary/rock-entity-relationships-summary.js",
+                                                "name": "rock-entity-relationships-summary",
+                                                "properties": {
+                                                    "apply-context-coalesce": true,
+                                                    "domain": "digitalAsset",
+                                                    "link-tab": "assets"
+                                                }
+                                            },
+                                            "position-x": 6,
+                                            "iconButtons": [
+                                                {
+                                                    "name": "refreshIcon",
+                                                    "icon": "pebble-icon:refresh",
+                                                    "label": "{[RfsTxt]}",
+                                                    "showInMoreActions": false
+                                                }
+                                            ],
+                                            "heading": "{[AstTxt]}",
+                                            "position-y": 5,
+                                            "width": 6,
+                                            "applyContextCoalesce": true,
+                                            "height": 5
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

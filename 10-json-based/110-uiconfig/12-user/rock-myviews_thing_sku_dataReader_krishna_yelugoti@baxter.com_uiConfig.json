@@ -1,0 +1,66 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-myviews_thing_sku_dataReader_krishna_yelugoti@baxter.com_uiConfig",
+            "name": "rock-myviews_thing_sku_dataReader_krishna_yelugoti@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "krishna_yelugoti@baxter.com",
+                "createdBy": "krishna_yelugoti@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "krishna_yelugoti@baxter.com_user",
+                "modifiedDate": "2022-02-14T03:28:44.676-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-myviews",
+                            "domain": "thing",
+                            "entityType": "sku",
+                            "role": "dataReader",
+                            "user": "krishna_yelugoti@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "menuItems": {
+                                        "Description": {
+                                            "isUserAction": true,
+                                            "component": {
+                                                "path": "/src/elements/rock-attribute-split-screen/rock-attribute-split-screen.html",
+                                                "name": "rock-attribute-split-screen",
+                                                "properties": {
+                                                    "mode": "view",
+                                                    "no-of-columns": 3,
+                                                    "apply-context-coalesce": true,
+                                                    "apply-locale-coalesce": true,
+                                                    "config-context": {
+                                                        "attributeNames": [
+                                                            "itmdesc1",
+                                                            "itmdesc2"
+                                                        ]
+                                                    },
+                                                    "do-sync-validation": true
+                                                }
+                                            },
+                                            "name": "Description",
+                                            "icon": "pebble-icon:my-view",
+                                            "title": "Description",
+                                            "enabled": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

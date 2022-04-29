@@ -1,0 +1,202 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-search-result_account_uiConfig",
+            "name": "bax_rock-entity-search-result_account_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.635-0600",
+                "modifiedDate": "2021-11-19T12:06:21.635-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "domain": "party",
+                            "entityType": "account"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "country": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "displaySequence": 30,
+                                                "name": "country",
+                                                "header": "Country",
+                                                "sortable": true
+                                            },
+                                            "firstname": {
+                                                "visible": false
+                                            },
+                                            "legalcompanyname": {
+                                                "visible": false
+                                            },
+                                            "city": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "displaySequence": 66,
+                                                "name": "city",
+                                                "header": "City",
+                                                "sortable": false
+                                            },
+                                            "createddate": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 95,
+                                                "name": "createddate",
+                                                "header": "Created Date",
+                                                "sortable": true
+                                            },
+                                            "billingaddresstype": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 50,
+                                                "name": "billingaddresstype",
+                                                "header": "Billing Address Type",
+                                                "sortable": true
+                                            },
+                                            "phonenumber": {
+                                                "visible": false
+                                            },
+                                            "accountaddressmdmid": {
+                                                "visible": false
+                                            },
+                                            "jdecustomeralphaname": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 25,
+                                                "name": "jdecustomeralphaname",
+                                                "header": "JDE Customer(Alpha Name)",
+                                                "sortable": true
+                                            },
+                                            "postalcode": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "displaySequence": 90,
+                                                "name": "postalcode",
+                                                "header": "Postal Code",
+                                                "sortable": true
+                                            },
+                                            "taxid": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": false,
+                                                "displaySequence": 20,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}"
+                                            },
+                                            "thumbnail": {
+                                                "visible": false
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false,
+                                                "displaySequence": 3
+                                            },
+                                            "jdecustomertype": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 45,
+                                                "name": "jdecustomertype",
+                                                "header": "JDE Customer Type",
+                                                "sortable": true
+                                            },
+                                            "entityTypeIcon": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": true,
+                                                "iconColumn": true,
+                                                "displaySequence": 5,
+                                                "name": "entityTypeIcon",
+                                                "sortable": true
+                                            },
+                                            "stateprovince": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "displaySequence": 80,
+                                                "name": "stateprovince",
+                                                "header": "State/Province",
+                                                "sortable": true
+                                            },
+                                            "baxptyaddress": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 30,
+                                                "name": "baxptyaddress",
+                                                "header": "Address",
+                                                "sortable": true
+                                            },
+                                            "lastname": {
+                                                "visible": false
+                                            },
+                                            "jdecustomersearchtype": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 40,
+                                                "name": "jdecustomersearchtype",
+                                                "header": "JDE Customer Search Type",
+                                                "sortable": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "updateddate": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 100,
+                                                "name": "updateddate",
+                                                "header": "Updated Date",
+                                                "sortable": true
+                                            },
+                                            "addressline1": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "displaySequence": 30,
+                                                "name": "addressline1",
+                                                "header": "Address Line 1",
+                                                "sortable": true
+                                            },
+                                            "baxmdmid": {
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "baxmdmid",
+                                                "header": "Baxter MDM ID",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}"
+                                            },
+                                            "jdecustomernamemailingname": {
+                                                "visible": false
+                                            },
+                                            "addressnumber": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 35,
+                                                "name": "addressnumber",
+                                                "header": "JDE Account Number",
+                                                "sortable": true
+                                            },
+                                            "primaryemail": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "metaInfo": {
+        "dataIndex": "entityModel",
+        "collectionName": "entityModels",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "skutp_rpackofsku_pack_rolldown_graphProcessModel",
+            "name": "skutp_rpackofsku_pack_rolldown",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "skutp_rpackofsku_pack",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "relationshipBased",
+                        "relationshipName": "rpackofsku",
+                        "matchRulesOperator": "or",
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "createdService": "entityManageModelService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "entityManageModelService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-11-23T05:10:17.887-0600",
+                "modifiedDate": "2021-11-23T05:10:17.887-0600"
+            },
+            "data": {
+                "attributes": {
+                    "itemreferencesequence": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "companyprefix": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "natdrugcd": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "longitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "shrtitmnr": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "eachgtin": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

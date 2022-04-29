@@ -1,0 +1,490 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_cmrnachops_brett_mcgee@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_party_app-entity-discovery__DEFAULT_cmrnachops_brett_mcgee@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "brett_mcgee@baxter.com",
+                "createdBy": "brett_mcgee@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "brett_mcgee@baxter.com_user",
+                "modifiedDate": "2022-03-21T14:23:37.424-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "party",
+                            "role": "cmrnachops",
+                            "user": "brett_mcgee@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Bill To Ship To": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "jdeparentnumber": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "jdeparentnumber",
+                                                    "width": 20,
+                                                    "header": "JDE Parent Number - PA8",
+                                                    "sortable": true
+                                                },
+                                                "createdDate": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "createdDate",
+                                                    "width": 20,
+                                                    "header": "Created Date",
+                                                    "sortable": true
+                                                },
+                                                "createdBy": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "createdBy",
+                                                    "width": 20,
+                                                    "header": "Created By",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomeralphaname": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 25,
+                                                    "name": "jdecustomeralphaname",
+                                                    "header": "JDE Customer(Alpha Name)",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomersearchtype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 40,
+                                                    "name": "jdecustomersearchtype",
+                                                    "header": "JDE Customer Search Type",
+                                                    "sortable": true
+                                                },
+                                                "billingaddresstype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 50,
+                                                    "name": "billingaddresstype",
+                                                    "header": "Billing Address Type",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "baxmdmid",
+                                                    "header": "Baxter MDM ID",
+                                                    "linkTemplate": "entity-manage?id={id}&type={type}"
+                                                },
+                                                "jdeinventorysourcing": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "jdeinventorysourcing",
+                                                    "width": 20,
+                                                    "header": "JDE Inventory Sourcing - AC12",
+                                                    "sortable": true
+                                                },
+                                                "addressnumber": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 35,
+                                                    "name": "addressnumber",
+                                                    "header": "JDE Account Number",
+                                                    "sortable": true
+                                                },
+                                                "jde1staddressnumber": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "jde1staddressnumber",
+                                                    "width": 20,
+                                                    "header": "JDE 1st Address Number - AN81",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Bill To Ship To",
+                                        "icon": "pebble-icon:my-view",
+                                        "gridPersonalizationSettings": {
+                                            "colState": [
+                                                {
+                                                    "hide": false,
+                                                    "width": 35,
+                                                    "pivot": false,
+                                                    "colId": "0",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "baxmdmid",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "jdecustomeralphaname",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "sortIndex": 0,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "sort": "asc",
+                                                    "colId": "addressnumber",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "jdecustomersearchtype",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "billingaddresstype",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 180.39999999999998,
+                                                    "pivot": false,
+                                                    "colId": "createdDate",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 126.39999999999998,
+                                                    "pivot": false,
+                                                    "colId": "createdBy",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 304.4,
+                                                    "pivot": false,
+                                                    "colId": "jdeparentnumber",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 304.4,
+                                                    "pivot": false,
+                                                    "colId": "jdeinventorysourcing",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 304.4,
+                                                    "pivot": false,
+                                                    "colId": "jde1staddressnumber",
+                                                    "rowGroup": false
+                                                }
+                                            ]
+                                        },
+                                        "viewConfig": {
+                                            "toolbarConfig": {
+                                                "buttonItems": {
+                                                    "basic": {
+                                                        "buttons": {
+                                                            "refresh": {
+                                                                "visible": true,
+                                                                "displaySequence": 100,
+                                                                "name": "refresh",
+                                                                "icon": "pebble-icon:refresh",
+                                                                "tooltip": "Refresh",
+                                                                "text": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.jdeparentnumber}",
+                                                    "subTitlePattern": "{entity.attributes.jdeparentnumber} | {entity.attributes.jdecustomeralphaname} | {entity.attributes.jdecustomersearchtype} | {entity.attributes.billingaddresstype} | {entity.attributes.baxmdmid} | {entity.attributes.addressnumber} | {entity.attributes.jde1staddressnumber} | {entity.attributes.jdeinventorysourcing}",
+                                                    "actions": {}
+                                                },
+                                                "fieldChanges": {}
+                                            },
+                                            "tabular": {
+                                                "settings": {},
+                                                "fieldChanges": {}
+                                            },
+                                            "list": {
+                                                "settings": {
+                                                    "actions": {}
+                                                },
+                                                "fieldsChanges": {}
+                                            }
+                                        },
+                                        "title": "Bill To Ship To",
+                                        "value": "Bill To Ship To",
+                                        "enabled": true
+                                    },
+                                    "My View": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "baxptyjdecmrptcode48": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "baxptyjdecmrptcode48",
+                                                    "width": 20,
+                                                    "header": "CM Rpt Code 48 Global",
+                                                    "sortable": true
+                                                },
+                                                "workflowstatusaccount": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "workflowstatusaccount",
+                                                    "width": 20,
+                                                    "header": "Account Workflow Status",
+                                                    "sortable": true
+                                                },
+                                                "createdDate": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "createdDate",
+                                                    "width": 20,
+                                                    "header": "Created Date",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomertype": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "jdecustomertype",
+                                                    "width": 20,
+                                                    "header": "JDE Customer Type - AC02",
+                                                    "sortable": true
+                                                },
+                                                "createdBy": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "createdBy",
+                                                    "width": 20,
+                                                    "header": "Created By",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomeralphaname": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 25,
+                                                    "name": "jdecustomeralphaname",
+                                                    "header": "JDE Customer(Alpha Name)",
+                                                    "sortable": true
+                                                },
+                                                "jdecustomersearchtype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 40,
+                                                    "name": "jdecustomersearchtype",
+                                                    "header": "JDE Customer Search Type",
+                                                    "sortable": true
+                                                },
+                                                "billingaddresstype": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 50,
+                                                    "name": "billingaddresstype",
+                                                    "header": "Billing Address Type",
+                                                    "sortable": true
+                                                },
+                                                "baxmdmid": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "baxmdmid",
+                                                    "header": "Baxter MDM ID",
+                                                    "linkTemplate": "entity-manage?id={id}&type={type}"
+                                                },
+                                                "addressnumber": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "displaySequence": 35,
+                                                    "name": "addressnumber",
+                                                    "header": "JDE Account Number",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "My View",
+                                        "icon": "pebble-icon:my-view",
+                                        "gridPersonalizationSettings": {
+                                            "colState": [
+                                                {
+                                                    "hide": false,
+                                                    "width": 35,
+                                                    "pivot": false,
+                                                    "colId": "0",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "baxmdmid",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "jdecustomeralphaname",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "sortIndex": 0,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "sort": "asc",
+                                                    "colId": "addressnumber",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "jdecustomersearchtype",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": "177.39999999999998",
+                                                    "pivot": false,
+                                                    "colId": "jdecustomertype",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "flex": 1,
+                                                    "width": 120,
+                                                    "pivot": false,
+                                                    "colId": "billingaddresstype",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": "200.39999999999998",
+                                                    "pivot": false,
+                                                    "colId": "workflowstatusaccount",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": "180.39999999999998",
+                                                    "pivot": false,
+                                                    "colId": "createdDate",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": "126.39999999999998",
+                                                    "pivot": false,
+                                                    "colId": "createdBy",
+                                                    "rowGroup": false
+                                                },
+                                                {
+                                                    "hide": false,
+                                                    "width": 304.4,
+                                                    "pivot": false,
+                                                    "colId": "baxptyjdecmrptcode48",
+                                                    "rowGroup": false
+                                                }
+                                            ]
+                                        },
+                                        "viewConfig": {
+                                            "toolbarConfig": {
+                                                "buttonItems": {
+                                                    "basic": {
+                                                        "buttons": {
+                                                            "refresh": {
+                                                                "visible": true,
+                                                                "displaySequence": 100,
+                                                                "name": "refresh",
+                                                                "icon": "pebble-icon:refresh",
+                                                                "tooltip": "Refresh",
+                                                                "text": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.workflowstatusaccount}",
+                                                    "subTitlePattern": "{entity.attributes.workflowstatusaccount} | {entity.attributes.jdecustomertype} | {entity.attributes.jdecustomeralphaname} | {entity.attributes.jdecustomersearchtype} | {entity.attributes.billingaddresstype} | {entity.attributes.baxmdmid} | {entity.attributes.addressnumber} | {entity.attributes.baxptyjdecmrptcode48}",
+                                                    "actions": {}
+                                                },
+                                                "fieldChanges": {}
+                                            },
+                                            "tabular": {
+                                                "settings": {},
+                                                "fieldChanges": {}
+                                            },
+                                            "list": {
+                                                "settings": {
+                                                    "actions": {}
+                                                },
+                                                "fieldsChanges": {}
+                                            }
+                                        },
+                                        "title": "My View",
+                                        "value": "My View",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

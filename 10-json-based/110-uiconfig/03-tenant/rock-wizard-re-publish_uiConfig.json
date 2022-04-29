@@ -1,0 +1,258 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-wizard-re-publish_uiConfig",
+            "name": "rock-wizard-re-publish_baxterpim",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:44.136-0500",
+                "modifiedDate": "2020-10-09T06:29:44.136-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-wizard-re-publish",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "re-publish-baxterbaxsolid": {
+                                    "name": "re-publish-baxterbaxsolid",
+                                    "label": "Publish",
+                                    "steps": {
+                                        "step-1-re-publish-entity": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-re-publish/rock-re-publish.html",
+                                                "name": "rock-re-publish",
+                                                "properties": {
+                                                    "profiles": [
+                                                        {
+                                                            "copContext": {
+                                                                "subtype": "System",
+                                                                "service": "ENTITY_EXPORT",
+                                                                "channel": "AZURE_BLOB_CONTAINER_baxterbaxsolid",
+                                                                "format": "JSON",
+                                                                "source": "internal",
+                                                                "order": "10"
+                                                            },
+                                                            "types-criterion": [
+                                                                "sparepart",
+                                                                "sku",
+                                                                "rawmaterial",
+                                                                "compoundingcode",
+                                                                "service"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "backEvent": "onCancel",
+                                            "name": "step-1-re-publish-entity",
+                                            "nextEvent": "onComplete",
+                                            "label": "Publish",
+                                            "sharedProperties": {
+                                                "business-function-data": "businessFunctionData"
+                                            }
+                                        },
+                                        "step-2-re-publish-entity-finish": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-business-function-finish/rock-business-function-finish.html",
+                                                "name": "rock-business-function-finish",
+                                                "properties": {
+                                                    "business-function-data": {}
+                                                }
+                                            },
+                                            "name": "step-2-re-publish-entity-finish",
+                                            "nextEvent": "onNext",
+                                            "label": "Finish Publish"
+                                        }
+                                    }
+                                },
+                                "re-publish": {
+                                    "name": "re-publish",
+                                    "label": "Publish",
+                                    "steps": {
+                                        "step-1-re-publish-entity": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-re-publish/rock-re-publish.html",
+                                                "name": "rock-re-publish",
+                                                "properties": {
+                                                    "profiles": [
+                                                        {
+                                                            "copContext": {
+                                                                "role": "admin",
+                                                                "subtype": "System",
+                                                                "service": "ENTITY_EXPORT",
+                                                                "channel": "JOB",
+                                                                "format": "JSON",
+                                                                "source": "internal",
+                                                                "user": "system",
+                                                                "order": "10"
+                                                            },
+                                                            "types-criterion": [
+                                                                "sparepart",
+                                                                "sku",
+                                                                "rawmaterial",
+                                                                "compoundingcode",
+                                                                "service",
+                                                                "pallet",
+                                                                "productgroup",
+                                                                "mro",
+                                                                "pack",
+                                                                "case",
+                                                                "request",
+                                                                "each"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "backEvent": "onCancel",
+                                            "name": "step-1-re-publish-entity",
+                                            "nextEvent": "onComplete",
+                                            "label": "Publish",
+                                            "sharedProperties": {
+                                                "business-function-data": "businessFunctionData"
+                                            }
+                                        },
+                                        "step-2-re-publish-entity-finish": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-business-function-finish/rock-business-function-finish.html",
+                                                "name": "rock-business-function-finish",
+                                                "properties": {
+                                                    "business-function-data": {}
+                                                }
+                                            },
+                                            "name": "step-2-re-publish-entity-finish",
+                                            "nextEvent": "onNext",
+                                            "label": "Finish Publish"
+                                        }
+                                    }
+                                },
+                                "re-publish-baxterjde": {
+                                    "name": "re-publish-baxterjde",
+                                    "label": "Publish",
+                                    "steps": {
+                                        "step-1-re-publish-entity": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-re-publish/rock-re-publish.html",
+                                                "name": "rock-re-publish",
+                                                "properties": {
+                                                    "profiles": [
+                                                        {
+                                                            "copContext": {
+                                                                "subtype": "System",
+                                                                "service": "ENTITY_EXPORT",
+                                                                "channel": "AZURE_BLOB_CONTAINER_baxterjde",
+                                                                "format": "JSON",
+                                                                "source": "internal",
+                                                                "order": "10"
+                                                            },
+                                                            "types-criterion": [
+                                                                "sparepart",
+                                                                "sku",
+                                                                "rawmaterial",
+                                                                "compoundingcode",
+                                                                "service"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "backEvent": "onCancel",
+                                            "name": "step-1-re-publish-entity",
+                                            "nextEvent": "onComplete",
+                                            "label": "Publish",
+                                            "sharedProperties": {
+                                                "business-function-data": "businessFunctionData"
+                                            }
+                                        },
+                                        "step-2-re-publish-entity-finish": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-business-function-finish/rock-business-function-finish.html",
+                                                "name": "rock-business-function-finish",
+                                                "properties": {
+                                                    "business-function-data": {}
+                                                }
+                                            },
+                                            "name": "step-2-re-publish-entity-finish",
+                                            "nextEvent": "onNext",
+                                            "label": "Finish Publish"
+                                        }
+                                    }
+                                },
+                                "re-publish-azure": {
+                                    "name": "re-publish-azure",
+                                    "label": "Publish to EventHub",
+                                    "steps": {
+                                        "step-1-re-publish-entity": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-re-publish/rock-re-publish.html",
+                                                "name": "rock-re-publish",
+                                                "properties": {
+                                                    "profiles": [
+                                                        {
+                                                            "copContext": {
+                                                                "subtype": "System",
+                                                                "service": "ENTITY_EXPORT",
+                                                                "channel": "EventHub_Export",
+                                                                "format": "JSON",
+                                                                "source": "internal",
+                                                                "user": "system",
+                                                                "order": "10"
+                                                            },
+                                                            "types-criterion": [
+                                                                "sparepart",
+                                                                "sku",
+                                                                "rawmaterial",
+                                                                "compoundingcode",
+                                                                "service"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "backEvent": "onCancel",
+                                            "name": "step-1-re-publish-entity",
+                                            "nextEvent": "onComplete",
+                                            "label": "Publish to EventHub",
+                                            "sharedProperties": {
+                                                "business-function-data": "businessFunctionData"
+                                            }
+                                        },
+                                        "step-2-re-publish-entity-finish": {
+                                            "component": {
+                                                "path": "/../../src/elements/rock-business-function-finish/rock-business-function-finish.html",
+                                                "name": "rock-business-function-finish",
+                                                "properties": {
+                                                    "business-function-data": {}
+                                                }
+                                            },
+                                            "name": "step-2-re-publish-entity-finish",
+                                            "nextEvent": "onNext",
+                                            "label": "Finish Publish to EventHub"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

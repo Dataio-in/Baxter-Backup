@@ -1,0 +1,100 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result_thing_uiConfig",
+            "name": "rock-entity-relationship-search-result_thing",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:55.934-0500",
+                "modifiedDate": "2020-10-09T06:29:55.934-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result",
+                            "domain": "thing"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "copyActionConfig": {
+                                    "visible": false
+                                },
+                                "governDataConfig": {
+                                    "showGovernDataToggle": false,
+                                    "visible": false
+                                },
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "image": "productImageUrl",
+                                        "isMultiSelect": true,
+                                        "linkTemplate": "entity-manage?id={id}&type={type}",
+                                        "id": "id",
+                                        "sort": {
+                                            "default": [
+                                                {
+                                                    "field": "order",
+                                                    "sortType": "asc"
+                                                }
+                                            ]
+                                        },
+                                        "title": "name",
+                                        "fields": {
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "order": {
+                                                "visible": false
+                                            }
+                                        }
+                                    },
+                                    "applyContextCoalesce": true,
+                                    "viewConfig": {
+                                        "tabular": {
+                                            "settings": {
+                                                "moreOptionEnabled": true
+                                            }
+                                        }
+                                    }
+                                },
+                                "addRelAssetConfig": {
+                                    "dataRequest": {
+                                        "domains": [
+                                            "digitalAsset"
+                                        ],
+                                        "attributes": [
+                                            "property_originalfilename",
+                                            "filetype",
+                                            "imagesize",
+                                            "description",
+                                            "thumbnail"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

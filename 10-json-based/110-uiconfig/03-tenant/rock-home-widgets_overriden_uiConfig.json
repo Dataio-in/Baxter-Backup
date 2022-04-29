@@ -1,0 +1,68 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-home-widgets_overriden_uiConfig",
+            "name": "rock-home-widgets_overriden",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-25T05:10:47.588-0500",
+                "modifiedDate": "2022-04-25T05:10:47.588-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-home-widgets",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "widgets": {
+                                    "rock-my-todos": {
+                                        "nonMaximizable": false,
+                                        "nonClosable": true,
+                                        "displaySequence": 10,
+                                        "name": "rock-my-todos",
+                                        "nonDraggable": false,
+                                        "config": {
+                                            "component": {
+                                                "path": "../rock-my-todos/rock-my-todos.js",
+                                                "name": "rock-my-todos",
+                                                "properties": {
+                                                    "assignmentFilterValue": "assignedToMe",
+                                                    "maximum-number-of-workflows-to-display": 50
+                                                }
+                                            },
+                                            "position-x": 0,
+                                            "iconButtons": {
+                                                "refresh": {
+                                                    "name": "refresh",
+                                                    "icon": "pebble-icon:refresh",
+                                                    "label": "{[RfsTxt]}",
+                                                    "showInMoreActions": false
+                                                }
+                                            },
+                                            "heading": "{[DWMTHeaLbl]}",
+                                            "position-y": 0,
+                                            "width": 6,
+                                            "height": 6
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-discovery_baseModel_uiConfig",
+            "name": "rock-entity-search-discovery_baseModel",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:55.951-0500",
+                "modifiedDate": "2020-10-09T06:29:55.951-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-discovery",
+                            "domain": "baseModel"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "componentSettings": {
+                                    "rock-query-builder": {
+                                        "enableRelationshipsSearch": true,
+                                        "attributeValuesExistsSearchEnabled": true,
+                                        "enableRelatedEntitySearch": false,
+                                        "enableWorkflowSearch": true,
+                                        "showNestedAttributes": false,
+                                        "showNestedChildAttributes": true,
+                                        "relationshipsExistsSearchEnabled": true
+                                    },
+                                    "rock-entity-type-model-lov": {
+                                        "title": "Type",
+                                        "multiSelect": true
+                                    },
+                                    "rock-saved-searches": {
+                                        "supportedDomains": [
+                                            {
+                                                "domain": "digitalAsset",
+                                                "icon": "pebble-icon:digital-asset-search"
+                                            },
+                                            {
+                                                "domain": "thing",
+                                                "icon": "pebble-icon:product-search"
+                                            },
+                                            {
+                                                "domain": "location",
+                                                "icon": "pebble-icon:domain-location-search"
+                                            },
+                                            {
+                                                "domain": "party",
+                                                "icon": "pebble-icon:domain-party-search"
+                                            }
+                                        ]
+                                    },
+                                    "rock-entity-search-filter": {
+                                        "allowDependencyForFilter": true,
+                                        "attributeValuesExistsSearchEnabled": true,
+                                        "showNestedAttributes": false,
+                                        "showNestedChildAttributes": true
+                                    }
+                                },
+                                "componentsVisibility": {
+                                    "rock-query-builder": true,
+                                    "rock-search-bar": true,
+                                    "rock-entity-type-model-lov": true,
+                                    "rock-business-actions": true,
+                                    "rock-entity-quick-manage": true,
+                                    "rock-saved-searches": true,
+                                    "rock-entity-search-result": true,
+                                    "rock-entity-search-filter": true
+                                },
+                                "attributesFilterSortDetails": {
+                                    "sortType": "_ASC",
+                                    "dataType": "_STRING",
+                                    "property": "externalName"
+                                },
+                                "selectedEntityTypes": []
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

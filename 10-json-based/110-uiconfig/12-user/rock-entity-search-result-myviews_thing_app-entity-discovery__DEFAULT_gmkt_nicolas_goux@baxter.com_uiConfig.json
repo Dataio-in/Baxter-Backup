@@ -1,0 +1,148 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_gmkt_nicolas_goux@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_gmkt_nicolas_goux@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "nicolas_goux@baxter.com",
+                "createdBy": "nicolas_goux@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "nicolas_goux@baxter.com_user",
+                "modifiedDate": "2021-03-31T01:51:45.904-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "thing",
+                            "role": "gmkt",
+                            "user": "nicolas_goux@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "My view": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "prodgrpname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "prodgrpname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "longitmnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "longitmnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "entityTypeIcon": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "iconColumn": true,
+                                                    "name": "entityTypeIcon",
+                                                    "width": 20,
+                                                    "header": "Type Icon",
+                                                    "sortable": true
+                                                },
+                                                "skudescdist": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "skudescdist",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "reqstr": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "reqstr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "skuname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "skuname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "My view",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "toolbarConfig": {
+                                                "buttonItems": {
+                                                    "basic": {
+                                                        "buttons": {
+                                                            "refresh": {
+                                                                "visible": true,
+                                                                "displaySequence": 100,
+                                                                "name": "refresh",
+                                                                "icon": "pebble-icon:refresh",
+                                                                "tooltip": "Refresh",
+                                                                "text": ""
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.reqstr}",
+                                                    "subTitlePattern": "{entity.attributes.reqstr} | {entity.attributes.skuname} | {entity.attributes.skudescdist} | {entity.attributes.prodgrpname} | {entity.attributes.longitmnr}",
+                                                    "actions": {}
+                                                },
+                                                "fieldChanges": {}
+                                            },
+                                            "tabular": {
+                                                "settings": {},
+                                                "fieldChanges": {}
+                                            },
+                                            "list": {
+                                                "settings": {
+                                                    "actions": {}
+                                                },
+                                                "fieldsChanges": {}
+                                            }
+                                        },
+                                        "title": "My view",
+                                        "value": "My view",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

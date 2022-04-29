@@ -1,0 +1,99 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_app-repository_cmcustax_uiConfig",
+            "name": "bax_app-repository_cmcustax_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.047-0600",
+                "modifiedDate": "2021-11-19T12:06:22.047-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "app-repository",
+                            "role": "cmcustax"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "application-log-viewer": {
+                                    "enabled": false
+                                },
+                                "govmodel-dashboard": {
+                                    "enabled": false
+                                },
+                                "basemodel-thing-dashboard": {
+                                    "enabled": false
+                                },
+                                "visualization-dashboard": {
+                                    "enabled": false
+                                },
+                                "authmodel-dashboard": {
+                                    "enabled": false
+                                },
+                                "search-location": {
+                                    "enabled": false
+                                },
+                                "workflowmodel-dashboard": {
+                                    "enabled": false
+                                },
+                                "system-dashboard": {
+                                    "enabled": false
+                                },
+                                "basemodel-location-dashboard": {
+                                    "enabled": false
+                                },
+                                "search-party": {
+                                    "enabled": true
+                                },
+                                "taxonomymodel-dashboard": {
+                                    "enabled": false
+                                },
+                                "upload-excel-migration": {
+                                    "enabled": false
+                                },
+                                "basemodel-digitalasset-dashboard": {
+                                    "enabled": false
+                                },
+                                "systemlog-viewer": {
+                                    "enabled": false
+                                },
+                                "basemodel-referencedata-dashboard": {
+                                    "enabled": false
+                                },
+                                "instancedatamodel-dashboard": {
+                                    "enabled": false
+                                },
+                                "visualization-designer": {
+                                    "enabled": false
+                                },
+                                "basemodel-party-dashboard": {
+                                    "enabled": false
+                                },
+                                "visualization-report": {
+                                    "enabled": false
+                                },
+                                "visualization-manage-dashboard": {
+                                    "enabled": false
+                                },
+                                "syndication-dashboard": {
+                                    "enabled": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

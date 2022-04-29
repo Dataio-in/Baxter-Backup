@@ -1,0 +1,208 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result_imageofsparepart_uiConfig",
+            "name": "rock-entity-relationship-search-result_imageofsparepart",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:32.390-0600",
+                "modifiedDate": "2020-12-10T07:15:32.390-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result",
+                            "relationship": "imageofsparepart"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "addNewRelationConfig": {
+                                    "visible": true
+                                },
+                                "addRelLovConfig": {
+                                    "idField": "id",
+                                    "titlePattern": "{entity.attributes.mdmid}",
+                                    "visible": false
+                                },
+                                "copyActionConfig": {
+                                    "visible": false,
+                                    "delimeter": "\n",
+                                    "attributeField": "mdmname"
+                                },
+                                "governDataConfig": {
+                                    "visible": false
+                                },
+                                "gridConfig": {
+                                    "advanceSelectionEnabled": true,
+                                    "dataRequest": {
+                                        "typesCriterion": [
+                                            "image"
+                                        ]
+                                    },
+                                    "itemConfig": {
+                                        "image": "thumbnail",
+                                        "subtitle": "filetype",
+                                        "thumbnailId": "thumbnailid",
+                                        "sort": {
+                                            "default": [
+                                                {
+                                                    "field": "order",
+                                                    "sortType": "asc"
+                                                }
+                                            ]
+                                        },
+                                        "title": "property_originalfilename",
+                                        "fields": {
+                                            "thumbnail": {
+                                                "displayType": "image",
+                                                "visible": true,
+                                                "displaySequence": 5,
+                                                "name": "thumbnailid",
+                                                "header": "",
+                                                "imageSrc": "entityThumbnail",
+                                                "readOnly": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "mfilename": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "mfilename",
+                                                "header": "File Name",
+                                                "editType": "",
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "isprimary": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "name": "isprimary",
+                                                "header": "Is Primary?",
+                                                "editType": "",
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "order": {
+                                                "visible": false,
+                                                "header": "Rank"
+                                            }
+                                        }
+                                    },
+                                    "schemaType": "colModel",
+                                    "viewConfig": {
+                                        "tile": {
+                                            "settings": {
+                                                "actions": {
+                                                    "downloadOriginalAsset": {
+                                                        "visible": true,
+                                                        "name": "downloadOriginalAsset",
+                                                        "icon": "pebble-icon:download-asset",
+                                                        "tooltip": "Download Original Asset",
+                                                        "eventName": "download-original-asset",
+                                                        "text": ""
+                                                    },
+                                                    "deleteAssetRelationship": {
+                                                        "visible": true,
+                                                        "name": "deleteAssetRelationship",
+                                                        "icon": "pebble-icon:action-delete",
+                                                        "tooltip": "Delete Asset Relationship",
+                                                        "eventName": "delete-item",
+                                                        "text": ""
+                                                    },
+                                                    "delete": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "visible": true,
+                                            "fieldChanges": {}
+                                        },
+                                        "tabular": {
+                                            "settings": {
+                                                "actions": {
+                                                    "downloadOriginalAsset": {
+                                                        "name": "downloadOriginalAsset",
+                                                        "icon": "pebble-icon:download-asset",
+                                                        "eventName": "download-original-asset"
+                                                    },
+                                                    "deleteAssetRelationship": {
+                                                        "name": "delete",
+                                                        "icon": "pebble-icon:action-delete",
+                                                        "eventName": "delete-item"
+                                                    },
+                                                    "delete": {
+                                                        "visible": false
+                                                    },
+                                                    "addRelationConfig": {
+                                                        "mode": "businessFunction",
+                                                        "visible": true
+                                                    }
+                                                }
+                                            },
+                                            "visible": true,
+                                            "fieldChanges": {}
+                                        },
+                                        "list": {
+                                            "settings": {
+                                                "actions": {
+                                                    "downloadOriginalAsset": {
+                                                        "visible": true,
+                                                        "name": "downloadOriginalAsset",
+                                                        "icon": "pebble-icon:download-asset",
+                                                        "tooltip": "Download Original Asset",
+                                                        "eventName": "download-original-asset",
+                                                        "text": ""
+                                                    },
+                                                    "deleteAssetRelationship": {
+                                                        "visible": true,
+                                                        "name": "deleteAssetRelationship",
+                                                        "icon": "pebble-icon:action-delete",
+                                                        "tooltip": "Delete Asset Relationship",
+                                                        "eventName": "delete-item",
+                                                        "text": ""
+                                                    },
+                                                    "delete": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "visible": true,
+                                            "fieldChanges": {}
+                                        }
+                                    },
+                                    "viewMode": "Tile"
+                                },
+                                "addRelationConfig": {
+                                    "mode": "businessFunction",
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

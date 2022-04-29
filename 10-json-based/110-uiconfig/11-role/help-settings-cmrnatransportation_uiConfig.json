@@ -1,0 +1,43 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "help-settings-cmrnatransportation_uiConfig",
+            "name": "help-settings",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "monica_lozano@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "monica_lozano@baxter.com_user",
+                "createdDate": "2022-04-11T11:19:34.416-0500",
+                "modifiedDate": "2022-04-11T11:19:34.416-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "help-settings",
+                            "role": "cmrnatransportation"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "mode": "prod",
+                                "devurl": "<script language='javascript' async='true' type='text/javascript' src='//whatfix.com/8b85d1c0-1a6a-11ea-8b3c-04013d24cf02/embed/embed.nocache.js'></script>",
+                                "produrl": "<script language='javascript' async='true' type='text/javascript' src='//cdn.whatfix.com/prod/8b85d1c0-1a6a-11ea-8b3c-04013d24cf02/embed/embed.nocache.js'></script>",
+                                "helpApp": "help-dashboard",
+                                "helpUrl": "https://worksites.baxter.com/sites/CMDM/SitePages/Resources%20%26%20Training.aspx",
+                                "enabled": false,
+                                "openInNewTab": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

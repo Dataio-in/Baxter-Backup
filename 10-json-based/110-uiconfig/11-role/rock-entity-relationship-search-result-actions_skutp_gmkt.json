@@ -1,0 +1,106 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result-actions_skutp_gmkt",
+            "name": "rock-entity-relationship-search-result-actions_skutp_gmkt",
+            "type": "uiConfig",
+            "properties": {
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.162-0600",
+                "modifiedDate": "2021-11-19T02:22:50.162-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result-actions",
+                            "entityType": "skutp",
+                            "role": "gmkt"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "upDirectionConfig": {
+                                    "toolbarConfig": {
+                                        "buttonItems": {
+                                            "basic": {
+                                                "buttons": {
+                                                    "download": {
+                                                        "visible": true
+                                                    },
+                                                    "edit": {
+                                                        "visible": false
+                                                    },
+                                                    "upload": {
+                                                        "visible": true
+                                                    },
+                                                    "bulkedit": {
+                                                        "visible": true
+                                                    },
+                                                    "quickmanage": {
+                                                        "visible": false
+                                                    },
+                                                    "divider-3": {
+                                                        "visible": false
+                                                    },
+                                                    "delete": {
+                                                        "visible": false
+                                                    },
+                                                    "bulkrelationshipedit": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "toolbarConfig": {
+                                    "buttonItems": {
+                                        "basic": {
+                                            "buttons": {
+                                                "download": {
+                                                    "visible": true
+                                                },
+                                                "edit": {
+                                                    "visible": false
+                                                },
+                                                "upload": {
+                                                    "visible": false
+                                                },
+                                                "bulkedit": {
+                                                    "visible": true
+                                                },
+                                                "quickmanage": {
+                                                    "visible": false
+                                                },
+                                                "divider-3": {
+                                                    "visible": true
+                                                },
+                                                "delete": {
+                                                    "visible": true
+                                                },
+                                                "bulkrelationshipedit": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

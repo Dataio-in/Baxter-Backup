@@ -1,0 +1,129 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "plugin_rock-wizard-migration-excel-upload-base_uiConfig",
+            "name": "plugin_rock-wizard-migration-excel-upload",
+            "type": "uiConfig",
+            "properties": {
+                "migrationVersion": 1,
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-18T06:03:10.494-0600",
+                "modifiedDate": "2020-12-18T06:03:10.494-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-wizard-migration-excel-upload",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "nonMinimizable": false,
+                                "nonClosable": false,
+                                "name": "upload-excel-migration",
+                                "isBFV2Flow": true,
+                                "label": "Upload Excel - Migration Mode",
+                                "steps": {
+                                    "step-1-rock-entity-upload": {
+                                        "component": {
+                                            "path": "/../../src/elements/rock-entity-upload/rock-entity-upload.html",
+                                            "name": "rock-entity-upload",
+                                            "properties": {
+                                                "allowed-file-types": [
+                                                    "xlsm",
+                                                    "xlsx"
+                                                ],
+                                                "leaf-node-only": true,
+                                                "cop-context": {
+                                                    "app": "RSConnect",
+                                                    "role": "admin",
+                                                    "subtype": "User",
+                                                    "service": "ENTITY_IMPORT",
+                                                    "channel": "AZURE_BLOB_CONTAINER_baxter",
+                                                    "format": "Excel",
+                                                    "source": "internal",
+                                                    "user": "system",
+                                                    "order": "10"
+                                                },
+                                                "mapping-config": {
+                                                    "cop-mapping-context": {
+                                                        "dataObjectType": "mapping",
+                                                        "excludeOrder": true,
+                                                        "excludeSubType": true,
+                                                        "service": "MAPPING"
+                                                    }
+                                                },
+                                                "overrides-order": 100,
+                                                "mapping-actions": {
+                                                    "all": {
+                                                        "visible": false,
+                                                        "text": "{[WEUMAAllLbl]}",
+                                                        "event": "mapping-action-event",
+                                                        "value": "all"
+                                                    },
+                                                    "role": {
+                                                        "visible": true,
+                                                        "text": "{[WEUMARolLbl]}",
+                                                        "event": "mapping-action-event",
+                                                        "value": "role"
+                                                    },
+                                                    "self": {
+                                                        "visible": true,
+                                                        "text": "{[SavSelfLbl]}",
+                                                        "event": "mapping-action-event",
+                                                        "value": "self"
+                                                    }
+                                                },
+                                                "max-files": 1,
+                                                "enable-mappings": false,
+                                                "max-file-size": 5000000000,
+                                                "multi-select": true,
+                                                "enable-data-preview": true,
+                                                "upload-request": {
+                                                    "type": "importDataStream"
+                                                }
+                                            }
+                                        },
+                                        "displaySequence": 10,
+                                        "name": "step-1-rock-entity-upload",
+                                        "nextEvent": "onSave",
+                                        "label": "WEUExcLbl",
+                                        "stepperTitle": "{[UplFleTxt]}",
+                                        "sharedProperties": {
+                                            "context-data": "contextData",
+                                            "business-function-data": "businessFunctionData"
+                                        }
+                                    },
+                                    "step-2-rock-entity-upload-finish": {
+                                        "component": {
+                                            "path": "/../../src/elements/rock-business-function-finish/rock-business-function-finish.html",
+                                            "name": "rock-business-function-finish",
+                                            "properties": {
+                                                "business-function-data": {}
+                                            }
+                                        },
+                                        "displaySequence": 20,
+                                        "name": "step-2-rock-entity-upload-finish",
+                                        "nextEvent": "onNext",
+                                        "label": "{[WEUUFLbl]}",
+                                        "stepperTitle": "{[FinTxt]}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

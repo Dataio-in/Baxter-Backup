@@ -1,0 +1,67 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-wizard-entity-create_productgroup_uiConfig",
+            "name": "rock-wizard-entity-create_productgroup",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "lastMigrationTimestamp": "2019-12-01T08:58:13.904+0000",
+                "migrationVersion": 1,
+                "buildVersion": "1.66.1.1013",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:25.090-0600",
+                "modifiedDate": "2020-12-10T07:15:25.090-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-wizard-entity-create",
+                            "entityType": "productgroup"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "name": "entity-create",
+                                "label": "Create new Product Group",
+                                "steps": {
+                                    "step-4-rock-entity-create-finish": {
+                                        "displaySequence": 40,
+                                        "name": "step-4-rock-entity-create-finish",
+                                        "stepperTitle": "Finish"
+                                    },
+                                    "step-2-rock-path-attribute-manage": {
+                                        "visible": false,
+                                        "displaySequence": 20,
+                                        "name": "step-2-rock-path-attribute-manage",
+                                        "stepperTitle": "Select Classifications"
+                                    },
+                                    "step-1-fill-initial-data": {
+                                        "displaySequence": 10,
+                                        "name": "step-1-fill-initial-data",
+                                        "stepperTitle": "Fill Attributes",
+                                        "isMandatory": true
+                                    },
+                                    "step-3-rock-context-manage": {
+                                        "visible": false,
+                                        "displaySequence": 30,
+                                        "name": "step-3-rock-context-manage",
+                                        "stepperTitle": "Select Contexts"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

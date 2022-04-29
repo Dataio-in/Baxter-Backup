@@ -1,0 +1,132 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_app-repository_partyadmin_uiConfig",
+            "name": "bax_app-repository_partyadmin_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:22.087-0600",
+                "modifiedDate": "2021-11-19T12:06:22.087-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "app-repository",
+                            "role": "partyadmin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "application-log-viewer": {
+                                    "enabled": true
+                                },
+                                "govmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-thing-dashboard": {
+                                    "enabled": true
+                                },
+                                "authmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "search-location": {
+                                    "enabled": false
+                                },
+                                "application-log-viewer-report": {
+                                    "enabled": true
+                                },
+                                "request-execution-flow": {
+                                    "enabled": true
+                                },
+                                "system-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-location-dashboard": {
+                                    "enabled": false
+                                },
+                                "search-party": {
+                                    "enabled": true
+                                },
+                                "basemodel-digitalasset-dashboard": {
+                                    "enabled": true
+                                },
+                                "systemlog-viewer": {
+                                    "enabled": true
+                                },
+                                "basemodel-referencedata-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-party-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-report": {
+                                    "enabled": true
+                                },
+                                "visualization-manage-dashboard": {
+                                    "enabled": true
+                                },
+                                "syndication-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-dashboard": {
+                                    "enabled": true
+                                },
+                                "uiconfig-dashboard": {
+                                    "enabled": true
+                                },
+                                "workflowmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "taxonomymodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "upload-excel-migration": {
+                                    "dataRoute": "upload-excel-migration",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-business-function/app-business-function.html",
+                                        "name": "app-business-function",
+                                        "properties": {
+                                            "name": "rock-wizard-migration-excel-upload"
+                                        }
+                                    },
+                                    "nonClosable": false,
+                                    "icon": "pebble-icon:entities",
+                                    "title": "Upload Excel - Migration Mode",
+                                    "enabled": true
+                                },
+                                "instancedatamodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "applicationmonitoring-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-designer": {
+                                    "enabled": true
+                                },
+                                "policy-dashboard": {
+                                    "enabled": true
+                                },
+                                "search-requesttracking": {
+                                    "enabled": true
+                                },
+                                "system-monitoring-report": {
+                                    "enabled": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

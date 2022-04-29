@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_skutp_bec_uiConfig",
+            "name": "rock-entity-search-result_skutp_bec",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.72.1.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "pompana_goud@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pompana_goud@baxter.com_user",
+                "createdDate": "2021-11-19T02:22:50.211-0600",
+                "modifiedDate": "2021-11-19T02:22:50.211-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "skutp",
+                            "role": "bec"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "eccncd": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 195,
+                                                "name": "eccncd",
+                                                "header": "ECCN Code",
+                                                "sortable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_referenceData_admin_pooja_pandey1@baxter.com_uiConfig",
+            "name": "rock-search-filter_referenceData_admin_pooja_pandey1@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "pooja_pandey1@baxter.com",
+                "createdBy": "pooja_pandey1@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "pooja_pandey1@baxter.com_user",
+                "modifiedDate": "2021-02-01T02:07:45.199-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "referenceData",
+                            "role": "admin",
+                            "user": "pooja_pandey1@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "refvalue": {
+                                        "visible": false,
+                                        "displaySequence": 2,
+                                        "name": "refvalue",
+                                        "isUserFilter": true
+                                    },
+                                    "refcode": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "refcode",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_party_cmcuscmt_sonya_johnson@baxter.com_uiConfig",
+            "name": "rock-search-filter_party_cmcuscmt_sonya_johnson@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "sonya_johnson@baxter.com",
+                "createdBy": "sonya_johnson@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "sonya_johnson@baxter.com_user",
+                "modifiedDate": "2022-01-21T07:50:38.291-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "party",
+                            "role": "cmcuscmt",
+                            "user": "sonya_johnson@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "businessunitfordatasecurityinjde": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "businessunitfordatasecurityinjde",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

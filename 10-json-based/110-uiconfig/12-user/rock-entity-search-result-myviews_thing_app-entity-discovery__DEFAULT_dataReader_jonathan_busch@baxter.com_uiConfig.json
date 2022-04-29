@@ -1,0 +1,150 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_dataReader_jonathan_busch@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_dataReader_jonathan_busch@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "jonathan_busch@baxter.com",
+                "createdBy": "jonathan_busch@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "jonathan_busch@baxter.com_user",
+                "modifiedDate": "2021-05-27T09:16:59.872-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "thing",
+                            "role": "dataReader",
+                            "user": "jonathan_busch@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "RIMVault lookup": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "itmdesc2": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc2",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmdesc1": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmdesc1",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "longitmnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "longitmnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "ctryorig": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "ctryorig",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "makbuy": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "makbuy",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "plntlastasss": {
+                                                    "filterable": false,
+                                                    "displayType": "nestedgrid",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "plntlastasss",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "opg2s": {
+                                                    "filterable": false,
+                                                    "displayType": "nestedgrid",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "opg2s",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itmtyp": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itmtyp",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "ctrymanufs": {
+                                                    "filterable": false,
+                                                    "displayType": "nestedgrid",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "ctrymanufs",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "RIMVault lookup",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.longitmnr}",
+                                                    "subTitlePattern": "{entity.attributes.longitmnr} | {entity.attributes.itmdesc1} | {entity.attributes.itmdesc2} | {entity.attributes.makbuy} | {entity.attributes.itmtyp} | {entity.attributes.ctrymanufs} | {entity.attributes.plntlastasss} | {entity.attributes.opg2s} | {entity.attributes.ctryorig}"
+                                                }
+                                            }
+                                        },
+                                        "title": "RIMVault lookup",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

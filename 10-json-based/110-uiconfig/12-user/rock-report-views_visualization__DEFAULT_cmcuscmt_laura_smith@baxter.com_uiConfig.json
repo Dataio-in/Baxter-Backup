@@ -1,0 +1,47 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-report-views_visualization__DEFAULT_cmcuscmt_laura_smith@baxter.com_uiConfig",
+            "name": "rock-report-views_visualization__DEFAULT_cmcuscmt_laura_smith@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "laura_smith@baxter.com",
+                "createdBy": "laura_smith@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "laura_smith@baxter.com_user",
+                "modifiedDate": "2022-01-25T12:49:19.982-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-report-views",
+                            "domain": "visualization",
+                            "role": "cmcuscmt",
+                            "user": "laura_smith@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "views": {
+                                    "cffa7950-b903-11e9-827e-f9b1ee160b05_Open Workflows": {
+                                        "reportId": "cffa7950-b903-11e9-827e-f9b1ee160b05",
+                                        "filterData": "[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"internal\":\"account\",\"key\":\"externalEntityTypeName.keyword\",\"negate\":false,\"params\":{\"query\":\"Account\"},\"rsAlias\":\"Entity Type\",\"type\":\"phrase\"},\"query\":{\"match_phrase\":{\"externalEntityTypeName.keyword\":\"Account\"}}},{\"$state\":{\"store\":\"appState\"},\"exists\":{\"field\":\"workflowStartDate\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"baxterpimvisualizationworkflowindex\",\"key\":\"workflowStartDate\",\"negate\":false,\"rsAlias\":\"Workflow Start Date\",\"type\":\"exists\",\"value\":\"exists\"}}]",
+                                        "isDefaultView": false,
+                                        "name": "Open Workflows",
+                                        "icon": "pebble-icon:my-view",
+                                        "title": "Open Workflows"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

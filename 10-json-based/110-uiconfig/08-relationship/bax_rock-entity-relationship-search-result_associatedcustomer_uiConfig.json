@@ -1,0 +1,340 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-relationship-search-result_associatedcustomer_uiConfig",
+            "name": "bax_rock-entity-relationship-search-result_associatedcustomer_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-28T09:40:44.854-0600",
+                "modifiedDate": "2021-11-28T09:40:44.854-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result",
+                            "relationship": "associatedcustomer"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "upDirectionConfig": {
+                                    "visible": true,
+                                    "gridConfig": {
+                                        "viewMode": "Tabular",
+                                        "fields": {
+                                            "dunsnumber": {
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 40,
+                                                "name": "dunsnumber",
+                                                "header": "DUNS Number",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "legalcompanyname": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 50,
+                                                "name": "legalcompanyname",
+                                                "header": "Legal Company Name",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": true
+                                            },
+                                            "globalcustomerstatus": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 100,
+                                                "name": "globalcustomerstatus",
+                                                "header": "Status",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "city": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 80,
+                                                "name": "city",
+                                                "header": "City",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "taxid": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 30,
+                                                "name": "taxid",
+                                                "header": "Tax ID",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "addressline2": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 70,
+                                                "name": "addressline2",
+                                                "header": "Addr Line 2",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "addressline1": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 60,
+                                                "name": "addressline1",
+                                                "header": "Addr Line 1",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false,
+                                                "displaySequence": 20,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}"
+                                            },
+                                            "baxmdmid": {
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "baxmdmid",
+                                                "header": "Baxter MDM ID",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "stateprovince": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 90,
+                                                "name": "stateprovince",
+                                                "header": "State/Province",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            }
+                                        }
+                                    },
+                                    "businessActions": {
+                                        "basic": {
+                                            "visible": true,
+                                            "actions": {
+                                                "add": {
+                                                    "visible": true,
+                                                    "name": "add",
+                                                    "icon": "pebble-icon:link",
+                                                    "eventName": "relationship-action-add",
+                                                    "text": "{[AddTxt]}",
+                                                    "intent": "write"
+                                                },
+                                                "copy-ids": {
+                                                    "visible": false,
+                                                    "delimeter": "\n",
+                                                    "name": "copy-ids",
+                                                    "icon": "pebble-icon:action-copy",
+                                                    "eventName": "relationship-action-copy",
+                                                    "text": "{[CopIdBtn]}",
+                                                    "attributeField": "id",
+                                                    "intent": "read"
+                                                },
+                                                "create-and-add": {
+                                                    "visible": false,
+                                                    "name": "create-add",
+                                                    "icon": "pebble-icon:create-add",
+                                                    "eventName": "relationship-action-create",
+                                                    "text": "{[AddNewBtn]}",
+                                                    "intent": "write"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "gridConfig": {
+                                    "mode": "Read",
+                                    "statusEnabled": true,
+                                    "advanceSelectionEnabled": true,
+                                    "itemConfig": {
+                                        "fields": {
+                                            "dunsnumber": {
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 40,
+                                                "name": "dunsnumber",
+                                                "header": "DUNS Number",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "legalcompanyname": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 50,
+                                                "name": "legalcompanyname",
+                                                "header": "Legal Company Name",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": true
+                                            },
+                                            "globalcustomerstatus": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 100,
+                                                "name": "globalcustomerstatus",
+                                                "header": "Status",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "city": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 80,
+                                                "name": "city",
+                                                "header": "City",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "description": {
+                                                "visible": false
+                                            },
+                                            "stateprovince": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 90,
+                                                "name": "stateprovince",
+                                                "header": "State/Province",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "taxid": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 30,
+                                                "name": "taxid",
+                                                "header": "Tax ID",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "addressline2": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 70,
+                                                "name": "addressline2",
+                                                "header": "Addr Line 2",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "addressline1": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 60,
+                                                "name": "addressline1",
+                                                "header": "Addr Line 1",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false,
+                                                "displaySequence": 20,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}"
+                                            },
+                                            "baxmdmid": {
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "baxmdmid",
+                                                "header": "Baxter MDM ID",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "order": {
+                                                "visible": false
+                                            }
+                                        }
+                                    },
+                                    "actionEnabled": false,
+                                    "rowDragDropEnabled": true,
+                                    "schemaType": "colModel",
+                                    "applyContextCoalesce": true,
+                                    "viewConfig": {
+                                        "tile": {
+                                            "visible": false
+                                        },
+                                        "list": {
+                                            "visible": false
+                                        }
+                                    },
+                                    "viewMode": "Tabular"
+                                },
+                                "businessActions": {
+                                    "basic": {
+                                        "visible": true,
+                                        "actions": {
+                                            "add": {
+                                                "visible": true,
+                                                "name": "add",
+                                                "icon": "pebble-icon:link",
+                                                "eventName": "relationship-action-add",
+                                                "text": "{[AddTxt]}",
+                                                "intent": "write"
+                                            },
+                                            "copy-ids": {
+                                                "visible": false,
+                                                "delimeter": "\n",
+                                                "name": "copy-ids",
+                                                "icon": "pebble-icon:action-copy",
+                                                "eventName": "relationship-action-copy",
+                                                "text": "{[CopIdBtn]}",
+                                                "attributeField": "id",
+                                                "intent": "read"
+                                            },
+                                            "create-and-add": {
+                                                "visible": false,
+                                                "name": "create-add",
+                                                "icon": "pebble-icon:create-add",
+                                                "eventName": "relationship-action-create",
+                                                "text": "{[AddNewBtn]}",
+                                                "intent": "write"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

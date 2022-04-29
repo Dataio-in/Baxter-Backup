@@ -1,0 +1,82 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_thing_sku_gra_alberto_pancanti@baxter.com_uiConfig",
+            "name": "rock-entity-header_thing_sku_gra_alberto_pancanti@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "alberto_pancanti@baxter.com",
+                "createdBy": "alberto_pancanti@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "alberto_pancanti@baxter.com_user",
+                "modifiedDate": "2021-08-20T03:21:50.490-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "domain": "thing",
+                            "entityType": "sku",
+                            "role": "gra",
+                            "user": "alberto_pancanti@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "itmdesc2": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "itmdesc2",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "gtinalloctyp": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "gtinalloctyp",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "eudamedprimarydinumberdirectmarking": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "eudamedprimarydinumberdirectmarking",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "ctryorig": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "ctryorig",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "upcnr": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "upcnr",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "primdinr": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "primdinr",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "x2": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "x2",
+                                        "label": "{model.externalName}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

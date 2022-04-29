@@ -1,0 +1,76 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "global-settings_uiConfig",
+            "name": "global-settings_baxterpim",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-18T00:46:50.588-0500",
+                "modifiedDate": "2022-04-18T00:46:50.588-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "global-settings",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "themeSettings": {
+                                    "mainLogoUrl": "https://i.ibb.co/K0XMj4H/Riversand-Logo-White.png",
+                                    "themeName": "orange",
+                                    "headerLogoUrl": "https://www.mds-foundation.org/wp-content/uploads/2011/05/Baxter-logo.png",
+                                    "footerTitle": "Baxter QA"
+                                },
+                                "dataDefaults": {
+                                    "entityTypes": {
+                                        "digitalAsset": [
+                                            "image",
+                                            "video",
+                                            "audio",
+                                            "document"
+                                        ],
+                                        "thing": [
+                                            "productgroup",
+                                            "sku",
+                                            "skutp",
+                                            "sparepart",
+                                            "service",
+                                            "rawmaterial",
+                                            "request",
+                                            "compoundingcode",
+                                            "mro",
+                                            "each",
+                                            "case",
+                                            "pack",
+                                            "pallet"
+                                        ],
+                                        "party": [
+                                            "customer",
+                                            "account",
+                                            "contact",
+                                            "dnborganization",
+                                            "contacttest"
+                                        ]
+                                    },
+                                    "taxonomy": "pimhierarchy",
+                                    "applyGraphCoalescedStyle": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

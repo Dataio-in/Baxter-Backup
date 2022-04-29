@@ -1,0 +1,108 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "notify-rshub-service-provider-schedule",
+            "name": "Notifying Service provider - rshub",
+            "type": "scheduleobject",
+            "properties": {
+                "enabled": true,
+                "createdService": "scheduleObjectManageService",
+                "createdBy": "system_user",
+                "modifiedService": "scheduleObjectManageService",
+                "modifiedBy": "system_user",
+                "createdDate": "2022-03-19T08:01:16.387-0500",
+                "modifiedDate": "2022-03-19T08:01:16.387-0500"
+            },
+            "data": {
+                "attributes": {
+                    "scheduleType": {
+                        "values": [
+                            {
+                                "value": "fixedRate",
+                                "locale": "en-US",
+                                "source": "internal"
+                            }
+                        ]
+                    },
+                    "scheduleTaskName": {
+                        "values": [
+                            {
+                                "value": "notify-service-provider-rshub",
+                                "locale": "en-US",
+                                "source": "internal"
+                            }
+                        ]
+                    },
+                    "scheduleTaskUrl": {
+                        "values": [
+                            {
+                                "value": "http://imp-exp-rest:9095/baxterpim/api/rsHubService/notifytaskstatus",
+                                "locale": "en-US",
+                                "source": "internal"
+                            }
+                        ]
+                    }
+                },
+                "jsonData": {
+                    "scheduleTaskPayload": {
+                        "params": {
+                            "query": {
+                                "filters": {
+                                    "attributesCriterion": [
+                                        {
+                                            "isNotificationComplete": {
+                                                "exact": "false"
+                                            }
+                                        },
+                                        {
+                                            "hub": {
+                                                "exact": "rshub"
+                                            }
+                                        }
+                                    ],
+                                    "propertiesCriterion": [
+                                        {
+                                            "retryCount": {
+                                                "lte": 3
+                                            }
+                                        }
+                                    ],
+                                    "typesCriterion": [
+                                        "scheduledrequestobject"
+                                    ]
+                                }
+                            },
+                            "fields": {
+                                "attributes": [
+                                    "_ALL"
+                                ]
+                            },
+                            "rsconnect": {
+                                "profiles": [
+                                    "sys_notify_channel_status_scheduled_publish"
+                                ]
+                            }
+                        }
+                    },
+                    "scheduleConfiguration": {
+                        "authContext": {
+                            "x-rdp-userRoles": "admin",
+                            "x-rdp-clientId": "rdpclient",
+                            "x-rdp-userid": "system_user",
+                            "x-rdp-useremail": "system",
+                            "x-rdp-ownershipdata": "",
+                            "x-rdp-username": "system",
+                            "x-rdp-tenantId": "baxterpim"
+                        },
+                        "intervalInMins": 30
+                    }
+                }
+            }
+        }
+    ]
+}

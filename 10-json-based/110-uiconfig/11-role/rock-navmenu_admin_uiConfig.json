@@ -1,0 +1,157 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_admin_uiConfig",
+            "name": "rock-navmenu_admin",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2022-04-19T07:25:27.533-0500",
+                "modifiedDate": "2022-04-19T07:25:27.533-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "system-dashboard": {
+                                    "visible": true
+                                },
+                                "search": {
+                                    "dataRoute": "",
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "search": {
+                                            "visible": true,
+                                            "displaySequence": 10,
+                                            "title": "",
+                                            "actions": {
+                                                "search-party": {
+                                                    "dataRoute": "search-party",
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "search-party",
+                                                    "icon": "pebble-icon:party-search",
+                                                    "title": "{[SPARTit]}"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-party": {
+                                    "visible": true
+                                },
+                                "visualizations": {
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "actions": {
+                                                "visualization-designer": {
+                                                    "visible": true
+                                                },
+                                                "visualization-manage-dashboard": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-referencedata": {
+                                    "visible": true
+                                },
+                                "configurations": {
+                                    "dataRoute": "",
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "dataModels": {
+                                            "visible": true,
+                                            "actions": {
+                                                "basemodel-digitalasset-dashboard": {
+                                                    "visible": true
+                                                },
+                                                "basemodel-thing-dashboard": {
+                                                    "visible": true
+                                                },
+                                                "basemodel-referencedata-dashboard": {
+                                                    "visible": true
+                                                },
+                                                "instancedatamodel-dashboard": {
+                                                    "visible": true
+                                                },
+                                                "basemodel-party-dashboard": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "visible": true,
+                                            "actions": {
+                                                "uploadAssets": {
+                                                    "visible": true,
+                                                    "text": "Upload Assets"
+                                                },
+                                                "uploadExcelMigration": {
+                                                    "dataRoute": "upload-excel-migration",
+                                                    "visible": true,
+                                                    "displaySequence": 10,
+                                                    "name": "uploadExcelMigration",
+                                                    "icon": "pebble-icon:action-publish",
+                                                    "text": "Upload Excel - Migration Mode",
+                                                    "contextData": {}
+                                                }
+                                            }
+                                        },
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createService": {
+                                                    "visible": true
+                                                },
+                                                "createRawMaterial": {
+                                                    "visible": true
+                                                },
+                                                "createCompoundingCode": {
+                                                    "visible": true
+                                                },
+                                                "createSparePart": {
+                                                    "visible": true
+                                                },
+                                                "createProductGroup": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "search-digitalasset": {
+                                    "visible": true
+                                },
+                                "dashboard": {
+                                    "visible": true
+                                },
+                                "system-administration": {
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

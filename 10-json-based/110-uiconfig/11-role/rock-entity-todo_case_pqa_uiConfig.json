@@ -1,0 +1,74 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-todo_case_pqa_uiConfig",
+            "name": "rock-entity-todo_case_pqa",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:43.510-0600",
+                "modifiedDate": "2020-12-10T07:15:43.510-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-todo",
+                            "entityType": "case",
+                            "role": "pqa"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "todos": {
+                                    "addrelationship": {
+                                        "visible": false
+                                    },
+                                    "managemanufacturingattributes": {
+                                        "data": {
+                                            "eventName": "trigger-todo-action",
+                                            "label": "Optional PQA Attributes",
+                                            "type": "manageAttributes",
+                                            "config": {
+                                                "attributeNames": [
+                                                    "grossweightimperial",
+                                                    "grossweightmetric",
+                                                    "heightimperial",
+                                                    "heightmetric",
+                                                    "lengthimperial",
+                                                    "lengthmetric",
+                                                    "netweightimperial",
+                                                    "netweightmetric",
+                                                    "uomdimensionimperial",
+                                                    "uomdimensionmetric",
+                                                    "uomvolumeimperial",
+                                                    "uomvolumemetric",
+                                                    "uomweightimperial",
+                                                    "uomweightmetric",
+                                                    "volumeimperial",
+                                                    "volumemetric",
+                                                    "widthimperial",
+                                                    "widthmetric"
+                                                ]
+                                            }
+                                        },
+                                        "icon": {
+                                            "name": "pebble-icon:tag"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

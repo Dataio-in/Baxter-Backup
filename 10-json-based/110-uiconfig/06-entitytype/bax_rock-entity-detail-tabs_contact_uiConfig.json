@@ -1,0 +1,141 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-detail-tabs_contact_uiConfig",
+            "name": "bax_rock-entity-detail-tabs_contact_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.716-0600",
+                "modifiedDate": "2021-11-19T12:06:21.716-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-detail-tabs",
+                            "entityType": "contact"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "tabItems": {
+                                    "relationships": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "relationshipNames": [
+                                                        "_ALL"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "assets": {
+                                        "visible": false
+                                    },
+                                    "attributes": {
+                                        "component": {
+                                            "properties": {
+                                                "config-context": {
+                                                    "attributeNames": [
+                                                        "marketingconsentchangedate",
+                                                        "educationindicatorbrazilonly",
+                                                        "aphraregistrationdateanzonly",
+                                                        "updatedby",
+                                                        "simplifiedidforcontactsid",
+                                                        "phoneareacode",
+                                                        "baxptysystemforediting",
+                                                        "stateofdocumentbrazilonly",
+                                                        "workflowstatuscontact",
+                                                        "faxoptoutflag",
+                                                        "emailoptoutflag",
+                                                        "emailisbounced",
+                                                        "aphranumberanzonly",
+                                                        "preferredphone",
+                                                        "personalemail",
+                                                        "sfdcboostsalescontactid",
+                                                        "specialitysecondary",
+                                                        "lastname",
+                                                        "preferredcontactmethod",
+                                                        "secondaryemailbusiness",
+                                                        "professiontype",
+                                                        "optoutreason",
+                                                        "preferredemailtype",
+                                                        "associatedjdeaccounts",
+                                                        "salutation",
+                                                        "region",
+                                                        "baxmdmid",
+                                                        "thirdemailbusiness",
+                                                        "davitaipusandcanada",
+                                                        "status",
+                                                        "baxptyaipresponse",
+                                                        "firstname",
+                                                        "npinumber",
+                                                        "baxptysystemimportkey",
+                                                        "gender",
+                                                        "homephone",
+                                                        "createddate",
+                                                        "specialityprimary",
+                                                        "phonenumber",
+                                                        "preferredcontacttime",
+                                                        "description",
+                                                        "baxptyinitiatemanualaipcall",
+                                                        "baxptyintegrationblob",
+                                                        "title",
+                                                        "contactname",
+                                                        "consentindicator",
+                                                        "otherphone",
+                                                        "faxnum",
+                                                        "mailingaddressfull",
+                                                        "phonenumbertype",
+                                                        "nickname",
+                                                        "wechatidchinaonly",
+                                                        "department",
+                                                        "workstatus",
+                                                        "specialityothers",
+                                                        "website",
+                                                        "jobtitle",
+                                                        "mobile",
+                                                        "middlename",
+                                                        "preferredlanguages",
+                                                        "contactstatus",
+                                                        "contacttitle",
+                                                        "updateddate",
+                                                        "baxptyprimaryphonebusiness",
+                                                        "baxptyeditrestricted",
+                                                        "sfdcboostservicecontactid",
+                                                        "dataprovider",
+                                                        "createdby",
+                                                        "baxptycontactrole",
+                                                        "consentrevoked",
+                                                        "primaryemail",
+                                                        "primarycontact",
+                                                        "baxptystreetname",
+                                                        "baxptystreetnumber",
+                                                        "jdecustomernamemailingname"
+                                                    ]
+                                                },
+                                                "need-attributes-grouping": true
+                                            }
+                                        }
+                                    },
+                                    "graph": {
+                                        "visible": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

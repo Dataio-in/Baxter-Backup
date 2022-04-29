@@ -1,0 +1,56 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-relationship-quick-manage_contactsbelongstoaccount_uiConfig",
+            "name": "bax_rock-entity-relationship-quick-manage_contactsbelongstoaccount_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.866-0600",
+                "modifiedDate": "2021-11-19T12:06:21.866-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-quick-manage",
+                            "relationship": "contactsbelongstoaccount"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "tabConfig": {
+                                    "tabItems": {
+                                        "relationshipAttributes": {
+                                            "component": {
+                                                "properties": {
+                                                    "apply-context-coalesce": true,
+                                                    "config-context": {
+                                                        "relationshipAttributes": [
+                                                            "baxptysystemforcontactrole",
+                                                            "baxptycontactaccountrelationattractive",
+                                                            "jdeuscanwhosid"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "scrollable": true,
+                                    "fitContainer": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

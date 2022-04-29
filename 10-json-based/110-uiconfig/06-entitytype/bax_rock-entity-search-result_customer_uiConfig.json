@@ -1,0 +1,201 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-search-result_customer_uiConfig",
+            "name": "bax_rock-entity-search-result_customer_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.787-0600",
+                "modifiedDate": "2021-11-19T12:06:21.787-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "entityType": "customer"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "country": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 120,
+                                                "name": "country",
+                                                "header": "Country",
+                                                "sortable": true
+                                            },
+                                            "firstname": {
+                                                "visible": false
+                                            },
+                                            "legalcompanyname": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 35,
+                                                "name": "legalcompanyname",
+                                                "header": "Legal Company Name",
+                                                "sortable": true
+                                            },
+                                            "city": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 80,
+                                                "name": "city",
+                                                "header": "City",
+                                                "sortable": true
+                                            },
+                                            "billingaddresstype": {
+                                                "visible": false
+                                            },
+                                            "phonenumber": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 45,
+                                                "name": "phonenumber",
+                                                "header": "Phone Number",
+                                                "sortable": true
+                                            },
+                                            "county": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "displaySequence": 110,
+                                                "name": "county",
+                                                "header": "County",
+                                                "sortable": true
+                                            },
+                                            "customermdmid": {
+                                                "visible": false
+                                            },
+                                            "faxnum": {
+                                                "filterable": false
+                                            },
+                                            "postalcode": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 100,
+                                                "name": "postalcode",
+                                                "header": "Postal Code",
+                                                "sortable": true
+                                            },
+                                            "taxid": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 130,
+                                                "name": "taxid",
+                                                "header": "Tax ID",
+                                                "sortable": true
+                                            },
+                                            "id": {
+                                                "visible": false,
+                                                "displaySequence": 20,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}"
+                                            },
+                                            "thumbnail": {
+                                                "visible": false
+                                            },
+                                            "dunsnumber": {
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 140,
+                                                "name": "dunsnumber",
+                                                "header": "DUNS Number",
+                                                "sortable": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": true,
+                                                "displaySequence": 3
+                                            },
+                                            "entityTypeIcon": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": true,
+                                                "iconColumn": true,
+                                                "displaySequence": 5,
+                                                "name": "entityTypeIcon",
+                                                "sortable": true
+                                            },
+                                            "stateprovince": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 90,
+                                                "name": "stateprovince",
+                                                "header": "State/Province",
+                                                "sortable": true
+                                            },
+                                            "lastname": {
+                                                "visible": false
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "addressline2": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 70,
+                                                "name": "addressline2",
+                                                "header": "Address Line 2",
+                                                "sortable": true
+                                            },
+                                            "addressline1": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 60,
+                                                "name": "addressline1",
+                                                "header": "Address Line 1",
+                                                "sortable": true
+                                            },
+                                            "associatedjdeaccounts": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "displaySequence": 30,
+                                                "name": "associatedjdeaccounts",
+                                                "header": "Associated Accounts",
+                                                "sortable": true
+                                            },
+                                            "baxmdmid": {
+                                                "visible": true,
+                                                "displaySequence": 20,
+                                                "name": "baxmdmid",
+                                                "header": "Baxter MDM ID",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}"
+                                            },
+                                            "jdecustomernamemailingname": {
+                                                "visible": false
+                                            },
+                                            "primaryemail": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "displaySequence": 40,
+                                                "name": "primaryemail",
+                                                "header": "Primary Email",
+                                                "sortable": true
+                                            },
+                                            "addressnumber": {
+                                                "visible": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

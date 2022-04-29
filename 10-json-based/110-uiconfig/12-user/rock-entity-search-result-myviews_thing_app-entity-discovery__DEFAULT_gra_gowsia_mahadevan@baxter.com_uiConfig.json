@@ -1,0 +1,159 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_gra_gowsia_mahadevan@baxter.com_uiConfig",
+            "name": "rock-entity-search-result-myviews_thing_app-entity-discovery__DEFAULT_gra_gowsia_mahadevan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "gowsia_mahadevan@baxter.com",
+                "createdBy": "gowsia_mahadevan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "gowsia_mahadevan@baxter.com_user",
+                "modifiedDate": "2021-02-12T15:22:03.682-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "rock-entity-search-result-myviews",
+                            "domain": "thing",
+                            "role": "gra",
+                            "user": "gowsia_mahadevan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "myViews": {
+                                    "Test": {
+                                        "itemConfig": {
+                                            "isMultiSelect": true,
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "fields": {
+                                                "gmdncd": {
+                                                    "filterable": false,
+                                                    "displayType": "referencelist",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "gmdncd",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "gmdndef": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "gmdndef",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "longitmnr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "longitmnr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "name": {
+                                                    "filterable": false,
+                                                    "visible": true,
+                                                    "isMetaDataColumn": true,
+                                                    "name": "name",
+                                                    "width": 20,
+                                                    "header": "{[NamTxt]}",
+                                                    "sortable": true
+                                                },
+                                                "eudamednameofmanufacturer": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "eudamednameofmanufacturer",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "pimhierarchy": {
+                                                    "filterable": false,
+                                                    "displayType": "path",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "pimhierarchy",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "itstktyp": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "itstktyp",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "gmdnnam": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "gmdnnam",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "udicatalognr": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "udicatalognr",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                },
+                                                "skuname": {
+                                                    "filterable": false,
+                                                    "displayType": "textbox",
+                                                    "visible": true,
+                                                    "isMetaDataColumn": false,
+                                                    "name": "skuname",
+                                                    "width": 20,
+                                                    "header": "",
+                                                    "sortable": true
+                                                }
+                                            }
+                                        },
+                                        "name": "Test",
+                                        "icon": "pebble-icon:my-view",
+                                        "viewConfig": {
+                                            "tile": {
+                                                "settings": {
+                                                    "titlePattern": "{entity.attributes.eudamednameofmanufacturer}",
+                                                    "subTitlePattern": "{entity.attributes.eudamednameofmanufacturer} | {entity.attributes.pimhierarchy} | {entity.attributes.itstktyp} | {entity.attributes.skuname} | {entity.attributes.udicatalognr} | {entity.attributes.longitmnr} | {entity.attributes.gmdncd} | {entity.attributes.gmdnnam} | {entity.attributes.gmdndef}"
+                                                }
+                                            }
+                                        },
+                                        "title": "Test",
+                                        "enabled": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

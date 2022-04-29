@@ -1,0 +1,64 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_party_cmrnachops_brett_mcgee@baxter.com_uiConfig",
+            "name": "rock-search-filter_party_cmrnachops_brett_mcgee@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "brett_mcgee@baxter.com",
+                "createdBy": "brett_mcgee@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "brett_mcgee@baxter.com_user",
+                "modifiedDate": "2021-11-29T08:28:26.189-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "party",
+                            "role": "cmrnachops",
+                            "user": "brett_mcgee@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "jdeacountstatus": {
+                                        "visible": true,
+                                        "displaySequence": 2,
+                                        "name": "jdeacountstatus",
+                                        "isUserFilter": true
+                                    },
+                                    "jdecustomersearchtype": {
+                                        "visible": true,
+                                        "displaySequence": 3,
+                                        "name": "jdecustomersearchtype",
+                                        "isUserFilter": true
+                                    },
+                                    "baxptycountryac03": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "baxptycountryac03",
+                                        "isUserFilter": true
+                                    },
+                                    "addressnumber": {
+                                        "visible": true,
+                                        "displaySequence": 4,
+                                        "name": "addressnumber",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

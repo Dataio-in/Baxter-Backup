@@ -1,0 +1,112 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_party_account_cmrnarequestor_susan_macmillan@baxter.com_uiConfig",
+            "name": "rock-entity-header_party_account_cmrnarequestor_susan_macmillan@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "susan_macmillan@baxter.com",
+                "createdBy": "susan_macmillan@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "susan_macmillan@baxter.com_user",
+                "modifiedDate": "2022-01-14T11:10:56.704-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "domain": "party",
+                            "entityType": "account",
+                            "role": "cmrnarequestor",
+                            "user": "susan_macmillan@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "legalcompanyname": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "legalcompanyname",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomertype": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "jdecustomertype",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "city": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "city",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomeralphaname": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jdecustomeralphaname",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomersearchtype": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jdecustomersearchtype",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "addressline1": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "addressline1",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "erpaccountclassification": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "erpaccountclassification",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "stateprovince": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "stateprovince",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "jdecustomernamemailingname": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "jdecustomernamemailingname",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "addressnumber": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "addressnumber",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "baxptyaddress": {
+                                        "isUserAction": true,
+                                        "visible": true,
+                                        "attributeName": "baxptyaddress",
+                                        "label": "{model.externalName}"
+                                    },
+                                    "customercrossreferencetype": {
+                                        "isUserAction": true,
+                                        "visible": false,
+                                        "attributeName": "customercrossreferencetype",
+                                        "label": "{model.externalName}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

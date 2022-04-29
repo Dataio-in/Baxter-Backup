@@ -1,0 +1,39 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "bax_rock-entity-search-discovery_party_uiConfig",
+            "name": "bax_rock-entity-search-discovery_party_uiConfig",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "ganesh_kumar@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "ganesh_kumar@baxter.com_user",
+                "createdDate": "2021-11-19T12:06:21.564-0600",
+                "modifiedDate": "2021-11-19T12:06:21.564-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-discovery",
+                            "domain": "party"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "selectedEntityTypes": [
+                                    "account"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "app-repository_admin_uiConfig",
+            "name": "app-repository_admin",
+            "type": "uiConfig",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "modifiedDate": "2021-10-16T14:59:29.390-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "app-repository",
+                            "role": "admin"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "govmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "application-log-viewer": {
+                                    "visible": true
+                                },
+                                "basemodel-thing-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-dashboard": {
+                                    "enabled": true
+                                },
+                                "authmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "search-location": {
+                                    "enabled": false
+                                },
+                                "workflowmodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "system-dashboard": {
+                                    "enabled": true
+                                },
+                                "basemodel-location-dashboard": {
+                                    "dataRoute": "basemodel-location-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-data-model",
+                                    "title": "Location Dashboard",
+                                    "enabled": false
+                                },
+                                "search-party": {
+                                    "enabled": true
+                                },
+                                "taxonomymodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "upload-excel-migration": {
+                                    "dataRoute": "upload-excel-migration",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-business-function/app-business-function.html",
+                                        "name": "app-business-function",
+                                        "properties": {
+                                            "name": "rock-wizard-migration-excel-upload",
+                                            "shared-data": {}
+                                        }
+                                    },
+                                    "nonClosable": false,
+                                    "icon": "pebble-icon:entities",
+                                    "title": "Upload Excel - Migration Mode",
+                                    "enabled": true
+                                },
+                                "basemodel-digitalasset-dashboard": {
+                                    "enabled": true
+                                },
+                                "systemlog-viewer": {
+                                    "enabled": true
+                                },
+                                "basemodel-referencedata-dashboard": {
+                                    "enabled": true
+                                },
+                                "instancedatamodel-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-designer": {
+                                    "enabled": true
+                                },
+                                "basemodel-party-dashboard": {
+                                    "enabled": true
+                                },
+                                "visualization-report": {
+                                    "enabled": true
+                                },
+                                "visualization-manage-dashboard": {
+                                    "enabled": true
+                                },
+                                "syndication-dashboard": {
+                                    "enabled": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

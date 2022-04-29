@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-business-actions_xudiprojectmanager_uiConfig",
+            "name": "rock-business-actions_xudiprojectmanager",
+            "type": "uiConfig",
+            "properties": {
+                "buildVersion": "1.68.1.1016",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-22T23:39:43.155-0500",
+                "modifiedDate": "2021-04-22T23:39:43.155-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-business-actions",
+                            "role": "xudiprojectmanager"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "actionGroups": {
+                                    "assignments": {
+                                        "actions": {
+                                            "reassignTask": {
+                                                "visible": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

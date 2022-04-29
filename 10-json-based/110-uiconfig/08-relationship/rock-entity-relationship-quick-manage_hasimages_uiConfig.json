@@ -1,0 +1,53 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-quick-manage_hasimages_uiConfig",
+            "name": "rock-entity-relationship-quick-manage_hasimages",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "buildVersion": "1.68.1.1016",
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2021-04-23T01:09:02.137-0500",
+                "modifiedDate": "2021-04-23T01:09:02.137-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-quick-manage",
+                            "relationship": "hasimages"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "tabConfig": {
+                                    "tabItems": {
+                                        "relationshipAttributes": {
+                                            "component": {
+                                                "properties": {
+                                                    "config-context": {
+                                                        "relationshipAttributes": [
+                                                            "isprimary"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

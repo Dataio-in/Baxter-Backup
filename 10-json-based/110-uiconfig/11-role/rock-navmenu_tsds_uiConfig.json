@@ -1,0 +1,51 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_tsds_uiConfig",
+            "name": "rock-navmenu_tsds",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "riversand@baxterpim.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "riversand@baxterpim.com_user",
+                "createdDate": "2020-12-10T07:15:44.000-0600",
+                "modifiedDate": "2020-12-10T07:15:44.000-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "role": "tsds"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "search-referencedata": {
+                                    "visible": true
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "create": {
+                                            "visible": true,
+                                            "actions": {
+                                                "createSparePart": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

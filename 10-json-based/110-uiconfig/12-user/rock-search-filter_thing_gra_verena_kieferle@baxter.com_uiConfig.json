@@ -1,0 +1,46 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-search-filter_thing_gra_verena_kieferle@baxter.com_uiConfig",
+            "name": "rock-search-filter_thing_gra_verena_kieferle@baxter.com",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "verena_kieferle@baxter.com",
+                "createdBy": "verena_kieferle@baxter.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "verena_kieferle@baxter.com_user",
+                "modifiedDate": "2020-11-02T01:58:51.948-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-search-filter",
+                            "domain": "thing",
+                            "role": "gra",
+                            "user": "verena_kieferle@baxter.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "pinnedFilterAttributes": {
+                                    "assignedpdo": {
+                                        "visible": true,
+                                        "displaySequence": 1,
+                                        "name": "assignedpdo",
+                                        "isUserFilter": true
+                                    }
+                                },
+                                "maxPinnableFilters": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rsAnalyticsService_rsserviceconfig",
+            "type": "rsserviceconfig",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "system_user",
+                "modifiedDate": "2020-11-01T01:20:17.600-0600"
+            },
+            "data": {
+                "jsonData": {
+                    "isVisualizationEnabled": true,
+                    "domainsSupportingVisualization": {
+                        "thing": [
+                            "_ALL"
+                        ],
+                        "party": [
+                            "_ALL"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

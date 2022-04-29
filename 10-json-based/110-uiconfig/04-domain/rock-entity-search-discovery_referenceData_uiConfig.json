@@ -1,0 +1,39 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-discovery_referenceData_uiConfig",
+            "name": "rock-entity-search-discovery_referenceData",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "buildVersion": "1.64.2.1005",
+                "createdService": "configurationManageService",
+                "createdBy": "baxterpimadmin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "baxterpimadmin@riversand.com_user",
+                "createdDate": "2020-10-09T06:29:55.942-0500",
+                "modifiedDate": "2020-10-09T06:29:55.942-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-discovery",
+                            "domain": "referenceData"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "defaultReferenceType": "refeudamedadditionalproductdescriptionlanguage"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
